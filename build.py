@@ -97,8 +97,9 @@ def build_readme(cfg):
     L.append('## Как пользоваться\n')
     L.append(f'1. **Самый удобный способ:** откройте [страницу с галереей]({pages}), выберите вид (с иконками или с буквами), '
              f'нажмите на бейдж, и код скопируется в буфер обмена. Вставьте его в свой README.')
-    L.append('2. **Через этот README:** найдите бейдж в таблицах ниже и скопируйте его код '
-             '(в каждой категории есть блоки «скопировать всю категорию» с кнопкой копирования).')
+    L.append('2. **Через этот README:** посмотрите бейджи в таблицах ниже и скопируйте код категории '
+             '(у каждой категории есть раскрывающиеся блоки с кодом: бейдж на строку, кнопка копирования в углу блока). '
+             'Лишние строки просто удалите после вставки.')
     L.append(f'3. **Напрямую:** ссылка на бейдж имеет вид `{raw}/ВИД/КАТЕГОРИЯ/ИМЯ.svg`, '
              f'где ВИД это `with-icon` или `letters`.\n')
     L.append('Чтобы бейджи стояли по центру в профиле, оберните их в:\n')
@@ -107,27 +108,23 @@ def build_readme(cfg):
     L.append('## Галерея\n')
     for cat in cfg["categories"]:
         L.append(f'### {cat["name"]}\n')
-        L.append('| Название | С иконкой | С буквами | Код (Markdown) |')
-        L.append('|---|---|---|---|')
+        L.append('| Название | С иконкой | С буквами |')
+        L.append('|---|---|---|')
         for it in cat["items"]:
             alt = html.escape(it["label"])
             let_img = f'<img src="badges/letters/{it["dir"]}/{it["id"]}.svg" alt="{alt}" height="{h}" />'
-            md_l = snippets(cfg, it, "letters")["md"]
-            if it["has_icon"]:
-                ico_img = f'<img src="badges/with-icon/{it["dir"]}/{it["id"]}.svg" alt="{alt}" height="{h}" />'
-                code = f'С иконкой: `{snippets(cfg, it, "with-icon")["md"]}`<br>С буквами: `{md_l}`'
-            else:
-                ico_img, code = '—', f'`{md_l}`'
-            L.append(f'| {alt} | {ico_img} | {let_img} | {code} |')
+            ico_img = (f'<img src="badges/with-icon/{it["dir"]}/{it["id"]}.svg" alt="{alt}" height="{h}" />'
+                       if it["has_icon"] else '—')
+            L.append(f'| {alt} | {ico_img} | {let_img} |')
         L.append('')
         icon_items = [i for i in cat["items"] if i["has_icon"]]
         if icon_items:
-            L.append('<details><summary>Скопировать всю категорию: с иконками</summary>\n')
+            L.append('<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>\n')
             L.append('```markdown')
             L += [snippets(cfg, i, "with-icon")["md"] for i in icon_items]
             L.append('```\n')
             L.append('</details>\n')
-        L.append('<details><summary>Скопировать всю категорию: с буквами</summary>\n')
+        L.append('<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>\n')
         L.append('```markdown')
         L += [snippets(cfg, i, "letters")["md"] for i in cat["items"]]
         L.append('```\n')

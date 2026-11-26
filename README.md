@@ -2,7 +2,7 @@
 
 **225 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 32 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 53 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 225).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -10,7 +10,7 @@
 ## Как пользоваться
 
 1. **Самый удобный способ:** откройте [страницу с галереей](https://bread11yt.github.io/badges/), выберите вид (с иконками или с буквами), нажмите на бейдж, и код скопируется в буфер обмена. Вставьте его в свой README.
-2. **Через этот README:** найдите бейдж в таблицах ниже и скопируйте его код (в каждой категории есть блоки «скопировать всю категорию» с кнопкой копирования).
+2. **Через этот README:** посмотрите бейджи в таблицах ниже и скопируйте код категории (у каждой категории есть раскрывающиеся блоки с кодом: бейдж на строку, кнопка копирования в углу блока). Лишние строки просто удалите после вставки.
 3. **Напрямую:** ссылка на бейдж имеет вид `https://raw.githubusercontent.com/Bread11YT/badges/main/badges/ВИД/КАТЕГОРИЯ/ИМЯ.svg`, где ВИД это `with-icon` или `letters`.
 
 Чтобы бейджи стояли по центру в профиле, оберните их в:
@@ -29,43 +29,43 @@
 
 ### Языки
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Python | <img src="badges/with-icon/languages/python.svg" alt="Python" height="28" /> | <img src="badges/letters/languages/python.svg" alt="Python" height="28" /> | С иконкой: `![Python](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/python.svg)`<br>С буквами: `![Python](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/python.svg)` |
-| JavaScript | <img src="badges/with-icon/languages/javascript.svg" alt="JavaScript" height="28" /> | <img src="badges/letters/languages/javascript.svg" alt="JavaScript" height="28" /> | С иконкой: `![JavaScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/javascript.svg)`<br>С буквами: `![JavaScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/javascript.svg)` |
-| TypeScript | <img src="badges/with-icon/languages/typescript.svg" alt="TypeScript" height="28" /> | <img src="badges/letters/languages/typescript.svg" alt="TypeScript" height="28" /> | С иконкой: `![TypeScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/typescript.svg)`<br>С буквами: `![TypeScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/typescript.svg)` |
-| Java | <img src="badges/with-icon/languages/java.svg" alt="Java" height="28" /> | <img src="badges/letters/languages/java.svg" alt="Java" height="28" /> | С иконкой: `![Java](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/java.svg)`<br>С буквами: `![Java](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/java.svg)` |
-| C# | <img src="badges/with-icon/languages/csharp.svg" alt="C#" height="28" /> | <img src="badges/letters/languages/csharp.svg" alt="C#" height="28" /> | С иконкой: `![C#](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/csharp.svg)`<br>С буквами: `![C#](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/csharp.svg)` |
-| C++ | <img src="badges/with-icon/languages/cpp.svg" alt="C++" height="28" /> | <img src="badges/letters/languages/cpp.svg" alt="C++" height="28" /> | С иконкой: `![C++](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/cpp.svg)`<br>С буквами: `![C++](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/cpp.svg)` |
-| C | <img src="badges/with-icon/languages/c.svg" alt="C" height="28" /> | <img src="badges/letters/languages/c.svg" alt="C" height="28" /> | С иконкой: `![C](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/c.svg)`<br>С буквами: `![C](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/c.svg)` |
-| Go | <img src="badges/with-icon/languages/go.svg" alt="Go" height="28" /> | <img src="badges/letters/languages/go.svg" alt="Go" height="28" /> | С иконкой: `![Go](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/go.svg)`<br>С буквами: `![Go](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/go.svg)` |
-| Rust | <img src="badges/with-icon/languages/rust.svg" alt="Rust" height="28" /> | <img src="badges/letters/languages/rust.svg" alt="Rust" height="28" /> | С иконкой: `![Rust](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/rust.svg)`<br>С буквами: `![Rust](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/rust.svg)` |
-| Kotlin | <img src="badges/with-icon/languages/kotlin.svg" alt="Kotlin" height="28" /> | <img src="badges/letters/languages/kotlin.svg" alt="Kotlin" height="28" /> | С иконкой: `![Kotlin](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/kotlin.svg)`<br>С буквами: `![Kotlin](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/kotlin.svg)` |
-| Swift | <img src="badges/with-icon/languages/swift.svg" alt="Swift" height="28" /> | <img src="badges/letters/languages/swift.svg" alt="Swift" height="28" /> | С иконкой: `![Swift](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/swift.svg)`<br>С буквами: `![Swift](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/swift.svg)` |
-| PHP | <img src="badges/with-icon/languages/php.svg" alt="PHP" height="28" /> | <img src="badges/letters/languages/php.svg" alt="PHP" height="28" /> | С иконкой: `![PHP](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/php.svg)`<br>С буквами: `![PHP](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/php.svg)` |
-| Lua | <img src="badges/with-icon/languages/lua.svg" alt="Lua" height="28" /> | <img src="badges/letters/languages/lua.svg" alt="Lua" height="28" /> | С иконкой: `![Lua](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/lua.svg)`<br>С буквами: `![Lua](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/lua.svg)` |
-| GDScript | <img src="badges/with-icon/languages/gdscript.svg" alt="GDScript" height="28" /> | <img src="badges/letters/languages/gdscript.svg" alt="GDScript" height="28" /> | С иконкой: `![GDScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/gdscript.svg)`<br>С буквами: `![GDScript](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/gdscript.svg)` |
-| HTML5 | <img src="badges/with-icon/languages/html5.svg" alt="HTML5" height="28" /> | <img src="badges/letters/languages/html5.svg" alt="HTML5" height="28" /> | С иконкой: `![HTML5](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/html5.svg)`<br>С буквами: `![HTML5](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/html5.svg)` |
-| CSS3 | <img src="badges/with-icon/languages/css3.svg" alt="CSS3" height="28" /> | <img src="badges/letters/languages/css3.svg" alt="CSS3" height="28" /> | С иконкой: `![CSS3](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/css3.svg)`<br>С буквами: `![CSS3](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/css3.svg)` |
-| SQL | <img src="badges/with-icon/languages/sql.svg" alt="SQL" height="28" /> | <img src="badges/letters/languages/sql.svg" alt="SQL" height="28" /> | С иконкой: `![SQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/sql.svg)`<br>С буквами: `![SQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/sql.svg)` |
-| Bash | <img src="badges/with-icon/languages/bash.svg" alt="Bash" height="28" /> | <img src="badges/letters/languages/bash.svg" alt="Bash" height="28" /> | С иконкой: `![Bash](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/bash.svg)`<br>С буквами: `![Bash](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/bash.svg)` |
-| Ruby | <img src="badges/with-icon/languages/ruby.svg" alt="Ruby" height="28" /> | <img src="badges/letters/languages/ruby.svg" alt="Ruby" height="28" /> | С иконкой: `![Ruby](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/ruby.svg)`<br>С буквами: `![Ruby](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/ruby.svg)` |
-| Dart | <img src="badges/with-icon/languages/dart.svg" alt="Dart" height="28" /> | <img src="badges/letters/languages/dart.svg" alt="Dart" height="28" /> | С иконкой: `![Dart](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/dart.svg)`<br>С буквами: `![Dart](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/dart.svg)` |
-| R | <img src="badges/with-icon/languages/r.svg" alt="R" height="28" /> | <img src="badges/letters/languages/r.svg" alt="R" height="28" /> | С иконкой: `![R](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/r.svg)`<br>С буквами: `![R](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/r.svg)` |
-| Scala | <img src="badges/with-icon/languages/scala.svg" alt="Scala" height="28" /> | <img src="badges/letters/languages/scala.svg" alt="Scala" height="28" /> | С иконкой: `![Scala](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/scala.svg)`<br>С буквами: `![Scala](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/scala.svg)` |
-| Haskell | <img src="badges/with-icon/languages/haskell.svg" alt="Haskell" height="28" /> | <img src="badges/letters/languages/haskell.svg" alt="Haskell" height="28" /> | С иконкой: `![Haskell](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/haskell.svg)`<br>С буквами: `![Haskell](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/haskell.svg)` |
-| Elixir | <img src="badges/with-icon/languages/elixir.svg" alt="Elixir" height="28" /> | <img src="badges/letters/languages/elixir.svg" alt="Elixir" height="28" /> | С иконкой: `![Elixir](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/elixir.svg)`<br>С буквами: `![Elixir](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/elixir.svg)` |
-| Zig | <img src="badges/with-icon/languages/zig.svg" alt="Zig" height="28" /> | <img src="badges/letters/languages/zig.svg" alt="Zig" height="28" /> | С иконкой: `![Zig](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/zig.svg)`<br>С буквами: `![Zig](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/zig.svg)` |
-| Julia | <img src="badges/with-icon/languages/julia.svg" alt="Julia" height="28" /> | <img src="badges/letters/languages/julia.svg" alt="Julia" height="28" /> | С иконкой: `![Julia](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/julia.svg)`<br>С буквами: `![Julia](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/julia.svg)` |
-| Perl | <img src="badges/with-icon/languages/perl.svg" alt="Perl" height="28" /> | <img src="badges/letters/languages/perl.svg" alt="Perl" height="28" /> | С иконкой: `![Perl](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/perl.svg)`<br>С буквами: `![Perl](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/perl.svg)` |
-| Assembly | <img src="badges/with-icon/languages/assembly.svg" alt="Assembly" height="28" /> | <img src="badges/letters/languages/assembly.svg" alt="Assembly" height="28" /> | С иконкой: `![Assembly](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/assembly.svg)`<br>С буквами: `![Assembly](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/assembly.svg)` |
-| MATLAB | — | <img src="badges/letters/languages/matlab.svg" alt="MATLAB" height="28" /> | `![MATLAB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/matlab.svg)` |
-| PowerShell | <img src="badges/with-icon/languages/powershell.svg" alt="PowerShell" height="28" /> | <img src="badges/letters/languages/powershell.svg" alt="PowerShell" height="28" /> | С иконкой: `![PowerShell](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/powershell.svg)`<br>С буквами: `![PowerShell](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/powershell.svg)` |
-| Markdown | <img src="badges/with-icon/languages/markdown.svg" alt="Markdown" height="28" /> | <img src="badges/letters/languages/markdown.svg" alt="Markdown" height="28" /> | С иконкой: `![Markdown](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/markdown.svg)`<br>С буквами: `![Markdown](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/markdown.svg)` |
-| YAML | <img src="badges/with-icon/languages/yaml.svg" alt="YAML" height="28" /> | <img src="badges/letters/languages/yaml.svg" alt="YAML" height="28" /> | С иконкой: `![YAML](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/yaml.svg)`<br>С буквами: `![YAML](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/yaml.svg)` |
-| JSON | <img src="badges/with-icon/languages/json.svg" alt="JSON" height="28" /> | <img src="badges/letters/languages/json.svg" alt="JSON" height="28" /> | С иконкой: `![JSON](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/json.svg)`<br>С буквами: `![JSON](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/json.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Python | <img src="badges/with-icon/languages/python.svg" alt="Python" height="28" /> | <img src="badges/letters/languages/python.svg" alt="Python" height="28" /> |
+| JavaScript | <img src="badges/with-icon/languages/javascript.svg" alt="JavaScript" height="28" /> | <img src="badges/letters/languages/javascript.svg" alt="JavaScript" height="28" /> |
+| TypeScript | <img src="badges/with-icon/languages/typescript.svg" alt="TypeScript" height="28" /> | <img src="badges/letters/languages/typescript.svg" alt="TypeScript" height="28" /> |
+| Java | <img src="badges/with-icon/languages/java.svg" alt="Java" height="28" /> | <img src="badges/letters/languages/java.svg" alt="Java" height="28" /> |
+| C# | <img src="badges/with-icon/languages/csharp.svg" alt="C#" height="28" /> | <img src="badges/letters/languages/csharp.svg" alt="C#" height="28" /> |
+| C++ | <img src="badges/with-icon/languages/cpp.svg" alt="C++" height="28" /> | <img src="badges/letters/languages/cpp.svg" alt="C++" height="28" /> |
+| C | <img src="badges/with-icon/languages/c.svg" alt="C" height="28" /> | <img src="badges/letters/languages/c.svg" alt="C" height="28" /> |
+| Go | <img src="badges/with-icon/languages/go.svg" alt="Go" height="28" /> | <img src="badges/letters/languages/go.svg" alt="Go" height="28" /> |
+| Rust | <img src="badges/with-icon/languages/rust.svg" alt="Rust" height="28" /> | <img src="badges/letters/languages/rust.svg" alt="Rust" height="28" /> |
+| Kotlin | <img src="badges/with-icon/languages/kotlin.svg" alt="Kotlin" height="28" /> | <img src="badges/letters/languages/kotlin.svg" alt="Kotlin" height="28" /> |
+| Swift | <img src="badges/with-icon/languages/swift.svg" alt="Swift" height="28" /> | <img src="badges/letters/languages/swift.svg" alt="Swift" height="28" /> |
+| PHP | <img src="badges/with-icon/languages/php.svg" alt="PHP" height="28" /> | <img src="badges/letters/languages/php.svg" alt="PHP" height="28" /> |
+| Lua | <img src="badges/with-icon/languages/lua.svg" alt="Lua" height="28" /> | <img src="badges/letters/languages/lua.svg" alt="Lua" height="28" /> |
+| GDScript | <img src="badges/with-icon/languages/gdscript.svg" alt="GDScript" height="28" /> | <img src="badges/letters/languages/gdscript.svg" alt="GDScript" height="28" /> |
+| HTML5 | <img src="badges/with-icon/languages/html5.svg" alt="HTML5" height="28" /> | <img src="badges/letters/languages/html5.svg" alt="HTML5" height="28" /> |
+| CSS3 | <img src="badges/with-icon/languages/css3.svg" alt="CSS3" height="28" /> | <img src="badges/letters/languages/css3.svg" alt="CSS3" height="28" /> |
+| SQL | <img src="badges/with-icon/languages/sql.svg" alt="SQL" height="28" /> | <img src="badges/letters/languages/sql.svg" alt="SQL" height="28" /> |
+| Bash | <img src="badges/with-icon/languages/bash.svg" alt="Bash" height="28" /> | <img src="badges/letters/languages/bash.svg" alt="Bash" height="28" /> |
+| Ruby | <img src="badges/with-icon/languages/ruby.svg" alt="Ruby" height="28" /> | <img src="badges/letters/languages/ruby.svg" alt="Ruby" height="28" /> |
+| Dart | <img src="badges/with-icon/languages/dart.svg" alt="Dart" height="28" /> | <img src="badges/letters/languages/dart.svg" alt="Dart" height="28" /> |
+| R | <img src="badges/with-icon/languages/r.svg" alt="R" height="28" /> | <img src="badges/letters/languages/r.svg" alt="R" height="28" /> |
+| Scala | <img src="badges/with-icon/languages/scala.svg" alt="Scala" height="28" /> | <img src="badges/letters/languages/scala.svg" alt="Scala" height="28" /> |
+| Haskell | <img src="badges/with-icon/languages/haskell.svg" alt="Haskell" height="28" /> | <img src="badges/letters/languages/haskell.svg" alt="Haskell" height="28" /> |
+| Elixir | <img src="badges/with-icon/languages/elixir.svg" alt="Elixir" height="28" /> | <img src="badges/letters/languages/elixir.svg" alt="Elixir" height="28" /> |
+| Zig | <img src="badges/with-icon/languages/zig.svg" alt="Zig" height="28" /> | <img src="badges/letters/languages/zig.svg" alt="Zig" height="28" /> |
+| Julia | <img src="badges/with-icon/languages/julia.svg" alt="Julia" height="28" /> | <img src="badges/letters/languages/julia.svg" alt="Julia" height="28" /> |
+| Perl | <img src="badges/with-icon/languages/perl.svg" alt="Perl" height="28" /> | <img src="badges/letters/languages/perl.svg" alt="Perl" height="28" /> |
+| Assembly | <img src="badges/with-icon/languages/assembly.svg" alt="Assembly" height="28" /> | <img src="badges/letters/languages/assembly.svg" alt="Assembly" height="28" /> |
+| MATLAB | — | <img src="badges/letters/languages/matlab.svg" alt="MATLAB" height="28" /> |
+| PowerShell | <img src="badges/with-icon/languages/powershell.svg" alt="PowerShell" height="28" /> | <img src="badges/letters/languages/powershell.svg" alt="PowerShell" height="28" /> |
+| Markdown | <img src="badges/with-icon/languages/markdown.svg" alt="Markdown" height="28" /> | <img src="badges/letters/languages/markdown.svg" alt="Markdown" height="28" /> |
+| YAML | <img src="badges/with-icon/languages/yaml.svg" alt="YAML" height="28" /> | <img src="badges/letters/languages/yaml.svg" alt="YAML" height="28" /> |
+| JSON | <img src="badges/with-icon/languages/json.svg" alt="JSON" height="28" /> | <img src="badges/letters/languages/json.svg" alt="JSON" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с иконками</summary>
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Python](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/languages/python.svg)
@@ -104,7 +104,7 @@
 
 </details>
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Python](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/languages/python.svg)
@@ -146,31 +146,59 @@
 
 ### Игры
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Unity | — | <img src="badges/letters/games/unity.svg" alt="Unity" height="28" /> | `![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/unity.svg)` |
-| Godot | — | <img src="badges/letters/games/godot.svg" alt="Godot" height="28" /> | `![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/godot.svg)` |
-| Unreal Engine | — | <img src="badges/letters/games/unreal.svg" alt="Unreal Engine" height="28" /> | `![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/unreal.svg)` |
-| Blender | — | <img src="badges/letters/games/blender.svg" alt="Blender" height="28" /> | `![Blender](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/blender.svg)` |
-| itch.io | — | <img src="badges/letters/games/itch.svg" alt="itch.io" height="28" /> | `![itch.io](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/itch.svg)` |
-| Steam | — | <img src="badges/letters/games/steam.svg" alt="Steam" height="28" /> | `![Steam](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/steam.svg)` |
-| Minecraft | — | <img src="badges/letters/games/minecraft.svg" alt="Minecraft" height="28" /> | `![Minecraft](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/minecraft.svg)` |
-| GameMaker | — | <img src="badges/letters/games/gamemaker.svg" alt="GameMaker" height="28" /> | `![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gamemaker.svg)` |
-| Pygame | — | <img src="badges/letters/games/pygame.svg" alt="Pygame" height="28" /> | `![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/pygame.svg)` |
-| Phaser | — | <img src="badges/letters/games/phaser.svg" alt="Phaser" height="28" /> | `![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/phaser.svg)` |
-| Three.js | — | <img src="badges/letters/games/threejs.svg" alt="Three.js" height="28" /> | `![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/threejs.svg)` |
-| Roblox | — | <img src="badges/letters/games/roblox.svg" alt="Roblox" height="28" /> | `![Roblox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/roblox.svg)` |
-| Aseprite | — | <img src="badges/letters/games/aseprite.svg" alt="Aseprite" height="28" /> | `![Aseprite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/aseprite.svg)` |
-| Tiled | — | <img src="badges/letters/games/tiled.svg" alt="Tiled" height="28" /> | `![Tiled](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/tiled.svg)` |
-| Fabric | — | <img src="badges/letters/games/fabric.svg" alt="Fabric" height="28" /> | `![Fabric](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/fabric.svg)` |
-| Forge | — | <img src="badges/letters/games/forge.svg" alt="Forge" height="28" /> | `![Forge](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/forge.svg)` |
-| Spigot | — | <img src="badges/letters/games/spigot.svg" alt="Spigot" height="28" /> | `![Spigot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/spigot.svg)` |
-| Gradle | — | <img src="badges/letters/games/gradle.svg" alt="Gradle" height="28" /> | `![Gradle](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gradle.svg)` |
-| Maven | — | <img src="badges/letters/games/maven.svg" alt="Maven" height="28" /> | `![Maven](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/maven.svg)` |
-| Epic Games | — | <img src="badges/letters/games/epic-games.svg" alt="Epic Games" height="28" /> | `![Epic Games](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/epic-games.svg)` |
-| Game Jolt | — | <img src="badges/letters/games/gamejolt.svg" alt="Game Jolt" height="28" /> | `![Game Jolt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gamejolt.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Unity | <img src="badges/with-icon/games/unity.svg" alt="Unity" height="28" /> | <img src="badges/letters/games/unity.svg" alt="Unity" height="28" /> |
+| Godot | <img src="badges/with-icon/games/godot.svg" alt="Godot" height="28" /> | <img src="badges/letters/games/godot.svg" alt="Godot" height="28" /> |
+| Unreal Engine | <img src="badges/with-icon/games/unreal.svg" alt="Unreal Engine" height="28" /> | <img src="badges/letters/games/unreal.svg" alt="Unreal Engine" height="28" /> |
+| Blender | <img src="badges/with-icon/games/blender.svg" alt="Blender" height="28" /> | <img src="badges/letters/games/blender.svg" alt="Blender" height="28" /> |
+| itch.io | <img src="badges/with-icon/games/itch.svg" alt="itch.io" height="28" /> | <img src="badges/letters/games/itch.svg" alt="itch.io" height="28" /> |
+| Steam | <img src="badges/with-icon/games/steam.svg" alt="Steam" height="28" /> | <img src="badges/letters/games/steam.svg" alt="Steam" height="28" /> |
+| Minecraft | <img src="badges/with-icon/games/minecraft.svg" alt="Minecraft" height="28" /> | <img src="badges/letters/games/minecraft.svg" alt="Minecraft" height="28" /> |
+| GameMaker | <img src="badges/with-icon/games/gamemaker.svg" alt="GameMaker" height="28" /> | <img src="badges/letters/games/gamemaker.svg" alt="GameMaker" height="28" /> |
+| Pygame | <img src="badges/with-icon/games/pygame.svg" alt="Pygame" height="28" /> | <img src="badges/letters/games/pygame.svg" alt="Pygame" height="28" /> |
+| Phaser | <img src="badges/with-icon/games/phaser.svg" alt="Phaser" height="28" /> | <img src="badges/letters/games/phaser.svg" alt="Phaser" height="28" /> |
+| Three.js | <img src="badges/with-icon/games/threejs.svg" alt="Three.js" height="28" /> | <img src="badges/letters/games/threejs.svg" alt="Three.js" height="28" /> |
+| Roblox | <img src="badges/with-icon/games/roblox.svg" alt="Roblox" height="28" /> | <img src="badges/letters/games/roblox.svg" alt="Roblox" height="28" /> |
+| Aseprite | <img src="badges/with-icon/games/aseprite.svg" alt="Aseprite" height="28" /> | <img src="badges/letters/games/aseprite.svg" alt="Aseprite" height="28" /> |
+| Tiled | <img src="badges/with-icon/games/tiled.svg" alt="Tiled" height="28" /> | <img src="badges/letters/games/tiled.svg" alt="Tiled" height="28" /> |
+| Fabric | <img src="badges/with-icon/games/fabric.svg" alt="Fabric" height="28" /> | <img src="badges/letters/games/fabric.svg" alt="Fabric" height="28" /> |
+| Forge | <img src="badges/with-icon/games/forge.svg" alt="Forge" height="28" /> | <img src="badges/letters/games/forge.svg" alt="Forge" height="28" /> |
+| Spigot | <img src="badges/with-icon/games/spigot.svg" alt="Spigot" height="28" /> | <img src="badges/letters/games/spigot.svg" alt="Spigot" height="28" /> |
+| Gradle | <img src="badges/with-icon/games/gradle.svg" alt="Gradle" height="28" /> | <img src="badges/letters/games/gradle.svg" alt="Gradle" height="28" /> |
+| Maven | <img src="badges/with-icon/games/maven.svg" alt="Maven" height="28" /> | <img src="badges/letters/games/maven.svg" alt="Maven" height="28" /> |
+| Epic Games | <img src="badges/with-icon/games/epic-games.svg" alt="Epic Games" height="28" /> | <img src="badges/letters/games/epic-games.svg" alt="Epic Games" height="28" /> |
+| Game Jolt | <img src="badges/with-icon/games/gamejolt.svg" alt="Game Jolt" height="28" /> | <img src="badges/letters/games/gamejolt.svg" alt="Game Jolt" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/unity.svg)
+![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/godot.svg)
+![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/unreal.svg)
+![Blender](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/blender.svg)
+![itch.io](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/itch.svg)
+![Steam](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/steam.svg)
+![Minecraft](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/minecraft.svg)
+![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/gamemaker.svg)
+![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/pygame.svg)
+![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/phaser.svg)
+![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/threejs.svg)
+![Roblox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/roblox.svg)
+![Aseprite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/aseprite.svg)
+![Tiled](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/tiled.svg)
+![Fabric](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/fabric.svg)
+![Forge](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/forge.svg)
+![Spigot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/spigot.svg)
+![Gradle](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/gradle.svg)
+![Maven](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/maven.svg)
+![Epic Games](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/epic-games.svg)
+![Game Jolt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/gamejolt.svg)
+```
+
+</details>
+
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/unity.svg)
@@ -200,37 +228,37 @@
 
 ### Веб
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| React | — | <img src="badges/letters/web/react.svg" alt="React" height="28" /> | `![React](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/react.svg)` |
-| Vue | — | <img src="badges/letters/web/vue.svg" alt="Vue" height="28" /> | `![Vue](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/vue.svg)` |
-| Node.js | — | <img src="badges/letters/web/nodejs.svg" alt="Node.js" height="28" /> | `![Node.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/nodejs.svg)` |
-| Django | — | <img src="badges/letters/web/django.svg" alt="Django" height="28" /> | `![Django](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/django.svg)` |
-| FastAPI | — | <img src="badges/letters/web/fastapi.svg" alt="FastAPI" height="28" /> | `![FastAPI](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/fastapi.svg)` |
-| Tailwind CSS | — | <img src="badges/letters/web/tailwind.svg" alt="Tailwind CSS" height="28" /> | `![Tailwind CSS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/tailwind.svg)` |
-| Flutter | — | <img src="badges/letters/web/flutter.svg" alt="Flutter" height="28" /> | `![Flutter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/flutter.svg)` |
-| Angular | — | <img src="badges/letters/web/angular.svg" alt="Angular" height="28" /> | `![Angular](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/angular.svg)` |
-| Svelte | — | <img src="badges/letters/web/svelte.svg" alt="Svelte" height="28" /> | `![Svelte](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/svelte.svg)` |
-| Next.js | — | <img src="badges/letters/web/nextjs.svg" alt="Next.js" height="28" /> | `![Next.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/nextjs.svg)` |
-| Nuxt | — | <img src="badges/letters/web/nuxt.svg" alt="Nuxt" height="28" /> | `![Nuxt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/nuxt.svg)` |
-| Express | — | <img src="badges/letters/web/express.svg" alt="Express" height="28" /> | `![Express](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/express.svg)` |
-| Spring | — | <img src="badges/letters/web/spring.svg" alt="Spring" height="28" /> | `![Spring](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/spring.svg)` |
-| Laravel | — | <img src="badges/letters/web/laravel.svg" alt="Laravel" height="28" /> | `![Laravel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/laravel.svg)` |
-| Bootstrap | — | <img src="badges/letters/web/bootstrap.svg" alt="Bootstrap" height="28" /> | `![Bootstrap](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/bootstrap.svg)` |
-| Sass | — | <img src="badges/letters/web/sass.svg" alt="Sass" height="28" /> | `![Sass](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/sass.svg)` |
-| Vite | — | <img src="badges/letters/web/vite.svg" alt="Vite" height="28" /> | `![Vite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/vite.svg)` |
-| Webpack | — | <img src="badges/letters/web/webpack.svg" alt="Webpack" height="28" /> | `![Webpack](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/webpack.svg)` |
-| npm | — | <img src="badges/letters/web/npm.svg" alt="npm" height="28" /> | `![npm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/npm.svg)` |
-| jQuery | — | <img src="badges/letters/web/jquery.svg" alt="jQuery" height="28" /> | `![jQuery](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/jquery.svg)` |
-| Electron | — | <img src="badges/letters/web/electron.svg" alt="Electron" height="28" /> | `![Electron](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/electron.svg)` |
-| Deno | — | <img src="badges/letters/web/deno.svg" alt="Deno" height="28" /> | `![Deno](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/deno.svg)` |
-| Bun | — | <img src="badges/letters/web/bun.svg" alt="Bun" height="28" /> | `![Bun](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/bun.svg)` |
-| WebSockets | — | <img src="badges/letters/web/websockets.svg" alt="WebSockets" height="28" /> | `![WebSockets](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/websockets.svg)` |
-| GraphQL | — | <img src="badges/letters/web/graphql.svg" alt="GraphQL" height="28" /> | `![GraphQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/graphql.svg)` |
-| REST API | — | <img src="badges/letters/web/rest-api.svg" alt="REST API" height="28" /> | `![REST API](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/rest-api.svg)` |
-| WordPress | — | <img src="badges/letters/web/wordpress.svg" alt="WordPress" height="28" /> | `![WordPress](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/wordpress.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| React | — | <img src="badges/letters/web/react.svg" alt="React" height="28" /> |
+| Vue | — | <img src="badges/letters/web/vue.svg" alt="Vue" height="28" /> |
+| Node.js | — | <img src="badges/letters/web/nodejs.svg" alt="Node.js" height="28" /> |
+| Django | — | <img src="badges/letters/web/django.svg" alt="Django" height="28" /> |
+| FastAPI | — | <img src="badges/letters/web/fastapi.svg" alt="FastAPI" height="28" /> |
+| Tailwind CSS | — | <img src="badges/letters/web/tailwind.svg" alt="Tailwind CSS" height="28" /> |
+| Flutter | — | <img src="badges/letters/web/flutter.svg" alt="Flutter" height="28" /> |
+| Angular | — | <img src="badges/letters/web/angular.svg" alt="Angular" height="28" /> |
+| Svelte | — | <img src="badges/letters/web/svelte.svg" alt="Svelte" height="28" /> |
+| Next.js | — | <img src="badges/letters/web/nextjs.svg" alt="Next.js" height="28" /> |
+| Nuxt | — | <img src="badges/letters/web/nuxt.svg" alt="Nuxt" height="28" /> |
+| Express | — | <img src="badges/letters/web/express.svg" alt="Express" height="28" /> |
+| Spring | — | <img src="badges/letters/web/spring.svg" alt="Spring" height="28" /> |
+| Laravel | — | <img src="badges/letters/web/laravel.svg" alt="Laravel" height="28" /> |
+| Bootstrap | — | <img src="badges/letters/web/bootstrap.svg" alt="Bootstrap" height="28" /> |
+| Sass | — | <img src="badges/letters/web/sass.svg" alt="Sass" height="28" /> |
+| Vite | — | <img src="badges/letters/web/vite.svg" alt="Vite" height="28" /> |
+| Webpack | — | <img src="badges/letters/web/webpack.svg" alt="Webpack" height="28" /> |
+| npm | — | <img src="badges/letters/web/npm.svg" alt="npm" height="28" /> |
+| jQuery | — | <img src="badges/letters/web/jquery.svg" alt="jQuery" height="28" /> |
+| Electron | — | <img src="badges/letters/web/electron.svg" alt="Electron" height="28" /> |
+| Deno | — | <img src="badges/letters/web/deno.svg" alt="Deno" height="28" /> |
+| Bun | — | <img src="badges/letters/web/bun.svg" alt="Bun" height="28" /> |
+| WebSockets | — | <img src="badges/letters/web/websockets.svg" alt="WebSockets" height="28" /> |
+| GraphQL | — | <img src="badges/letters/web/graphql.svg" alt="GraphQL" height="28" /> |
+| REST API | — | <img src="badges/letters/web/rest-api.svg" alt="REST API" height="28" /> |
+| WordPress | — | <img src="badges/letters/web/wordpress.svg" alt="WordPress" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![React](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/web/react.svg)
@@ -266,22 +294,22 @@
 
 ### Мобильное и мессенджеры
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Android Studio | — | <img src="badges/letters/mobile/android-studio.svg" alt="Android Studio" height="28" /> | `![Android Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/android-studio.svg)` |
-| Telegram | — | <img src="badges/letters/mobile/telegram.svg" alt="Telegram" height="28" /> | `![Telegram](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/telegram.svg)` |
-| Discord | — | <img src="badges/letters/mobile/discord.svg" alt="Discord" height="28" /> | `![Discord](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/discord.svg)` |
-| Android | — | <img src="badges/letters/mobile/android.svg" alt="Android" height="28" /> | `![Android](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/android.svg)` |
-| iOS | — | <img src="badges/letters/mobile/ios.svg" alt="iOS" height="28" /> | `![iOS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/ios.svg)` |
-| WhatsApp | — | <img src="badges/letters/mobile/whatsapp.svg" alt="WhatsApp" height="28" /> | `![WhatsApp](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/whatsapp.svg)` |
-| Signal | — | <img src="badges/letters/mobile/signal.svg" alt="Signal" height="28" /> | `![Signal](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/signal.svg)` |
-| Slack | — | <img src="badges/letters/mobile/slack.svg" alt="Slack" height="28" /> | `![Slack](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/slack.svg)` |
-| Matrix | — | <img src="badges/letters/mobile/matrix.svg" alt="Matrix" height="28" /> | `![Matrix](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/matrix.svg)` |
-| Google Play | — | <img src="badges/letters/mobile/googleplay.svg" alt="Google Play" height="28" /> | `![Google Play](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/googleplay.svg)` |
-| App Store | — | <img src="badges/letters/mobile/appstore.svg" alt="App Store" height="28" /> | `![App Store](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/appstore.svg)` |
-| RuStore | — | <img src="badges/letters/mobile/rustore.svg" alt="RuStore" height="28" /> | `![RuStore](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/rustore.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Android Studio | — | <img src="badges/letters/mobile/android-studio.svg" alt="Android Studio" height="28" /> |
+| Telegram | — | <img src="badges/letters/mobile/telegram.svg" alt="Telegram" height="28" /> |
+| Discord | — | <img src="badges/letters/mobile/discord.svg" alt="Discord" height="28" /> |
+| Android | — | <img src="badges/letters/mobile/android.svg" alt="Android" height="28" /> |
+| iOS | — | <img src="badges/letters/mobile/ios.svg" alt="iOS" height="28" /> |
+| WhatsApp | — | <img src="badges/letters/mobile/whatsapp.svg" alt="WhatsApp" height="28" /> |
+| Signal | — | <img src="badges/letters/mobile/signal.svg" alt="Signal" height="28" /> |
+| Slack | — | <img src="badges/letters/mobile/slack.svg" alt="Slack" height="28" /> |
+| Matrix | — | <img src="badges/letters/mobile/matrix.svg" alt="Matrix" height="28" /> |
+| Google Play | — | <img src="badges/letters/mobile/googleplay.svg" alt="Google Play" height="28" /> |
+| App Store | — | <img src="badges/letters/mobile/appstore.svg" alt="App Store" height="28" /> |
+| RuStore | — | <img src="badges/letters/mobile/rustore.svg" alt="RuStore" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Android Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/mobile/android-studio.svg)
@@ -302,33 +330,33 @@
 
 ### Инструменты и хостинг
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Git | — | <img src="badges/letters/tools/git.svg" alt="Git" height="28" /> | `![Git](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/git.svg)` |
-| GitHub | — | <img src="badges/letters/tools/github.svg" alt="GitHub" height="28" /> | `![GitHub](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/github.svg)` |
-| GitLab | — | <img src="badges/letters/tools/gitlab.svg" alt="GitLab" height="28" /> | `![GitLab](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/gitlab.svg)` |
-| Docker | — | <img src="badges/letters/tools/docker.svg" alt="Docker" height="28" /> | `![Docker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/docker.svg)` |
-| VS Code | — | <img src="badges/letters/tools/vscode.svg" alt="VS Code" height="28" /> | `![VS Code](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/vscode.svg)` |
-| Notion | — | <img src="badges/letters/tools/notion.svg" alt="Notion" height="28" /> | `![Notion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/notion.svg)` |
-| Figma | — | <img src="badges/letters/tools/figma.svg" alt="Figma" height="28" /> | `![Figma](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/figma.svg)` |
-| Linux | — | <img src="badges/letters/tools/linux.svg" alt="Linux" height="28" /> | `![Linux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/linux.svg)` |
-| Cloudflare | — | <img src="badges/letters/tools/cloudflare.svg" alt="Cloudflare" height="28" /> | `![Cloudflare](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/cloudflare.svg)` |
-| Vercel | — | <img src="badges/letters/tools/vercel.svg" alt="Vercel" height="28" /> | `![Vercel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/vercel.svg)` |
-| Postman | — | <img src="badges/letters/tools/postman.svg" alt="Postman" height="28" /> | `![Postman](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/postman.svg)` |
-| Jira | — | <img src="badges/letters/tools/jira.svg" alt="Jira" height="28" /> | `![Jira](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/jira.svg)` |
-| Trello | — | <img src="badges/letters/tools/trello.svg" alt="Trello" height="28" /> | `![Trello](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/trello.svg)` |
-| Obsidian | — | <img src="badges/letters/tools/obsidian.svg" alt="Obsidian" height="28" /> | `![Obsidian](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/obsidian.svg)` |
-| Jupyter | — | <img src="badges/letters/tools/jupyter.svg" alt="Jupyter" height="28" /> | `![Jupyter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/jupyter.svg)` |
-| Supabase | — | <img src="badges/letters/tools/supabase.svg" alt="Supabase" height="28" /> | `![Supabase](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/supabase.svg)` |
-| FFmpeg | — | <img src="badges/letters/tools/ffmpeg.svg" alt="FFmpeg" height="28" /> | `![FFmpeg](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/ffmpeg.svg)` |
-| cURL | — | <img src="badges/letters/tools/curl.svg" alt="cURL" height="28" /> | `![cURL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/curl.svg)` |
-| Wireshark | — | <img src="badges/letters/tools/wireshark.svg" alt="Wireshark" height="28" /> | `![Wireshark](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/wireshark.svg)` |
-| Insomnia | — | <img src="badges/letters/tools/insomnia.svg" alt="Insomnia" height="28" /> | `![Insomnia](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/insomnia.svg)` |
-| Swagger | — | <img src="badges/letters/tools/swagger.svg" alt="Swagger" height="28" /> | `![Swagger](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/swagger.svg)` |
-| Sentry | — | <img src="badges/letters/tools/sentry.svg" alt="Sentry" height="28" /> | `![Sentry](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/sentry.svg)` |
-| Grafana | — | <img src="badges/letters/tools/grafana.svg" alt="Grafana" height="28" /> | `![Grafana](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/grafana.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Git | — | <img src="badges/letters/tools/git.svg" alt="Git" height="28" /> |
+| GitHub | — | <img src="badges/letters/tools/github.svg" alt="GitHub" height="28" /> |
+| GitLab | — | <img src="badges/letters/tools/gitlab.svg" alt="GitLab" height="28" /> |
+| Docker | — | <img src="badges/letters/tools/docker.svg" alt="Docker" height="28" /> |
+| VS Code | — | <img src="badges/letters/tools/vscode.svg" alt="VS Code" height="28" /> |
+| Notion | — | <img src="badges/letters/tools/notion.svg" alt="Notion" height="28" /> |
+| Figma | — | <img src="badges/letters/tools/figma.svg" alt="Figma" height="28" /> |
+| Linux | — | <img src="badges/letters/tools/linux.svg" alt="Linux" height="28" /> |
+| Cloudflare | — | <img src="badges/letters/tools/cloudflare.svg" alt="Cloudflare" height="28" /> |
+| Vercel | — | <img src="badges/letters/tools/vercel.svg" alt="Vercel" height="28" /> |
+| Postman | — | <img src="badges/letters/tools/postman.svg" alt="Postman" height="28" /> |
+| Jira | — | <img src="badges/letters/tools/jira.svg" alt="Jira" height="28" /> |
+| Trello | — | <img src="badges/letters/tools/trello.svg" alt="Trello" height="28" /> |
+| Obsidian | — | <img src="badges/letters/tools/obsidian.svg" alt="Obsidian" height="28" /> |
+| Jupyter | — | <img src="badges/letters/tools/jupyter.svg" alt="Jupyter" height="28" /> |
+| Supabase | — | <img src="badges/letters/tools/supabase.svg" alt="Supabase" height="28" /> |
+| FFmpeg | — | <img src="badges/letters/tools/ffmpeg.svg" alt="FFmpeg" height="28" /> |
+| cURL | — | <img src="badges/letters/tools/curl.svg" alt="cURL" height="28" /> |
+| Wireshark | — | <img src="badges/letters/tools/wireshark.svg" alt="Wireshark" height="28" /> |
+| Insomnia | — | <img src="badges/letters/tools/insomnia.svg" alt="Insomnia" height="28" /> |
+| Swagger | — | <img src="badges/letters/tools/swagger.svg" alt="Swagger" height="28" /> |
+| Sentry | — | <img src="badges/letters/tools/sentry.svg" alt="Sentry" height="28" /> |
+| Grafana | — | <img src="badges/letters/tools/grafana.svg" alt="Grafana" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Git](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/tools/git.svg)
@@ -360,22 +388,22 @@
 
 ### Редакторы и IDE
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| IntelliJ IDEA | — | <img src="badges/letters/editors/intellij.svg" alt="IntelliJ IDEA" height="28" /> | `![IntelliJ IDEA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/intellij.svg)` |
-| PyCharm | — | <img src="badges/letters/editors/pycharm.svg" alt="PyCharm" height="28" /> | `![PyCharm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/pycharm.svg)` |
-| Visual Studio | — | <img src="badges/letters/editors/visual-studio.svg" alt="Visual Studio" height="28" /> | `![Visual Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/visual-studio.svg)` |
-| Vim | — | <img src="badges/letters/editors/vim.svg" alt="Vim" height="28" /> | `![Vim](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/vim.svg)` |
-| Neovim | — | <img src="badges/letters/editors/neovim.svg" alt="Neovim" height="28" /> | `![Neovim](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/neovim.svg)` |
-| Sublime Text | — | <img src="badges/letters/editors/sublime.svg" alt="Sublime Text" height="28" /> | `![Sublime Text](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/sublime.svg)` |
-| Eclipse | — | <img src="badges/letters/editors/eclipse.svg" alt="Eclipse" height="28" /> | `![Eclipse](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/eclipse.svg)` |
-| Rider | — | <img src="badges/letters/editors/rider.svg" alt="Rider" height="28" /> | `![Rider](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/rider.svg)` |
-| WebStorm | — | <img src="badges/letters/editors/webstorm.svg" alt="WebStorm" height="28" /> | `![WebStorm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/webstorm.svg)` |
-| CLion | — | <img src="badges/letters/editors/clion.svg" alt="CLion" height="28" /> | `![CLion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/clion.svg)` |
-| Notepad++ | — | <img src="badges/letters/editors/notepadpp.svg" alt="Notepad++" height="28" /> | `![Notepad++](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/notepadpp.svg)` |
-| Zed | — | <img src="badges/letters/editors/zed.svg" alt="Zed" height="28" /> | `![Zed](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/zed.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| IntelliJ IDEA | — | <img src="badges/letters/editors/intellij.svg" alt="IntelliJ IDEA" height="28" /> |
+| PyCharm | — | <img src="badges/letters/editors/pycharm.svg" alt="PyCharm" height="28" /> |
+| Visual Studio | — | <img src="badges/letters/editors/visual-studio.svg" alt="Visual Studio" height="28" /> |
+| Vim | — | <img src="badges/letters/editors/vim.svg" alt="Vim" height="28" /> |
+| Neovim | — | <img src="badges/letters/editors/neovim.svg" alt="Neovim" height="28" /> |
+| Sublime Text | — | <img src="badges/letters/editors/sublime.svg" alt="Sublime Text" height="28" /> |
+| Eclipse | — | <img src="badges/letters/editors/eclipse.svg" alt="Eclipse" height="28" /> |
+| Rider | — | <img src="badges/letters/editors/rider.svg" alt="Rider" height="28" /> |
+| WebStorm | — | <img src="badges/letters/editors/webstorm.svg" alt="WebStorm" height="28" /> |
+| CLion | — | <img src="badges/letters/editors/clion.svg" alt="CLion" height="28" /> |
+| Notepad++ | — | <img src="badges/letters/editors/notepadpp.svg" alt="Notepad++" height="28" /> |
+| Zed | — | <img src="badges/letters/editors/zed.svg" alt="Zed" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![IntelliJ IDEA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/editors/intellij.svg)
@@ -396,33 +424,33 @@
 
 ### ИИ
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Chat Box | — | <img src="badges/letters/ai/chatbox.svg" alt="Chat Box" height="28" /> | `![Chat Box](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/chatbox.svg)` |
-| Ollama | — | <img src="badges/letters/ai/ollama.svg" alt="Ollama" height="28" /> | `![Ollama](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/ollama.svg)` |
-| Free LLM API | — | <img src="badges/letters/ai/freellmapi.svg" alt="Free LLM API" height="28" /> | `![Free LLM API](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/freellmapi.svg)` |
-| Claude | — | <img src="badges/letters/ai/claude.svg" alt="Claude" height="28" /> | `![Claude](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/claude.svg)` |
-| Hugging Face | — | <img src="badges/letters/ai/huggingface.svg" alt="Hugging Face" height="28" /> | `![Hugging Face](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/huggingface.svg)` |
-| PyTorch | — | <img src="badges/letters/ai/pytorch.svg" alt="PyTorch" height="28" /> | `![PyTorch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/pytorch.svg)` |
-| ChatGPT | — | <img src="badges/letters/ai/chatgpt.svg" alt="ChatGPT" height="28" /> | `![ChatGPT](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/chatgpt.svg)` |
-| Gemini | — | <img src="badges/letters/ai/gemini.svg" alt="Gemini" height="28" /> | `![Gemini](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/gemini.svg)` |
-| Mistral | — | <img src="badges/letters/ai/mistral.svg" alt="Mistral" height="28" /> | `![Mistral](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/mistral.svg)` |
-| DeepSeek | — | <img src="badges/letters/ai/deepseek.svg" alt="DeepSeek" height="28" /> | `![DeepSeek](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/deepseek.svg)` |
-| Qwen | — | <img src="badges/letters/ai/qwen.svg" alt="Qwen" height="28" /> | `![Qwen](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/qwen.svg)` |
-| LM Studio | — | <img src="badges/letters/ai/lmstudio.svg" alt="LM Studio" height="28" /> | `![LM Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/lmstudio.svg)` |
-| TensorFlow | — | <img src="badges/letters/ai/tensorflow.svg" alt="TensorFlow" height="28" /> | `![TensorFlow](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/tensorflow.svg)` |
-| Stable Diffusion | — | <img src="badges/letters/ai/stable-diffusion.svg" alt="Stable Diffusion" height="28" /> | `![Stable Diffusion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/stable-diffusion.svg)` |
-| OpenRouter | — | <img src="badges/letters/ai/openrouter.svg" alt="OpenRouter" height="28" /> | `![OpenRouter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/openrouter.svg)` |
-| Groq | — | <img src="badges/letters/ai/groq.svg" alt="Groq" height="28" /> | `![Groq](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/groq.svg)` |
-| Perplexity | — | <img src="badges/letters/ai/perplexity.svg" alt="Perplexity" height="28" /> | `![Perplexity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/perplexity.svg)` |
-| Copilot | — | <img src="badges/letters/ai/copilot.svg" alt="Copilot" height="28" /> | `![Copilot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/copilot.svg)` |
-| Cursor | — | <img src="badges/letters/ai/cursor.svg" alt="Cursor" height="28" /> | `![Cursor](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/cursor.svg)` |
-| LangChain | — | <img src="badges/letters/ai/langchain.svg" alt="LangChain" height="28" /> | `![LangChain](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/langchain.svg)` |
-| NumPy | — | <img src="badges/letters/ai/numpy.svg" alt="NumPy" height="28" /> | `![NumPy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/numpy.svg)` |
-| Pandas | — | <img src="badges/letters/ai/pandas.svg" alt="Pandas" height="28" /> | `![Pandas](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/pandas.svg)` |
-| OpenCV | — | <img src="badges/letters/ai/opencv.svg" alt="OpenCV" height="28" /> | `![OpenCV](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/opencv.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Chat Box | — | <img src="badges/letters/ai/chatbox.svg" alt="Chat Box" height="28" /> |
+| Ollama | — | <img src="badges/letters/ai/ollama.svg" alt="Ollama" height="28" /> |
+| Free LLM API | — | <img src="badges/letters/ai/freellmapi.svg" alt="Free LLM API" height="28" /> |
+| Claude | — | <img src="badges/letters/ai/claude.svg" alt="Claude" height="28" /> |
+| Hugging Face | — | <img src="badges/letters/ai/huggingface.svg" alt="Hugging Face" height="28" /> |
+| PyTorch | — | <img src="badges/letters/ai/pytorch.svg" alt="PyTorch" height="28" /> |
+| ChatGPT | — | <img src="badges/letters/ai/chatgpt.svg" alt="ChatGPT" height="28" /> |
+| Gemini | — | <img src="badges/letters/ai/gemini.svg" alt="Gemini" height="28" /> |
+| Mistral | — | <img src="badges/letters/ai/mistral.svg" alt="Mistral" height="28" /> |
+| DeepSeek | — | <img src="badges/letters/ai/deepseek.svg" alt="DeepSeek" height="28" /> |
+| Qwen | — | <img src="badges/letters/ai/qwen.svg" alt="Qwen" height="28" /> |
+| LM Studio | — | <img src="badges/letters/ai/lmstudio.svg" alt="LM Studio" height="28" /> |
+| TensorFlow | — | <img src="badges/letters/ai/tensorflow.svg" alt="TensorFlow" height="28" /> |
+| Stable Diffusion | — | <img src="badges/letters/ai/stable-diffusion.svg" alt="Stable Diffusion" height="28" /> |
+| OpenRouter | — | <img src="badges/letters/ai/openrouter.svg" alt="OpenRouter" height="28" /> |
+| Groq | — | <img src="badges/letters/ai/groq.svg" alt="Groq" height="28" /> |
+| Perplexity | — | <img src="badges/letters/ai/perplexity.svg" alt="Perplexity" height="28" /> |
+| Copilot | — | <img src="badges/letters/ai/copilot.svg" alt="Copilot" height="28" /> |
+| Cursor | — | <img src="badges/letters/ai/cursor.svg" alt="Cursor" height="28" /> |
+| LangChain | — | <img src="badges/letters/ai/langchain.svg" alt="LangChain" height="28" /> |
+| NumPy | — | <img src="badges/letters/ai/numpy.svg" alt="NumPy" height="28" /> |
+| Pandas | — | <img src="badges/letters/ai/pandas.svg" alt="Pandas" height="28" /> |
+| OpenCV | — | <img src="badges/letters/ai/opencv.svg" alt="OpenCV" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Chat Box](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/ai/chatbox.svg)
@@ -454,22 +482,22 @@
 
 ### Базы данных
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| PostgreSQL | — | <img src="badges/letters/databases/postgresql.svg" alt="PostgreSQL" height="28" /> | `![PostgreSQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/postgresql.svg)` |
-| MySQL | — | <img src="badges/letters/databases/mysql.svg" alt="MySQL" height="28" /> | `![MySQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/mysql.svg)` |
-| SQLite | — | <img src="badges/letters/databases/sqlite.svg" alt="SQLite" height="28" /> | `![SQLite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/sqlite.svg)` |
-| MongoDB | — | <img src="badges/letters/databases/mongodb.svg" alt="MongoDB" height="28" /> | `![MongoDB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/mongodb.svg)` |
-| Redis | — | <img src="badges/letters/databases/redis.svg" alt="Redis" height="28" /> | `![Redis](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/redis.svg)` |
-| Firebase | — | <img src="badges/letters/databases/firebase.svg" alt="Firebase" height="28" /> | `![Firebase](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/firebase.svg)` |
-| MariaDB | — | <img src="badges/letters/databases/mariadb.svg" alt="MariaDB" height="28" /> | `![MariaDB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/mariadb.svg)` |
-| Elasticsearch | — | <img src="badges/letters/databases/elasticsearch.svg" alt="Elasticsearch" height="28" /> | `![Elasticsearch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/elasticsearch.svg)` |
-| Neo4j | — | <img src="badges/letters/databases/neo4j.svg" alt="Neo4j" height="28" /> | `![Neo4j](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/neo4j.svg)` |
-| Cassandra | — | <img src="badges/letters/databases/cassandra.svg" alt="Cassandra" height="28" /> | `![Cassandra](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/cassandra.svg)` |
-| DynamoDB | — | <img src="badges/letters/databases/dynamodb.svg" alt="DynamoDB" height="28" /> | `![DynamoDB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/dynamodb.svg)` |
-| ClickHouse | — | <img src="badges/letters/databases/clickhouse.svg" alt="ClickHouse" height="28" /> | `![ClickHouse](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/clickhouse.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| PostgreSQL | — | <img src="badges/letters/databases/postgresql.svg" alt="PostgreSQL" height="28" /> |
+| MySQL | — | <img src="badges/letters/databases/mysql.svg" alt="MySQL" height="28" /> |
+| SQLite | — | <img src="badges/letters/databases/sqlite.svg" alt="SQLite" height="28" /> |
+| MongoDB | — | <img src="badges/letters/databases/mongodb.svg" alt="MongoDB" height="28" /> |
+| Redis | — | <img src="badges/letters/databases/redis.svg" alt="Redis" height="28" /> |
+| Firebase | — | <img src="badges/letters/databases/firebase.svg" alt="Firebase" height="28" /> |
+| MariaDB | — | <img src="badges/letters/databases/mariadb.svg" alt="MariaDB" height="28" /> |
+| Elasticsearch | — | <img src="badges/letters/databases/elasticsearch.svg" alt="Elasticsearch" height="28" /> |
+| Neo4j | — | <img src="badges/letters/databases/neo4j.svg" alt="Neo4j" height="28" /> |
+| Cassandra | — | <img src="badges/letters/databases/cassandra.svg" alt="Cassandra" height="28" /> |
+| DynamoDB | — | <img src="badges/letters/databases/dynamodb.svg" alt="DynamoDB" height="28" /> |
+| ClickHouse | — | <img src="badges/letters/databases/clickhouse.svg" alt="ClickHouse" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![PostgreSQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/databases/postgresql.svg)
@@ -490,27 +518,27 @@
 
 ### Облака и DevOps
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| AWS | — | <img src="badges/letters/devops/aws.svg" alt="AWS" height="28" /> | `![AWS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/aws.svg)` |
-| Azure | — | <img src="badges/letters/devops/azure.svg" alt="Azure" height="28" /> | `![Azure](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/azure.svg)` |
-| Google Cloud | — | <img src="badges/letters/devops/gcp.svg" alt="Google Cloud" height="28" /> | `![Google Cloud](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/gcp.svg)` |
-| DigitalOcean | — | <img src="badges/letters/devops/digitalocean.svg" alt="DigitalOcean" height="28" /> | `![DigitalOcean](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/digitalocean.svg)` |
-| Heroku | — | <img src="badges/letters/devops/heroku.svg" alt="Heroku" height="28" /> | `![Heroku](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/heroku.svg)` |
-| Netlify | — | <img src="badges/letters/devops/netlify.svg" alt="Netlify" height="28" /> | `![Netlify](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/netlify.svg)` |
-| Kubernetes | — | <img src="badges/letters/devops/kubernetes.svg" alt="Kubernetes" height="28" /> | `![Kubernetes](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/kubernetes.svg)` |
-| Terraform | — | <img src="badges/letters/devops/terraform.svg" alt="Terraform" height="28" /> | `![Terraform](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/terraform.svg)` |
-| Nginx | — | <img src="badges/letters/devops/nginx.svg" alt="Nginx" height="28" /> | `![Nginx](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/nginx.svg)` |
-| Apache | — | <img src="badges/letters/devops/apache.svg" alt="Apache" height="28" /> | `![Apache](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/apache.svg)` |
-| Jenkins | — | <img src="badges/letters/devops/jenkins.svg" alt="Jenkins" height="28" /> | `![Jenkins](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/jenkins.svg)` |
-| GitHub Actions | — | <img src="badges/letters/devops/github-actions.svg" alt="GitHub Actions" height="28" /> | `![GitHub Actions](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/github-actions.svg)` |
-| GitHub Pages | — | <img src="badges/letters/devops/github-pages.svg" alt="GitHub Pages" height="28" /> | `![GitHub Pages](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/github-pages.svg)` |
-| Render | — | <img src="badges/letters/devops/render.svg" alt="Render" height="28" /> | `![Render](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/render.svg)` |
-| Railway | — | <img src="badges/letters/devops/railway.svg" alt="Railway" height="28" /> | `![Railway](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/railway.svg)` |
-| Hetzner | — | <img src="badges/letters/devops/hetzner.svg" alt="Hetzner" height="28" /> | `![Hetzner](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/hetzner.svg)` |
-| Ansible | — | <img src="badges/letters/devops/ansible.svg" alt="Ansible" height="28" /> | `![Ansible](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/ansible.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| AWS | — | <img src="badges/letters/devops/aws.svg" alt="AWS" height="28" /> |
+| Azure | — | <img src="badges/letters/devops/azure.svg" alt="Azure" height="28" /> |
+| Google Cloud | — | <img src="badges/letters/devops/gcp.svg" alt="Google Cloud" height="28" /> |
+| DigitalOcean | — | <img src="badges/letters/devops/digitalocean.svg" alt="DigitalOcean" height="28" /> |
+| Heroku | — | <img src="badges/letters/devops/heroku.svg" alt="Heroku" height="28" /> |
+| Netlify | — | <img src="badges/letters/devops/netlify.svg" alt="Netlify" height="28" /> |
+| Kubernetes | — | <img src="badges/letters/devops/kubernetes.svg" alt="Kubernetes" height="28" /> |
+| Terraform | — | <img src="badges/letters/devops/terraform.svg" alt="Terraform" height="28" /> |
+| Nginx | — | <img src="badges/letters/devops/nginx.svg" alt="Nginx" height="28" /> |
+| Apache | — | <img src="badges/letters/devops/apache.svg" alt="Apache" height="28" /> |
+| Jenkins | — | <img src="badges/letters/devops/jenkins.svg" alt="Jenkins" height="28" /> |
+| GitHub Actions | — | <img src="badges/letters/devops/github-actions.svg" alt="GitHub Actions" height="28" /> |
+| GitHub Pages | — | <img src="badges/letters/devops/github-pages.svg" alt="GitHub Pages" height="28" /> |
+| Render | — | <img src="badges/letters/devops/render.svg" alt="Render" height="28" /> |
+| Railway | — | <img src="badges/letters/devops/railway.svg" alt="Railway" height="28" /> |
+| Hetzner | — | <img src="badges/letters/devops/hetzner.svg" alt="Hetzner" height="28" /> |
+| Ansible | — | <img src="badges/letters/devops/ansible.svg" alt="Ansible" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![AWS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/devops/aws.svg)
@@ -536,22 +564,22 @@
 
 ### ОС и железо
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Windows | — | <img src="badges/letters/os-hardware/windows.svg" alt="Windows" height="28" /> | `![Windows](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/windows.svg)` |
-| macOS | — | <img src="badges/letters/os-hardware/macos.svg" alt="macOS" height="28" /> | `![macOS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/macos.svg)` |
-| Ubuntu | — | <img src="badges/letters/os-hardware/ubuntu.svg" alt="Ubuntu" height="28" /> | `![Ubuntu](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/ubuntu.svg)` |
-| Arch Linux | — | <img src="badges/letters/os-hardware/arch.svg" alt="Arch Linux" height="28" /> | `![Arch Linux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/arch.svg)` |
-| Debian | — | <img src="badges/letters/os-hardware/debian.svg" alt="Debian" height="28" /> | `![Debian](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/debian.svg)` |
-| Fedora | — | <img src="badges/letters/os-hardware/fedora.svg" alt="Fedora" height="28" /> | `![Fedora](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/fedora.svg)` |
-| Raspberry Pi | — | <img src="badges/letters/os-hardware/raspberry-pi.svg" alt="Raspberry Pi" height="28" /> | `![Raspberry Pi](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/raspberry-pi.svg)` |
-| Arduino | — | <img src="badges/letters/os-hardware/arduino.svg" alt="Arduino" height="28" /> | `![Arduino](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/arduino.svg)` |
-| ESP32 | — | <img src="badges/letters/os-hardware/esp32.svg" alt="ESP32" height="28" /> | `![ESP32](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/esp32.svg)` |
-| NVIDIA | — | <img src="badges/letters/os-hardware/nvidia.svg" alt="NVIDIA" height="28" /> | `![NVIDIA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/nvidia.svg)` |
-| WSL | — | <img src="badges/letters/os-hardware/wsl.svg" alt="WSL" height="28" /> | `![WSL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/wsl.svg)` |
-| Termux | — | <img src="badges/letters/os-hardware/termux.svg" alt="Termux" height="28" /> | `![Termux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/termux.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Windows | — | <img src="badges/letters/os-hardware/windows.svg" alt="Windows" height="28" /> |
+| macOS | — | <img src="badges/letters/os-hardware/macos.svg" alt="macOS" height="28" /> |
+| Ubuntu | — | <img src="badges/letters/os-hardware/ubuntu.svg" alt="Ubuntu" height="28" /> |
+| Arch Linux | — | <img src="badges/letters/os-hardware/arch.svg" alt="Arch Linux" height="28" /> |
+| Debian | — | <img src="badges/letters/os-hardware/debian.svg" alt="Debian" height="28" /> |
+| Fedora | — | <img src="badges/letters/os-hardware/fedora.svg" alt="Fedora" height="28" /> |
+| Raspberry Pi | — | <img src="badges/letters/os-hardware/raspberry-pi.svg" alt="Raspberry Pi" height="28" /> |
+| Arduino | — | <img src="badges/letters/os-hardware/arduino.svg" alt="Arduino" height="28" /> |
+| ESP32 | — | <img src="badges/letters/os-hardware/esp32.svg" alt="ESP32" height="28" /> |
+| NVIDIA | — | <img src="badges/letters/os-hardware/nvidia.svg" alt="NVIDIA" height="28" /> |
+| WSL | — | <img src="badges/letters/os-hardware/wsl.svg" alt="WSL" height="28" /> |
+| Termux | — | <img src="badges/letters/os-hardware/termux.svg" alt="Termux" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Windows](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/os-hardware/windows.svg)
@@ -572,24 +600,24 @@
 
 ### Дизайн и медиа
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| Photoshop | — | <img src="badges/letters/design-media/photoshop.svg" alt="Photoshop" height="28" /> | `![Photoshop](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/photoshop.svg)` |
-| Illustrator | — | <img src="badges/letters/design-media/illustrator.svg" alt="Illustrator" height="28" /> | `![Illustrator](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/illustrator.svg)` |
-| After Effects | — | <img src="badges/letters/design-media/aftereffects.svg" alt="After Effects" height="28" /> | `![After Effects](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/aftereffects.svg)` |
-| Premiere Pro | — | <img src="badges/letters/design-media/premiere.svg" alt="Premiere Pro" height="28" /> | `![Premiere Pro](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/premiere.svg)` |
-| DaVinci Resolve | — | <img src="badges/letters/design-media/davinci.svg" alt="DaVinci Resolve" height="28" /> | `![DaVinci Resolve](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/davinci.svg)` |
-| Krita | — | <img src="badges/letters/design-media/krita.svg" alt="Krita" height="28" /> | `![Krita](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/krita.svg)` |
-| GIMP | — | <img src="badges/letters/design-media/gimp.svg" alt="GIMP" height="28" /> | `![GIMP](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/gimp.svg)` |
-| Inkscape | — | <img src="badges/letters/design-media/inkscape.svg" alt="Inkscape" height="28" /> | `![Inkscape](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/inkscape.svg)` |
-| Canva | — | <img src="badges/letters/design-media/canva.svg" alt="Canva" height="28" /> | `![Canva](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/canva.svg)` |
-| OBS Studio | — | <img src="badges/letters/design-media/obs.svg" alt="OBS Studio" height="28" /> | `![OBS Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/obs.svg)` |
-| Audacity | — | <img src="badges/letters/design-media/audacity.svg" alt="Audacity" height="28" /> | `![Audacity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/audacity.svg)` |
-| FL Studio | — | <img src="badges/letters/design-media/fl-studio.svg" alt="FL Studio" height="28" /> | `![FL Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/fl-studio.svg)` |
-| LMMS | — | <img src="badges/letters/design-media/lmms.svg" alt="LMMS" height="28" /> | `![LMMS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/lmms.svg)` |
-| CapCut | — | <img src="badges/letters/design-media/capcut.svg" alt="CapCut" height="28" /> | `![CapCut](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/capcut.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Photoshop | — | <img src="badges/letters/design-media/photoshop.svg" alt="Photoshop" height="28" /> |
+| Illustrator | — | <img src="badges/letters/design-media/illustrator.svg" alt="Illustrator" height="28" /> |
+| After Effects | — | <img src="badges/letters/design-media/aftereffects.svg" alt="After Effects" height="28" /> |
+| Premiere Pro | — | <img src="badges/letters/design-media/premiere.svg" alt="Premiere Pro" height="28" /> |
+| DaVinci Resolve | — | <img src="badges/letters/design-media/davinci.svg" alt="DaVinci Resolve" height="28" /> |
+| Krita | — | <img src="badges/letters/design-media/krita.svg" alt="Krita" height="28" /> |
+| GIMP | — | <img src="badges/letters/design-media/gimp.svg" alt="GIMP" height="28" /> |
+| Inkscape | — | <img src="badges/letters/design-media/inkscape.svg" alt="Inkscape" height="28" /> |
+| Canva | — | <img src="badges/letters/design-media/canva.svg" alt="Canva" height="28" /> |
+| OBS Studio | — | <img src="badges/letters/design-media/obs.svg" alt="OBS Studio" height="28" /> |
+| Audacity | — | <img src="badges/letters/design-media/audacity.svg" alt="Audacity" height="28" /> |
+| FL Studio | — | <img src="badges/letters/design-media/fl-studio.svg" alt="FL Studio" height="28" /> |
+| LMMS | — | <img src="badges/letters/design-media/lmms.svg" alt="LMMS" height="28" /> |
+| CapCut | — | <img src="badges/letters/design-media/capcut.svg" alt="CapCut" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![Photoshop](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/design-media/photoshop.svg)
@@ -612,29 +640,29 @@
 
 ### Платформы и соцсети
 
-| Название | С иконкой | С буквами | Код (Markdown) |
-|---|---|---|---|
-| YouTube | — | <img src="badges/letters/platforms/youtube.svg" alt="YouTube" height="28" /> | `![YouTube](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/youtube.svg)` |
-| Twitch | — | <img src="badges/letters/platforms/twitch.svg" alt="Twitch" height="28" /> | `![Twitch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/twitch.svg)` |
-| X | — | <img src="badges/letters/platforms/x.svg" alt="X" height="28" /> | `![X](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/x.svg)` |
-| Reddit | — | <img src="badges/letters/platforms/reddit.svg" alt="Reddit" height="28" /> | `![Reddit](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/reddit.svg)` |
-| VK | — | <img src="badges/letters/platforms/vk.svg" alt="VK" height="28" /> | `![VK](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/vk.svg)` |
-| Boosty | — | <img src="badges/letters/platforms/boosty.svg" alt="Boosty" height="28" /> | `![Boosty](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/boosty.svg)` |
-| Patreon | — | <img src="badges/letters/platforms/patreon.svg" alt="Patreon" height="28" /> | `![Patreon](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/patreon.svg)` |
-| Ko-fi | — | <img src="badges/letters/platforms/kofi.svg" alt="Ko-fi" height="28" /> | `![Ko-fi](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/kofi.svg)` |
-| LinkedIn | — | <img src="badges/letters/platforms/linkedin.svg" alt="LinkedIn" height="28" /> | `![LinkedIn](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/linkedin.svg)` |
-| TikTok | — | <img src="badges/letters/platforms/tiktok.svg" alt="TikTok" height="28" /> | `![TikTok](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/tiktok.svg)` |
-| Instagram | — | <img src="badges/letters/platforms/instagram.svg" alt="Instagram" height="28" /> | `![Instagram](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/instagram.svg)` |
-| Gmail | — | <img src="badges/letters/platforms/gmail.svg" alt="Gmail" height="28" /> | `![Gmail](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/gmail.svg)` |
-| Gumroad | — | <img src="badges/letters/platforms/gumroad.svg" alt="Gumroad" height="28" /> | `![Gumroad](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/gumroad.svg)` |
-| Steam Workshop | — | <img src="badges/letters/platforms/steam-workshop.svg" alt="Steam Workshop" height="28" /> | `![Steam Workshop](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/steam-workshop.svg)` |
-| Stack Overflow | — | <img src="badges/letters/platforms/stackoverflow.svg" alt="Stack Overflow" height="28" /> | `![Stack Overflow](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/stackoverflow.svg)` |
-| DEV | — | <img src="badges/letters/platforms/devto.svg" alt="DEV" height="28" /> | `![DEV](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/devto.svg)` |
-| Habr | — | <img src="badges/letters/platforms/habr.svg" alt="Habr" height="28" /> | `![Habr](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/habr.svg)` |
-| CurseForge | — | <img src="badges/letters/platforms/curseforge.svg" alt="CurseForge" height="28" /> | `![CurseForge](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/curseforge.svg)` |
-| Modrinth | — | <img src="badges/letters/platforms/modrinth.svg" alt="Modrinth" height="28" /> | `![Modrinth](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/modrinth.svg)` |
+| Название | С иконкой | С буквами |
+|---|---|---|
+| YouTube | — | <img src="badges/letters/platforms/youtube.svg" alt="YouTube" height="28" /> |
+| Twitch | — | <img src="badges/letters/platforms/twitch.svg" alt="Twitch" height="28" /> |
+| X | — | <img src="badges/letters/platforms/x.svg" alt="X" height="28" /> |
+| Reddit | — | <img src="badges/letters/platforms/reddit.svg" alt="Reddit" height="28" /> |
+| VK | — | <img src="badges/letters/platforms/vk.svg" alt="VK" height="28" /> |
+| Boosty | — | <img src="badges/letters/platforms/boosty.svg" alt="Boosty" height="28" /> |
+| Patreon | — | <img src="badges/letters/platforms/patreon.svg" alt="Patreon" height="28" /> |
+| Ko-fi | — | <img src="badges/letters/platforms/kofi.svg" alt="Ko-fi" height="28" /> |
+| LinkedIn | — | <img src="badges/letters/platforms/linkedin.svg" alt="LinkedIn" height="28" /> |
+| TikTok | — | <img src="badges/letters/platforms/tiktok.svg" alt="TikTok" height="28" /> |
+| Instagram | — | <img src="badges/letters/platforms/instagram.svg" alt="Instagram" height="28" /> |
+| Gmail | — | <img src="badges/letters/platforms/gmail.svg" alt="Gmail" height="28" /> |
+| Gumroad | — | <img src="badges/letters/platforms/gumroad.svg" alt="Gumroad" height="28" /> |
+| Steam Workshop | — | <img src="badges/letters/platforms/steam-workshop.svg" alt="Steam Workshop" height="28" /> |
+| Stack Overflow | — | <img src="badges/letters/platforms/stackoverflow.svg" alt="Stack Overflow" height="28" /> |
+| DEV | — | <img src="badges/letters/platforms/devto.svg" alt="DEV" height="28" /> |
+| Habr | — | <img src="badges/letters/platforms/habr.svg" alt="Habr" height="28" /> |
+| CurseForge | — | <img src="badges/letters/platforms/curseforge.svg" alt="CurseForge" height="28" /> |
+| Modrinth | — | <img src="badges/letters/platforms/modrinth.svg" alt="Modrinth" height="28" /> |
 
-<details><summary>Скопировать всю категорию: с буквами</summary>
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
 ![YouTube](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/platforms/youtube.svg)
@@ -666,6 +694,7 @@
 badges/
   with-icon/         # версия с настоящим логотипом
     languages/            # Языки (32)
+    games/                # Игры (21)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
     games/                # Игры (21)

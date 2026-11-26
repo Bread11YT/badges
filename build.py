@@ -8,7 +8,7 @@
                                            (папку указывайте только для новой категории)
 Ничего ставить не нужно: только Python 3.
 """
-import json, sys, html
+import json, sys, html, re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -24,16 +24,38 @@ def lum(hexcolor):
     return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
 
 
-def make_svg(item, height=28):
+def load_icon(bid):
+    """Иконка из icons/<id>.svg: возвращает (содержимое, viewBox) или None."""
+    f = ROOT / "icons" / f"{bid}.svg"
+    if not f.exists():
+        return None
+    raw = f.read_text(encoding="utf-8")
+    m = re.search(r"<svg[^>]*>(.*)</svg>", raw, re.S)
+    if not m:
+        return None
+    vb = re.search(r'viewBox="([^"]+)"', raw)
+    box = [float(x) for x in vb.group(1).replace(",", " ").split()] if vb else [0, 0, 24, 24]
+    body = re.sub(r"<title>.*?</title>", "", m.group(1), flags=re.S)
+    return body, box
+
+
+def make_svg(item, height=28, use_icon=True):
     label = item["label"].upper()
     color = item["color"].lstrip("#").upper()
     fg = "#1F1F1F" if lum(color) > 0.45 else "#FFFFFF"
     tl = round(len(label) * CHAR_W, 1)
     w = round(32 + tl + 12)
     name = html.escape(item["label"])
-    if item.get("svg"):  # свой значок: содержимое SVG 24x24, рисуется цветом fg
-        icon = (f'<g transform="translate(9 7) scale(0.5833)" fill="{fg}" color="{fg}">'
-                f'{item["svg"]}</g>')
+    inner = None
+    if use_icon:
+        inner = (item["svg"], [0, 0, 24, 24]) if item.get("svg") else load_icon(item["id"])
+    if inner:            # настоящий логотип: рисуется цветом текста бейджа
+        body, vb = inner
+        sc = 14 / max(vb[2], vb[3])
+        tx = 9 + (14 - vb[2] * sc) / 2 - vb[0] * sc
+        ty = 7 + (14 - vb[3] * sc) / 2 - vb[1] * sc
+        icon = (f'<g transform="translate({tx:.2f} {ty:.2f}) scale({sc:.4f})" fill="{fg}" color="{fg}">'
+                f'{body}</g>')
     else:                # значок-монограмма
         icon = (f'<rect x="8" y="6" width="16" height="16" rx="3" fill="{fg}" fill-opacity="0.2"/>'
                 f'<text x="16" y="17.3" fill="{fg}" font-family="Verdana,\'DejaVu Sans\',Geneva,sans-serif" '
@@ -48,68 +70,96 @@ def make_svg(item, height=28):
             f'</svg>\n')
 
 
-def urls(cfg, item):
-    return f'https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/{item["_dir"]}/{item["id"]}.svg'
+def urls(cfg, item, variant):
+    return (f'https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}'
+            f'/badges/{variant}/{item["dir"]}/{item["id"]}.svg')
 
 
-def snippets(cfg, item):
-    u = urls(cfg, item)
+def snippets(cfg, item, variant):
+    u = urls(cfg, item, variant)
     return {"md": f'![{item["label"]}]({u})',
             "html": f'<img src="{u}" alt="{item["label"]}" height="{cfg["height"]}" />',
             "url": u}
 
 
 def build_readme(cfg):
-    total = sum(len(c["items"]) for c in cfg["categories"])
-    repo_url = f'https://github.com/{cfg["owner"]}/{cfg["repo"]}'
+    items = [i for c in cfg["categories"] for i in c["items"]]
+    total, with_icon = len(items), sum(1 for i in items if i["has_icon"])
     pages = f'https://{cfg["owner"].lower()}.github.io/{cfg["repo"]}/'
+    raw = f'https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges'
+    h = cfg["height"]
     L = []
-    L.append(f'# Бейджи для README\n')
-    L.append(f'**{total} готовых бейджей** в одном стиле. Это обычные SVG-файлы: они лежат в репозитории, '
-             f'не зависят от shields.io и не ломаются из-за «неизвестных иконок».\n')
+    L.append('# Бейджи для README\n')
+    L.append(f'**{total} готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:\n')
+    L.append(f'- **С иконкой**: настоящий логотип технологии (сейчас у {with_icon} бейджей).')
+    L.append(f'- **С буквами**: значок из двух букв (есть у всех {total}).\n')
+    L.append('Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».\n')
     L.append('## Как пользоваться\n')
-    L.append(f'1. **Самый удобный способ:** откройте [страницу с галереей]({pages}), нажмите на бейдж, '
-             f'и код скопируется в буфер обмена. Вставьте его в свой README.')
+    L.append(f'1. **Самый удобный способ:** откройте [страницу с галереей]({pages}), выберите вид (с иконками или с буквами), '
+             f'нажмите на бейдж, и код скопируется в буфер обмена. Вставьте его в свой README.')
     L.append('2. **Через этот README:** найдите бейдж в таблицах ниже и скопируйте его код '
-             '(в каждой категории есть блок «скопировать всё», у него есть кнопка копирования).')
-    L.append(f'3. **Напрямую:** ссылка на любой бейдж имеет вид '
-             f'`https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/КАТЕГОРИЯ/ИМЯ.svg`.\n')
+             '(в каждой категории есть блоки «скопировать всю категорию» с кнопкой копирования).')
+    L.append(f'3. **Напрямую:** ссылка на бейдж имеет вид `{raw}/ВИД/КАТЕГОРИЯ/ИМЯ.svg`, '
+             f'где ВИД это `with-icon` или `letters`.\n')
     L.append('Чтобы бейджи стояли по центру в профиле, оберните их в:\n')
     L.append('```html\n<div align="center">\n\n  <!-- сюда вставьте бейджи -->\n\n</div>\n```\n')
     L.append('Если хотите, чтобы бейдж был ссылкой, оберните его так: `[![Python](ссылка-на-бейдж)](https://python.org)`.\n')
     L.append('## Галерея\n')
     for cat in cfg["categories"]:
         L.append(f'### {cat["name"]}\n')
-        L.append('| Бейдж | Код (Markdown) |')
-        L.append('|---|---|')
+        L.append('| Название | С иконкой | С буквами | Код (Markdown) |')
+        L.append('|---|---|---|---|')
         for it in cat["items"]:
-            L.append(f'| <img src="badges/{it["_dir"]}/{it["id"]}.svg" alt="{html.escape(it["label"])}" height="{cfg["height"]}" /> '
-                     f'| `{snippets(cfg, it)["md"]}` |')
+            alt = html.escape(it["label"])
+            let_img = f'<img src="badges/letters/{it["dir"]}/{it["id"]}.svg" alt="{alt}" height="{h}" />'
+            md_l = snippets(cfg, it, "letters")["md"]
+            if it["has_icon"]:
+                ico_img = f'<img src="badges/with-icon/{it["dir"]}/{it["id"]}.svg" alt="{alt}" height="{h}" />'
+                code = f'С иконкой: `{snippets(cfg, it, "with-icon")["md"]}`<br>С буквами: `{md_l}`'
+            else:
+                ico_img, code = '—', f'`{md_l}`'
+            L.append(f'| {alt} | {ico_img} | {let_img} | {code} |')
         L.append('')
-        L.append('<details><summary>Скопировать всю категорию</summary>\n')
+        icon_items = [i for i in cat["items"] if i["has_icon"]]
+        if icon_items:
+            L.append('<details><summary>Скопировать всю категорию: с иконками</summary>\n')
+            L.append('```markdown')
+            L += [snippets(cfg, i, "with-icon")["md"] for i in icon_items]
+            L.append('```\n')
+            L.append('</details>\n')
+        L.append('<details><summary>Скопировать всю категорию: с буквами</summary>\n')
         L.append('```markdown')
-        for it in cat["items"]:
-            L.append(snippets(cfg, it)["md"])
+        L += [snippets(cfg, i, "letters")["md"] for i in cat["items"]]
         L.append('```\n')
         L.append('</details>\n')
     L.append('## Структура папок\n')
     L.append('```text')
     L.append('badges/')
+    L.append('  with-icon/         # версия с настоящим логотипом')
     for cat in cfg["categories"]:
-        L.append(f'  {cat["slug"]}/'.ljust(24) + f'# {cat["name"]} ({len(cat["items"])})')
+        n = sum(1 for i in cat["items"] if i["has_icon"])
+        if n:
+            L.append(f'    {cat["slug"]}/'.ljust(26) + f'# {cat["name"]} ({n})')
+    L.append('  letters/           # версия с буквами (есть у всех)')
+    for cat in cfg["categories"]:
+        L.append(f'    {cat["slug"]}/'.ljust(26) + f'# {cat["name"]} ({len(cat["items"])})')
+    L.append('icons/               # исходные логотипы (SVG)')
     L.append('```\n')
+    L.append('## Иконки\n')
+    L.append('Если в папке `icons/` лежит файл с тем же именем, что и бейдж (например, `icons/python.svg` для бейджа `python`), '
+             'для него создаётся версия с иконкой. Версия с буквами создаётся всегда.\n')
+    L.append('Чтобы добавить или заменить иконку: положите одноцветный SVG (лучше квадратный, viewBox 24×24) '
+             'в `icons/ИМЯ.svg` и запустите `python build.py`. Цвет указывать не нужно, генератор покрасит иконку сам. '
+             'Логотипы можно взять на [simpleicons.org](https://simpleicons.org). Источники и лицензии: `icons/NOTICE.md`.\n')
     L.append('## Добавить свой бейдж\n')
     L.append('Нужен только Python 3:\n')
     L.append('```bash\npython build.py add "Bun" E8B84A Bn "Веб"\n```\n')
-    L.append('Параметры: название, цвет (HEX без `#`), 1-2 буквы для значка, категория и (для новой категории) имя папки латиницей, например `python build.py add "Bun" E8B84A Bn "Веб"`. '
-             'Скрипт создаст SVG и обновит README и страницу галереи.\n')
-    L.append('Хотите настоящий логотип вместо букв? Откройте `badges.json` и у нужного бейджа замените '
-             '`"icon": "Py"` на `"svg": "<path d=\\"...\\"/>"` (содержимое SVG 24×24, без тега `<svg>`), '
-             'затем запустите `python build.py`. Логотипы можно взять, например, на [simpleicons.org](https://simpleicons.org).\n')
+    L.append('Параметры: название, цвет (HEX без `#`), 1-2 буквы для значка, категория и (для новой категории) '
+             'имя папки латиницей. Скрипт создаст SVG и обновит README и страницу галереи.\n')
     L.append('## Настройка\n')
-    L.append(f'В `badges.json` в начале файла указаны `owner`, `repo` и `branch`. Если вы назвали репозиторий '
-             f'иначе или у вас другое имя пользователя, поменяйте их и запустите `python build.py`: '
-             f'все ссылки в README и на странице обновятся.\n')
+    L.append('В `badges.json` в начале файла указаны `owner`, `repo` и `branch`. Если вы назвали репозиторий '
+             'иначе или у вас другое имя пользователя, поменяйте их и запустите `python build.py`: '
+             'все ссылки в README и на странице обновятся.\n')
     L.append(f'Страница-галерея работает через GitHub Pages: *Settings → Pages → Deploy from a branch → `{cfg["branch"]}` / `(root)`*.\n')
     return "\n".join(L)
 
@@ -155,6 +205,10 @@ h2{font-size:17px;margin:26px 0 10px;color:var(--mute);font-weight:600}
   <p class="sub">Выберите формат, нажмите на бейдж, и код окажется в буфере обмена.</p>
   <div class="bar">
     <input type="search" id="q" placeholder="Поиск: python, unity, docker…" aria-label="Поиск">
+    <div class="seg" id="vari">
+      <button data-v="with-icon" aria-pressed="true">С иконками</button>
+      <button data-v="letters" aria-pressed="false">С буквами</button>
+    </div>
     <div class="seg" id="fmt">
       <button data-f="md" aria-pressed="true">Markdown</button>
       <button data-f="html" aria-pressed="false">HTML</button>
@@ -168,10 +222,11 @@ h2{font-size:17px;margin:26px 0 10px;color:var(--mute);font-weight:600}
 <div id="toast" role="status"></div>
 <script>
 const DATA = __DATA__;
-let fmt = 'md', cat = '', q = '';
+let fmt = 'md', vari = 'with-icon', cat = '', q = '';
 const $ = s => document.querySelector(s);
+function vkind(it){return (vari==='with-icon' && it.has_icon) ? 'with-icon' : 'letters'}
 function snip(it){
-  const u = `https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/${it.dir}/${it.id}.svg`;
+  const u = `https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/${vkind(it)}/${it.dir}/${it.id}.svg`;
   if(fmt==='md') return `![${it.label}](${u})`;
   if(fmt==='html') return `<img src="${u}" alt="${it.label}" height="${DATA.height}" />`;
   return u;
@@ -194,7 +249,7 @@ function render(){
     const g=document.createElement('div');g.className='grid';
     for(const it of c.items){
       const b=document.createElement('button');b.className='card';b.type='button';
-      b.innerHTML=`<img src="badges/${it.dir}/${it.id}.svg" alt="${it.label}"><span>Нажмите, чтобы скопировать</span>`;
+      b.innerHTML=`<img src="badges/${vkind(it)}/${it.dir}/${it.id}.svg" alt="${it.label}"><span>${(vari==='with-icon' && !it.has_icon) ? 'Только с буквами' : 'Нажмите, чтобы скопировать'}</span>`;
       b.onclick=()=>copy(snip(it),`Скопировано: ${it.label}`);
       g.appendChild(b);
     }
@@ -207,6 +262,7 @@ function chips(){
   w.innerHTML='';mk('Все','');DATA.categories.forEach(c=>mk(c.name,c.name));
 }
 $('#q').oninput=e=>{q=e.target.value;render()};
+$('#vari').onclick=e=>{const v=e.target.dataset.v;if(!v)return;vari=v;[...$('#vari').children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));render()};
 $('#fmt').onclick=e=>{const f=e.target.dataset.f;if(!f)return;fmt=f;[...$('#fmt').children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===f))};
 $('#copyAll').onclick=()=>{const all=visible().flatMap(c=>c.items);copy(all.map(snip).join('\n'),`Скопировано бейджей: ${all.length}`)};
 chips();render();
@@ -219,8 +275,8 @@ chips();render();
 def prepare(cfg):
     for cat in cfg["categories"]:
         for it in cat["items"]:
-            it["_dir"] = cat["slug"]
             it["dir"] = cat["slug"]
+            it["has_icon"] = bool(it.get("svg")) or (ROOT / "icons" / f'{it["id"]}.svg').exists()
     return cfg
 
 
@@ -228,23 +284,31 @@ def build_all():
     cfg = prepare(json.loads(CFG.read_text(encoding="utf-8")))
     OUT.mkdir(exist_ok=True)
     keep = set()
+
+    def write(variant, cat, it, use_icon):
+        d = OUT / variant / cat["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        f = d / f'{it["id"]}.svg'
+        f.write_text(make_svg(it, cfg["height"], use_icon), encoding="utf-8")
+        keep.add(f)
+
     for cat in cfg["categories"]:
-        d = OUT / cat["slug"]
-        d.mkdir(exist_ok=True)
         for it in cat["items"]:
-            (d / f'{it["id"]}.svg').write_text(make_svg(it, cfg["height"]), encoding="utf-8")
-            keep.add(d / f'{it["id"]}.svg')
-    for f in OUT.rglob("*.svg"):   # удаляем устаревшие (в т.ч. из старой плоской структуры)
+            write("letters", cat, it, False)
+            if it["has_icon"]:
+                write("with-icon", cat, it, True)
+    for f in OUT.rglob("*.svg"):   # удаляем устаревшие (в т.ч. из старых структур)
         if f not in keep:
             f.unlink()
-    for d in sorted(OUT.glob("*/"), reverse=True):
-        if d.is_dir() and not any(d.iterdir()):
+    for d in sorted((x for x in OUT.rglob("*") if x.is_dir()), key=lambda x: len(x.parts), reverse=True):
+        if not any(d.iterdir()):
             d.rmdir()
     (ROOT / "README.md").write_text(build_readme(cfg), encoding="utf-8")
     data = {k: cfg[k] for k in ("owner", "repo", "branch", "height", "categories")}
     (ROOT / "index.html").write_text(HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"Готово: {len(keep)} бейджей в {len(cfg['categories'])} папках, README.md и index.html обновлены.")
+    n_icon = sum(1 for k in keep if k.parts[-3] == "with-icon")
+    print(f"Готово: {len(keep)} SVG ({n_icon} с иконкой, {len(keep) - n_icon} с буквами), README.md и index.html обновлены.")
 
 
 def add(argv):

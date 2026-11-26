@@ -180,7 +180,7 @@
           "id": "matlab",
           "label": "MATLAB",
           "color": "C4602A",
-          "icon": "Ml"
+          "icon": "M"
         },
         {
           "id": "powershell",

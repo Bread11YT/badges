@@ -2,9 +2,10 @@
 """Генератор бейджей.
 
   python build.py                          пересобрать все SVG, README.md и index.html
-  python build.py add "Название" ЦВЕТ ИК [Категория]
+  python build.py add "Название" ЦВЕТ ИК [Категория] [папка]
                                            добавить бейдж, например:
                                            python build.py add "Bun" E8B84A Bn "Веб"
+                                           (папку указывайте только для новой категории)
 Ничего ставить не нужно: только Python 3.
 """
 import json, sys, html
@@ -48,7 +49,7 @@ def make_svg(item, height=28):
 
 
 def urls(cfg, item):
-    return f'https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/{item["id"]}.svg'
+    return f'https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/{item["_dir"]}/{item["id"]}.svg'
 
 
 def snippets(cfg, item):
@@ -72,7 +73,7 @@ def build_readme(cfg):
     L.append('2. **Через этот README:** найдите бейдж в таблицах ниже и скопируйте его код '
              '(в каждой категории есть блок «скопировать всё», у него есть кнопка копирования).')
     L.append(f'3. **Напрямую:** ссылка на любой бейдж имеет вид '
-             f'`https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/ИМЯ.svg`.\n')
+             f'`https://raw.githubusercontent.com/{cfg["owner"]}/{cfg["repo"]}/{cfg["branch"]}/badges/КАТЕГОРИЯ/ИМЯ.svg`.\n')
     L.append('Чтобы бейджи стояли по центру в профиле, оберните их в:\n')
     L.append('```html\n<div align="center">\n\n  <!-- сюда вставьте бейджи -->\n\n</div>\n```\n')
     L.append('Если хотите, чтобы бейдж был ссылкой, оберните его так: `[![Python](ссылка-на-бейдж)](https://python.org)`.\n')
@@ -82,7 +83,7 @@ def build_readme(cfg):
         L.append('| Бейдж | Код (Markdown) |')
         L.append('|---|---|')
         for it in cat["items"]:
-            L.append(f'| <img src="badges/{it["id"]}.svg" alt="{html.escape(it["label"])}" height="{cfg["height"]}" /> '
+            L.append(f'| <img src="badges/{it["_dir"]}/{it["id"]}.svg" alt="{html.escape(it["label"])}" height="{cfg["height"]}" /> '
                      f'| `{snippets(cfg, it)["md"]}` |')
         L.append('')
         L.append('<details><summary>Скопировать всю категорию</summary>\n')
@@ -91,10 +92,16 @@ def build_readme(cfg):
             L.append(snippets(cfg, it)["md"])
         L.append('```\n')
         L.append('</details>\n')
+    L.append('## Структура папок\n')
+    L.append('```text')
+    L.append('badges/')
+    for cat in cfg["categories"]:
+        L.append(f'  {cat["slug"]}/'.ljust(24) + f'# {cat["name"]} ({len(cat["items"])})')
+    L.append('```\n')
     L.append('## Добавить свой бейдж\n')
     L.append('Нужен только Python 3:\n')
     L.append('```bash\npython build.py add "Bun" E8B84A Bn "Веб"\n```\n')
-    L.append('Параметры: название, цвет (HEX без `#`), 1-2 буквы для значка и категория. '
+    L.append('Параметры: название, цвет (HEX без `#`), 1-2 буквы для значка, категория и (для новой категории) имя папки латиницей, например `python build.py add "Bun" E8B84A Bn "Веб"`. '
              'Скрипт создаст SVG и обновит README и страницу галереи.\n')
     L.append('Хотите настоящий логотип вместо букв? Откройте `badges.json` и у нужного бейджа замените '
              '`"icon": "Py"` на `"svg": "<path d=\\"...\\"/>"` (содержимое SVG 24×24, без тега `<svg>`), '
@@ -164,7 +171,7 @@ const DATA = __DATA__;
 let fmt = 'md', cat = '', q = '';
 const $ = s => document.querySelector(s);
 function snip(it){
-  const u = `https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/${it.id}.svg`;
+  const u = `https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/${it.dir}/${it.id}.svg`;
   if(fmt==='md') return `![${it.label}](${u})`;
   if(fmt==='html') return `<img src="${u}" alt="${it.label}" height="${DATA.height}" />`;
   return u;
@@ -187,7 +194,7 @@ function render(){
     const g=document.createElement('div');g.className='grid';
     for(const it of c.items){
       const b=document.createElement('button');b.className='card';b.type='button';
-      b.innerHTML=`<img src="badges/${it.id}.svg" alt="${it.label}"><span>Нажмите, чтобы скопировать</span>`;
+      b.innerHTML=`<img src="badges/${it.dir}/${it.id}.svg" alt="${it.label}"><span>Нажмите, чтобы скопировать</span>`;
       b.onclick=()=>copy(snip(it),`Скопировано: ${it.label}`);
       g.appendChild(b);
     }
@@ -209,34 +216,48 @@ chips();render();
 """
 
 
+def prepare(cfg):
+    for cat in cfg["categories"]:
+        for it in cat["items"]:
+            it["_dir"] = cat["slug"]
+            it["dir"] = cat["slug"]
+    return cfg
+
+
 def build_all():
-    cfg = json.loads(CFG.read_text(encoding="utf-8"))
+    cfg = prepare(json.loads(CFG.read_text(encoding="utf-8")))
     OUT.mkdir(exist_ok=True)
     keep = set()
     for cat in cfg["categories"]:
+        d = OUT / cat["slug"]
+        d.mkdir(exist_ok=True)
         for it in cat["items"]:
-            (OUT / f'{it["id"]}.svg').write_text(make_svg(it, cfg["height"]), encoding="utf-8")
-            keep.add(f'{it["id"]}.svg')
-    for f in OUT.glob("*.svg"):
-        if f.name not in keep:
+            (d / f'{it["id"]}.svg').write_text(make_svg(it, cfg["height"]), encoding="utf-8")
+            keep.add(d / f'{it["id"]}.svg')
+    for f in OUT.rglob("*.svg"):   # удаляем устаревшие (в т.ч. из старой плоской структуры)
+        if f not in keep:
             f.unlink()
+    for d in sorted(OUT.glob("*/"), reverse=True):
+        if d.is_dir() and not any(d.iterdir()):
+            d.rmdir()
     (ROOT / "README.md").write_text(build_readme(cfg), encoding="utf-8")
     data = {k: cfg[k] for k in ("owner", "repo", "branch", "height", "categories")}
     (ROOT / "index.html").write_text(HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"Готово: {len(keep)} бейджей, README.md и index.html обновлены.")
+    print(f"Готово: {len(keep)} бейджей в {len(cfg['categories'])} папках, README.md и index.html обновлены.")
 
 
 def add(argv):
     if len(argv) < 3:
-        sys.exit('Использование: python build.py add "Название" ЦВЕТ ИК [Категория]')
+        sys.exit('Использование: python build.py add "Название" ЦВЕТ ИК [Категория] [папка]')
     label, color, icon = argv[0], argv[1].lstrip("#"), argv[2]
     catname = argv[3] if len(argv) > 3 else "Другое"
+    catslug = argv[4] if len(argv) > 4 else "other"
     cfg = json.loads(CFG.read_text(encoding="utf-8"))
     bid = "".join(ch if ch.isalnum() else "-" for ch in label.lower().replace("#", "sharp").replace("+", "p")).strip("-")
     cat = next((c for c in cfg["categories"] if c["name"] == catname), None)
     if not cat:
-        cat = {"name": catname, "items": []}
+        cat = {"name": catname, "slug": catslug, "items": []}
         cfg["categories"].append(cat)
     cat["items"] = [i for i in cat["items"] if i["id"] != bid] + [{"id": bid, "label": label, "color": color.upper(), "icon": icon}]
     CFG.write_text(json.dumps(cfg, ensure_ascii=False, indent=2), encoding="utf-8")

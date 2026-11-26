@@ -1,0 +1,80 @@
+{
+  "owner": "Bread11YT",
+  "repo": "badges",
+  "branch": "main",
+  "height": 28,
+  "categories": [
+    {"name": "Языки", "items": [
+      {"id": "python", "label": "Python", "color": "3A6F96", "icon": "Py"},
+      {"id": "javascript", "label": "JavaScript", "color": "2A2B28", "icon": "JS"},
+      {"id": "typescript", "label": "TypeScript", "color": "2F5F9E", "icon": "TS"},
+      {"id": "java", "label": "Java", "color": "B8791C", "icon": "Jv"},
+      {"id": "csharp", "label": "C#", "color": "2F7A31", "icon": "C#"},
+      {"id": "cpp", "label": "C++", "color": "3D6AA8", "icon": "C+"},
+      {"id": "c", "label": "C", "color": "4A5568", "icon": "C"},
+      {"id": "go", "label": "Go", "color": "2C8FA8", "icon": "Go"},
+      {"id": "rust", "label": "Rust", "color": "8A4B2D", "icon": "Rs"},
+      {"id": "kotlin", "label": "Kotlin", "color": "7F52B8", "icon": "Kt"},
+      {"id": "swift", "label": "Swift", "color": "C4572F", "icon": "Sw"},
+      {"id": "php", "label": "PHP", "color": "6A6FA8", "icon": "Ph"},
+      {"id": "lua", "label": "Lua", "color": "2B3A7A", "icon": "Lu"},
+      {"id": "gdscript", "label": "GDScript", "color": "4A7FA5", "icon": "GD"},
+      {"id": "html5", "label": "HTML5", "color": "B8563A", "icon": "H5"},
+      {"id": "css3", "label": "CSS3", "color": "3A6FB8", "icon": "C3"},
+      {"id": "sql", "label": "SQL", "color": "4B5D6B", "icon": "Sq"},
+      {"id": "bash", "label": "Bash", "color": "3A4A3A", "icon": "Sh"}
+    ]},
+    {"name": "Игры", "items": [
+      {"id": "unity", "label": "Unity", "color": "1F1F1F", "icon": "Un"},
+      {"id": "godot", "label": "Godot", "color": "CFD8E0", "icon": "Gd"},
+      {"id": "unreal", "label": "Unreal Engine", "color": "2A2A2A", "icon": "Ue"},
+      {"id": "blender", "label": "Blender", "color": "B8742A", "icon": "Bl"},
+      {"id": "itch", "label": "itch.io", "color": "BF5B5B", "icon": "It"},
+      {"id": "steam", "label": "Steam", "color": "1B2838", "icon": "St"},
+      {"id": "minecraft", "label": "Minecraft", "color": "5A7A3A", "icon": "Mc"}
+    ]},
+    {"name": "Веб", "items": [
+      {"id": "react", "label": "React", "color": "2E7F96", "icon": "Re"},
+      {"id": "vue", "label": "Vue", "color": "3A9B68", "icon": "Vu"},
+      {"id": "nodejs", "label": "Node.js", "color": "4A7A3A", "icon": "No"},
+      {"id": "django", "label": "Django", "color": "1F4A3A", "icon": "Dj"},
+      {"id": "fastapi", "label": "FastAPI", "color": "2E8A7A", "icon": "Fa"},
+      {"id": "tailwind", "label": "Tailwind CSS", "color": "2E8FA8", "icon": "Tw"},
+      {"id": "flutter", "label": "Flutter", "color": "3A8FC4", "icon": "Fl"}
+    ]},
+    {"name": "Мобильное и мессенджеры", "items": [
+      {"id": "android-studio", "label": "Android Studio", "color": "3A9B68", "icon": "AS"},
+      {"id": "telegram", "label": "Telegram", "color": "2D84B0", "icon": "Tg"},
+      {"id": "discord", "label": "Discord", "color": "5865A8", "icon": "Dc"}
+    ]},
+    {"name": "Инструменты и хостинг", "items": [
+      {"id": "git", "label": "Git", "color": "C4572F", "icon": "Gt"},
+      {"id": "github", "label": "GitHub", "color": "1F1F1F", "icon": "GH"},
+      {"id": "gitlab", "label": "GitLab", "color": "1F1F1F", "icon": "GL"},
+      {"id": "docker", "label": "Docker", "color": "2F7FB8", "icon": "Dk"},
+      {"id": "vscode", "label": "VS Code", "color": "2A6FB0", "icon": "VS"},
+      {"id": "notion", "label": "Notion", "color": "1F1F1F", "icon": "N"},
+      {"id": "figma", "label": "Figma", "color": "6A3FB8", "icon": "Fg"},
+      {"id": "linux", "label": "Linux", "color": "3A3A3A", "icon": "Lx"},
+      {"id": "cloudflare", "label": "Cloudflare", "color": "BD7430", "icon": "CF"},
+      {"id": "vercel", "label": "Vercel", "color": "1F1F1F", "icon": "Vc"},
+      {"id": "postman", "label": "Postman", "color": "D4622A", "icon": "Pm"}
+    ]},
+    {"name": "ИИ", "items": [
+      {"id": "chatbox", "label": "Chat Box", "color": "8E44AD", "icon": "Cb"},
+      {"id": "ollama", "label": "Ollama", "color": "1F1F1F", "icon": "Ol"},
+      {"id": "freellmapi", "label": "Free LLM API", "color": "3A9B68", "icon": "FA"},
+      {"id": "claude", "label": "Claude", "color": "C4733A", "icon": "Cl"},
+      {"id": "huggingface", "label": "Hugging Face", "color": "C49A2A", "icon": "HF"},
+      {"id": "pytorch", "label": "PyTorch", "color": "C4572F", "icon": "Pt"}
+    ]},
+    {"name": "Базы данных", "items": [
+      {"id": "postgresql", "label": "PostgreSQL", "color": "3A5F8A", "icon": "Pg"},
+      {"id": "mysql", "label": "MySQL", "color": "3A6F8A", "icon": "My"},
+      {"id": "sqlite", "label": "SQLite", "color": "3A7AA0", "icon": "Sl"},
+      {"id": "mongodb", "label": "MongoDB", "color": "3A8A3A", "icon": "Mg"},
+      {"id": "redis", "label": "Redis", "color": "B83A3A", "icon": "Rd"},
+      {"id": "firebase", "label": "Firebase", "color": "C4902A", "icon": "Fb"}
+    ]}
+  ]
+}

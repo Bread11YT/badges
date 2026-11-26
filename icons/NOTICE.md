@@ -12,4 +12,5 @@
 - **Simple Icons** (https://simpleicons.org), лицензия CC0 1.0. Названия и логотипы
   принадлежат их владельцам и используются только для обозначения технологий.
 - **Material Design Icons** (https://pictogrammers.com/library/mdi/), лицензия Apache 2.0:
-  `java`, `csharp`, `sql`, `assembly`, `powershell`.
+  `java`, `csharp`, `sql`, `assembly`, `powershell`, а также общие значки для
+  `minecraft`, `pygame`, `phaser`, `tiled`, `fabric`, `forge` (официальных логотипов в наборах нет).

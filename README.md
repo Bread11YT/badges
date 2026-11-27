@@ -2,7 +2,7 @@
 
 **225 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 53 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 76 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 225).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -426,29 +426,59 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Chat Box | — | <img src="badges/letters/ai/chatbox.svg" alt="Chat Box" height="28" /> |
-| Ollama | — | <img src="badges/letters/ai/ollama.svg" alt="Ollama" height="28" /> |
-| Free LLM API | — | <img src="badges/letters/ai/freellmapi.svg" alt="Free LLM API" height="28" /> |
-| Claude | — | <img src="badges/letters/ai/claude.svg" alt="Claude" height="28" /> |
-| Hugging Face | — | <img src="badges/letters/ai/huggingface.svg" alt="Hugging Face" height="28" /> |
-| PyTorch | — | <img src="badges/letters/ai/pytorch.svg" alt="PyTorch" height="28" /> |
-| ChatGPT | — | <img src="badges/letters/ai/chatgpt.svg" alt="ChatGPT" height="28" /> |
-| Gemini | — | <img src="badges/letters/ai/gemini.svg" alt="Gemini" height="28" /> |
-| Mistral | — | <img src="badges/letters/ai/mistral.svg" alt="Mistral" height="28" /> |
-| DeepSeek | — | <img src="badges/letters/ai/deepseek.svg" alt="DeepSeek" height="28" /> |
-| Qwen | — | <img src="badges/letters/ai/qwen.svg" alt="Qwen" height="28" /> |
-| LM Studio | — | <img src="badges/letters/ai/lmstudio.svg" alt="LM Studio" height="28" /> |
-| TensorFlow | — | <img src="badges/letters/ai/tensorflow.svg" alt="TensorFlow" height="28" /> |
-| Stable Diffusion | — | <img src="badges/letters/ai/stable-diffusion.svg" alt="Stable Diffusion" height="28" /> |
-| OpenRouter | — | <img src="badges/letters/ai/openrouter.svg" alt="OpenRouter" height="28" /> |
-| Groq | — | <img src="badges/letters/ai/groq.svg" alt="Groq" height="28" /> |
-| Perplexity | — | <img src="badges/letters/ai/perplexity.svg" alt="Perplexity" height="28" /> |
-| Copilot | — | <img src="badges/letters/ai/copilot.svg" alt="Copilot" height="28" /> |
-| Cursor | — | <img src="badges/letters/ai/cursor.svg" alt="Cursor" height="28" /> |
-| LangChain | — | <img src="badges/letters/ai/langchain.svg" alt="LangChain" height="28" /> |
-| NumPy | — | <img src="badges/letters/ai/numpy.svg" alt="NumPy" height="28" /> |
-| Pandas | — | <img src="badges/letters/ai/pandas.svg" alt="Pandas" height="28" /> |
-| OpenCV | — | <img src="badges/letters/ai/opencv.svg" alt="OpenCV" height="28" /> |
+| Chat Box | <img src="badges/with-icon/ai/chatbox.svg" alt="Chat Box" height="28" /> | <img src="badges/letters/ai/chatbox.svg" alt="Chat Box" height="28" /> |
+| Ollama | <img src="badges/with-icon/ai/ollama.svg" alt="Ollama" height="28" /> | <img src="badges/letters/ai/ollama.svg" alt="Ollama" height="28" /> |
+| Free LLM API | <img src="badges/with-icon/ai/freellmapi.svg" alt="Free LLM API" height="28" /> | <img src="badges/letters/ai/freellmapi.svg" alt="Free LLM API" height="28" /> |
+| Claude | <img src="badges/with-icon/ai/claude.svg" alt="Claude" height="28" /> | <img src="badges/letters/ai/claude.svg" alt="Claude" height="28" /> |
+| Hugging Face | <img src="badges/with-icon/ai/huggingface.svg" alt="Hugging Face" height="28" /> | <img src="badges/letters/ai/huggingface.svg" alt="Hugging Face" height="28" /> |
+| PyTorch | <img src="badges/with-icon/ai/pytorch.svg" alt="PyTorch" height="28" /> | <img src="badges/letters/ai/pytorch.svg" alt="PyTorch" height="28" /> |
+| ChatGPT | <img src="badges/with-icon/ai/chatgpt.svg" alt="ChatGPT" height="28" /> | <img src="badges/letters/ai/chatgpt.svg" alt="ChatGPT" height="28" /> |
+| Gemini | <img src="badges/with-icon/ai/gemini.svg" alt="Gemini" height="28" /> | <img src="badges/letters/ai/gemini.svg" alt="Gemini" height="28" /> |
+| Mistral | <img src="badges/with-icon/ai/mistral.svg" alt="Mistral" height="28" /> | <img src="badges/letters/ai/mistral.svg" alt="Mistral" height="28" /> |
+| DeepSeek | <img src="badges/with-icon/ai/deepseek.svg" alt="DeepSeek" height="28" /> | <img src="badges/letters/ai/deepseek.svg" alt="DeepSeek" height="28" /> |
+| Qwen | <img src="badges/with-icon/ai/qwen.svg" alt="Qwen" height="28" /> | <img src="badges/letters/ai/qwen.svg" alt="Qwen" height="28" /> |
+| LM Studio | <img src="badges/with-icon/ai/lmstudio.svg" alt="LM Studio" height="28" /> | <img src="badges/letters/ai/lmstudio.svg" alt="LM Studio" height="28" /> |
+| TensorFlow | <img src="badges/with-icon/ai/tensorflow.svg" alt="TensorFlow" height="28" /> | <img src="badges/letters/ai/tensorflow.svg" alt="TensorFlow" height="28" /> |
+| Stable Diffusion | <img src="badges/with-icon/ai/stable-diffusion.svg" alt="Stable Diffusion" height="28" /> | <img src="badges/letters/ai/stable-diffusion.svg" alt="Stable Diffusion" height="28" /> |
+| OpenRouter | <img src="badges/with-icon/ai/openrouter.svg" alt="OpenRouter" height="28" /> | <img src="badges/letters/ai/openrouter.svg" alt="OpenRouter" height="28" /> |
+| Groq | <img src="badges/with-icon/ai/groq.svg" alt="Groq" height="28" /> | <img src="badges/letters/ai/groq.svg" alt="Groq" height="28" /> |
+| Perplexity | <img src="badges/with-icon/ai/perplexity.svg" alt="Perplexity" height="28" /> | <img src="badges/letters/ai/perplexity.svg" alt="Perplexity" height="28" /> |
+| Copilot | <img src="badges/with-icon/ai/copilot.svg" alt="Copilot" height="28" /> | <img src="badges/letters/ai/copilot.svg" alt="Copilot" height="28" /> |
+| Cursor | <img src="badges/with-icon/ai/cursor.svg" alt="Cursor" height="28" /> | <img src="badges/letters/ai/cursor.svg" alt="Cursor" height="28" /> |
+| LangChain | <img src="badges/with-icon/ai/langchain.svg" alt="LangChain" height="28" /> | <img src="badges/letters/ai/langchain.svg" alt="LangChain" height="28" /> |
+| NumPy | <img src="badges/with-icon/ai/numpy.svg" alt="NumPy" height="28" /> | <img src="badges/letters/ai/numpy.svg" alt="NumPy" height="28" /> |
+| Pandas | <img src="badges/with-icon/ai/pandas.svg" alt="Pandas" height="28" /> | <img src="badges/letters/ai/pandas.svg" alt="Pandas" height="28" /> |
+| OpenCV | <img src="badges/with-icon/ai/opencv.svg" alt="OpenCV" height="28" /> | <img src="badges/letters/ai/opencv.svg" alt="OpenCV" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Chat Box](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/chatbox.svg)
+![Ollama](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/ollama.svg)
+![Free LLM API](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/freellmapi.svg)
+![Claude](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/claude.svg)
+![Hugging Face](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/huggingface.svg)
+![PyTorch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/pytorch.svg)
+![ChatGPT](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/chatgpt.svg)
+![Gemini](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/gemini.svg)
+![Mistral](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/mistral.svg)
+![DeepSeek](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/deepseek.svg)
+![Qwen](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/qwen.svg)
+![LM Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/lmstudio.svg)
+![TensorFlow](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/tensorflow.svg)
+![Stable Diffusion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/stable-diffusion.svg)
+![OpenRouter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/openrouter.svg)
+![Groq](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/groq.svg)
+![Perplexity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/perplexity.svg)
+![Copilot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/copilot.svg)
+![Cursor](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/cursor.svg)
+![LangChain](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/langchain.svg)
+![NumPy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/numpy.svg)
+![Pandas](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/pandas.svg)
+![OpenCV](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/ai/opencv.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -695,6 +725,7 @@ badges/
   with-icon/         # версия с настоящим логотипом
     languages/            # Языки (32)
     games/                # Игры (21)
+    ai/                   # ИИ (23)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
     games/                # Игры (21)

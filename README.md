@@ -2,7 +2,7 @@
 
 **237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 115 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 127 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 237).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -385,18 +385,37 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Android Studio | — | <img src="badges/letters/mobile/android-studio.svg" alt="Android Studio" height="28" /> |
-| Telegram | — | <img src="badges/letters/mobile/telegram.svg" alt="Telegram" height="28" /> |
-| Discord | — | <img src="badges/letters/mobile/discord.svg" alt="Discord" height="28" /> |
-| Android | — | <img src="badges/letters/mobile/android.svg" alt="Android" height="28" /> |
-| iOS | — | <img src="badges/letters/mobile/ios.svg" alt="iOS" height="28" /> |
-| WhatsApp | — | <img src="badges/letters/mobile/whatsapp.svg" alt="WhatsApp" height="28" /> |
-| Signal | — | <img src="badges/letters/mobile/signal.svg" alt="Signal" height="28" /> |
-| Slack | — | <img src="badges/letters/mobile/slack.svg" alt="Slack" height="28" /> |
-| Matrix | — | <img src="badges/letters/mobile/matrix.svg" alt="Matrix" height="28" /> |
-| Google Play | — | <img src="badges/letters/mobile/googleplay.svg" alt="Google Play" height="28" /> |
-| App Store | — | <img src="badges/letters/mobile/appstore.svg" alt="App Store" height="28" /> |
-| RuStore | — | <img src="badges/letters/mobile/rustore.svg" alt="RuStore" height="28" /> |
+| Android Studio | <img src="badges/with-icon/mobile/android-studio.svg" alt="Android Studio" height="28" /> | <img src="badges/letters/mobile/android-studio.svg" alt="Android Studio" height="28" /> |
+| Telegram | <img src="badges/with-icon/mobile/telegram.svg" alt="Telegram" height="28" /> | <img src="badges/letters/mobile/telegram.svg" alt="Telegram" height="28" /> |
+| Discord | <img src="badges/with-icon/mobile/discord.svg" alt="Discord" height="28" /> | <img src="badges/letters/mobile/discord.svg" alt="Discord" height="28" /> |
+| Android | <img src="badges/with-icon/mobile/android.svg" alt="Android" height="28" /> | <img src="badges/letters/mobile/android.svg" alt="Android" height="28" /> |
+| iOS | <img src="badges/with-icon/mobile/ios.svg" alt="iOS" height="28" /> | <img src="badges/letters/mobile/ios.svg" alt="iOS" height="28" /> |
+| WhatsApp | <img src="badges/with-icon/mobile/whatsapp.svg" alt="WhatsApp" height="28" /> | <img src="badges/letters/mobile/whatsapp.svg" alt="WhatsApp" height="28" /> |
+| Signal | <img src="badges/with-icon/mobile/signal.svg" alt="Signal" height="28" /> | <img src="badges/letters/mobile/signal.svg" alt="Signal" height="28" /> |
+| Slack | <img src="badges/with-icon/mobile/slack.svg" alt="Slack" height="28" /> | <img src="badges/letters/mobile/slack.svg" alt="Slack" height="28" /> |
+| Matrix | <img src="badges/with-icon/mobile/matrix.svg" alt="Matrix" height="28" /> | <img src="badges/letters/mobile/matrix.svg" alt="Matrix" height="28" /> |
+| Google Play | <img src="badges/with-icon/mobile/googleplay.svg" alt="Google Play" height="28" /> | <img src="badges/letters/mobile/googleplay.svg" alt="Google Play" height="28" /> |
+| App Store | <img src="badges/with-icon/mobile/appstore.svg" alt="App Store" height="28" /> | <img src="badges/letters/mobile/appstore.svg" alt="App Store" height="28" /> |
+| RuStore | <img src="badges/with-icon/mobile/rustore.svg" alt="RuStore" height="28" /> | <img src="badges/letters/mobile/rustore.svg" alt="RuStore" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Android Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/android-studio.svg)
+![Telegram](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/telegram.svg)
+![Discord](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/discord.svg)
+![Android](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/android.svg)
+![iOS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/ios.svg)
+![WhatsApp](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/whatsapp.svg)
+![Signal](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/signal.svg)
+![Slack](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/slack.svg)
+![Matrix](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/matrix.svg)
+![Google Play](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/googleplay.svg)
+![App Store](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/appstore.svg)
+![RuStore](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/mobile/rustore.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -816,6 +835,7 @@ badges/
     games/                # Игры (14)
     engines/              # Движки (19)
     web/                  # Веб (27)
+    mobile/               # Мобильное и мессенджеры (12)
     ai/                   # ИИ (23)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)

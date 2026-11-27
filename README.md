@@ -2,7 +2,7 @@
 
 **237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 88 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 115 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 237).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -285,33 +285,67 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| React | — | <img src="badges/letters/web/react.svg" alt="React" height="28" /> |
-| Vue | — | <img src="badges/letters/web/vue.svg" alt="Vue" height="28" /> |
-| Node.js | — | <img src="badges/letters/web/nodejs.svg" alt="Node.js" height="28" /> |
-| Django | — | <img src="badges/letters/web/django.svg" alt="Django" height="28" /> |
-| FastAPI | — | <img src="badges/letters/web/fastapi.svg" alt="FastAPI" height="28" /> |
-| Tailwind CSS | — | <img src="badges/letters/web/tailwind.svg" alt="Tailwind CSS" height="28" /> |
-| Flutter | — | <img src="badges/letters/web/flutter.svg" alt="Flutter" height="28" /> |
-| Angular | — | <img src="badges/letters/web/angular.svg" alt="Angular" height="28" /> |
-| Svelte | — | <img src="badges/letters/web/svelte.svg" alt="Svelte" height="28" /> |
-| Next.js | — | <img src="badges/letters/web/nextjs.svg" alt="Next.js" height="28" /> |
-| Nuxt | — | <img src="badges/letters/web/nuxt.svg" alt="Nuxt" height="28" /> |
-| Express | — | <img src="badges/letters/web/express.svg" alt="Express" height="28" /> |
-| Spring | — | <img src="badges/letters/web/spring.svg" alt="Spring" height="28" /> |
-| Laravel | — | <img src="badges/letters/web/laravel.svg" alt="Laravel" height="28" /> |
-| Bootstrap | — | <img src="badges/letters/web/bootstrap.svg" alt="Bootstrap" height="28" /> |
-| Sass | — | <img src="badges/letters/web/sass.svg" alt="Sass" height="28" /> |
-| Vite | — | <img src="badges/letters/web/vite.svg" alt="Vite" height="28" /> |
-| Webpack | — | <img src="badges/letters/web/webpack.svg" alt="Webpack" height="28" /> |
-| npm | — | <img src="badges/letters/web/npm.svg" alt="npm" height="28" /> |
-| jQuery | — | <img src="badges/letters/web/jquery.svg" alt="jQuery" height="28" /> |
-| Electron | — | <img src="badges/letters/web/electron.svg" alt="Electron" height="28" /> |
-| Deno | — | <img src="badges/letters/web/deno.svg" alt="Deno" height="28" /> |
-| Bun | — | <img src="badges/letters/web/bun.svg" alt="Bun" height="28" /> |
-| WebSockets | — | <img src="badges/letters/web/websockets.svg" alt="WebSockets" height="28" /> |
-| GraphQL | — | <img src="badges/letters/web/graphql.svg" alt="GraphQL" height="28" /> |
-| REST API | — | <img src="badges/letters/web/rest-api.svg" alt="REST API" height="28" /> |
-| WordPress | — | <img src="badges/letters/web/wordpress.svg" alt="WordPress" height="28" /> |
+| React | <img src="badges/with-icon/web/react.svg" alt="React" height="28" /> | <img src="badges/letters/web/react.svg" alt="React" height="28" /> |
+| Vue | <img src="badges/with-icon/web/vue.svg" alt="Vue" height="28" /> | <img src="badges/letters/web/vue.svg" alt="Vue" height="28" /> |
+| Node.js | <img src="badges/with-icon/web/nodejs.svg" alt="Node.js" height="28" /> | <img src="badges/letters/web/nodejs.svg" alt="Node.js" height="28" /> |
+| Django | <img src="badges/with-icon/web/django.svg" alt="Django" height="28" /> | <img src="badges/letters/web/django.svg" alt="Django" height="28" /> |
+| FastAPI | <img src="badges/with-icon/web/fastapi.svg" alt="FastAPI" height="28" /> | <img src="badges/letters/web/fastapi.svg" alt="FastAPI" height="28" /> |
+| Tailwind CSS | <img src="badges/with-icon/web/tailwind.svg" alt="Tailwind CSS" height="28" /> | <img src="badges/letters/web/tailwind.svg" alt="Tailwind CSS" height="28" /> |
+| Flutter | <img src="badges/with-icon/web/flutter.svg" alt="Flutter" height="28" /> | <img src="badges/letters/web/flutter.svg" alt="Flutter" height="28" /> |
+| Angular | <img src="badges/with-icon/web/angular.svg" alt="Angular" height="28" /> | <img src="badges/letters/web/angular.svg" alt="Angular" height="28" /> |
+| Svelte | <img src="badges/with-icon/web/svelte.svg" alt="Svelte" height="28" /> | <img src="badges/letters/web/svelte.svg" alt="Svelte" height="28" /> |
+| Next.js | <img src="badges/with-icon/web/nextjs.svg" alt="Next.js" height="28" /> | <img src="badges/letters/web/nextjs.svg" alt="Next.js" height="28" /> |
+| Nuxt | <img src="badges/with-icon/web/nuxt.svg" alt="Nuxt" height="28" /> | <img src="badges/letters/web/nuxt.svg" alt="Nuxt" height="28" /> |
+| Express | <img src="badges/with-icon/web/express.svg" alt="Express" height="28" /> | <img src="badges/letters/web/express.svg" alt="Express" height="28" /> |
+| Spring | <img src="badges/with-icon/web/spring.svg" alt="Spring" height="28" /> | <img src="badges/letters/web/spring.svg" alt="Spring" height="28" /> |
+| Laravel | <img src="badges/with-icon/web/laravel.svg" alt="Laravel" height="28" /> | <img src="badges/letters/web/laravel.svg" alt="Laravel" height="28" /> |
+| Bootstrap | <img src="badges/with-icon/web/bootstrap.svg" alt="Bootstrap" height="28" /> | <img src="badges/letters/web/bootstrap.svg" alt="Bootstrap" height="28" /> |
+| Sass | <img src="badges/with-icon/web/sass.svg" alt="Sass" height="28" /> | <img src="badges/letters/web/sass.svg" alt="Sass" height="28" /> |
+| Vite | <img src="badges/with-icon/web/vite.svg" alt="Vite" height="28" /> | <img src="badges/letters/web/vite.svg" alt="Vite" height="28" /> |
+| Webpack | <img src="badges/with-icon/web/webpack.svg" alt="Webpack" height="28" /> | <img src="badges/letters/web/webpack.svg" alt="Webpack" height="28" /> |
+| npm | <img src="badges/with-icon/web/npm.svg" alt="npm" height="28" /> | <img src="badges/letters/web/npm.svg" alt="npm" height="28" /> |
+| jQuery | <img src="badges/with-icon/web/jquery.svg" alt="jQuery" height="28" /> | <img src="badges/letters/web/jquery.svg" alt="jQuery" height="28" /> |
+| Electron | <img src="badges/with-icon/web/electron.svg" alt="Electron" height="28" /> | <img src="badges/letters/web/electron.svg" alt="Electron" height="28" /> |
+| Deno | <img src="badges/with-icon/web/deno.svg" alt="Deno" height="28" /> | <img src="badges/letters/web/deno.svg" alt="Deno" height="28" /> |
+| Bun | <img src="badges/with-icon/web/bun.svg" alt="Bun" height="28" /> | <img src="badges/letters/web/bun.svg" alt="Bun" height="28" /> |
+| WebSockets | <img src="badges/with-icon/web/websockets.svg" alt="WebSockets" height="28" /> | <img src="badges/letters/web/websockets.svg" alt="WebSockets" height="28" /> |
+| GraphQL | <img src="badges/with-icon/web/graphql.svg" alt="GraphQL" height="28" /> | <img src="badges/letters/web/graphql.svg" alt="GraphQL" height="28" /> |
+| REST API | <img src="badges/with-icon/web/rest-api.svg" alt="REST API" height="28" /> | <img src="badges/letters/web/rest-api.svg" alt="REST API" height="28" /> |
+| WordPress | <img src="badges/with-icon/web/wordpress.svg" alt="WordPress" height="28" /> | <img src="badges/letters/web/wordpress.svg" alt="WordPress" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![React](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/react.svg)
+![Vue](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/vue.svg)
+![Node.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/nodejs.svg)
+![Django](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/django.svg)
+![FastAPI](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/fastapi.svg)
+![Tailwind CSS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/tailwind.svg)
+![Flutter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/flutter.svg)
+![Angular](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/angular.svg)
+![Svelte](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/svelte.svg)
+![Next.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/nextjs.svg)
+![Nuxt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/nuxt.svg)
+![Express](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/express.svg)
+![Spring](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/spring.svg)
+![Laravel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/laravel.svg)
+![Bootstrap](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/bootstrap.svg)
+![Sass](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/sass.svg)
+![Vite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/vite.svg)
+![Webpack](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/webpack.svg)
+![npm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/npm.svg)
+![jQuery](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/jquery.svg)
+![Electron](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/electron.svg)
+![Deno](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/deno.svg)
+![Bun](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/bun.svg)
+![WebSockets](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/websockets.svg)
+![GraphQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/graphql.svg)
+![REST API](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/rest-api.svg)
+![WordPress](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/web/wordpress.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -781,6 +815,7 @@ badges/
     languages/            # Языки (32)
     games/                # Игры (14)
     engines/              # Движки (19)
+    web/                  # Веб (27)
     ai/                   # ИИ (23)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)

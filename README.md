@@ -2,7 +2,7 @@
 
 **237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 153 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 225 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 237).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -440,29 +440,58 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Git | — | <img src="badges/letters/tools/git.svg" alt="Git" height="28" /> |
-| GitHub | — | <img src="badges/letters/tools/github.svg" alt="GitHub" height="28" /> |
-| GitLab | — | <img src="badges/letters/tools/gitlab.svg" alt="GitLab" height="28" /> |
-| Docker | — | <img src="badges/letters/tools/docker.svg" alt="Docker" height="28" /> |
+| Git | <img src="badges/with-icon/tools/git.svg" alt="Git" height="28" /> | <img src="badges/letters/tools/git.svg" alt="Git" height="28" /> |
+| GitHub | <img src="badges/with-icon/tools/github.svg" alt="GitHub" height="28" /> | <img src="badges/letters/tools/github.svg" alt="GitHub" height="28" /> |
+| GitLab | <img src="badges/with-icon/tools/gitlab.svg" alt="GitLab" height="28" /> | <img src="badges/letters/tools/gitlab.svg" alt="GitLab" height="28" /> |
+| Docker | <img src="badges/with-icon/tools/docker.svg" alt="Docker" height="28" /> | <img src="badges/letters/tools/docker.svg" alt="Docker" height="28" /> |
 | VS Code | — | <img src="badges/letters/tools/vscode.svg" alt="VS Code" height="28" /> |
-| Notion | — | <img src="badges/letters/tools/notion.svg" alt="Notion" height="28" /> |
-| Figma | — | <img src="badges/letters/tools/figma.svg" alt="Figma" height="28" /> |
-| Linux | — | <img src="badges/letters/tools/linux.svg" alt="Linux" height="28" /> |
-| Cloudflare | — | <img src="badges/letters/tools/cloudflare.svg" alt="Cloudflare" height="28" /> |
-| Vercel | — | <img src="badges/letters/tools/vercel.svg" alt="Vercel" height="28" /> |
-| Postman | — | <img src="badges/letters/tools/postman.svg" alt="Postman" height="28" /> |
-| Jira | — | <img src="badges/letters/tools/jira.svg" alt="Jira" height="28" /> |
-| Trello | — | <img src="badges/letters/tools/trello.svg" alt="Trello" height="28" /> |
-| Obsidian | — | <img src="badges/letters/tools/obsidian.svg" alt="Obsidian" height="28" /> |
-| Jupyter | — | <img src="badges/letters/tools/jupyter.svg" alt="Jupyter" height="28" /> |
-| Supabase | — | <img src="badges/letters/tools/supabase.svg" alt="Supabase" height="28" /> |
-| FFmpeg | — | <img src="badges/letters/tools/ffmpeg.svg" alt="FFmpeg" height="28" /> |
-| cURL | — | <img src="badges/letters/tools/curl.svg" alt="cURL" height="28" /> |
-| Wireshark | — | <img src="badges/letters/tools/wireshark.svg" alt="Wireshark" height="28" /> |
-| Insomnia | — | <img src="badges/letters/tools/insomnia.svg" alt="Insomnia" height="28" /> |
-| Swagger | — | <img src="badges/letters/tools/swagger.svg" alt="Swagger" height="28" /> |
-| Sentry | — | <img src="badges/letters/tools/sentry.svg" alt="Sentry" height="28" /> |
-| Grafana | — | <img src="badges/letters/tools/grafana.svg" alt="Grafana" height="28" /> |
+| Notion | <img src="badges/with-icon/tools/notion.svg" alt="Notion" height="28" /> | <img src="badges/letters/tools/notion.svg" alt="Notion" height="28" /> |
+| Figma | <img src="badges/with-icon/tools/figma.svg" alt="Figma" height="28" /> | <img src="badges/letters/tools/figma.svg" alt="Figma" height="28" /> |
+| Linux | <img src="badges/with-icon/tools/linux.svg" alt="Linux" height="28" /> | <img src="badges/letters/tools/linux.svg" alt="Linux" height="28" /> |
+| Cloudflare | <img src="badges/with-icon/tools/cloudflare.svg" alt="Cloudflare" height="28" /> | <img src="badges/letters/tools/cloudflare.svg" alt="Cloudflare" height="28" /> |
+| Vercel | <img src="badges/with-icon/tools/vercel.svg" alt="Vercel" height="28" /> | <img src="badges/letters/tools/vercel.svg" alt="Vercel" height="28" /> |
+| Postman | <img src="badges/with-icon/tools/postman.svg" alt="Postman" height="28" /> | <img src="badges/letters/tools/postman.svg" alt="Postman" height="28" /> |
+| Jira | <img src="badges/with-icon/tools/jira.svg" alt="Jira" height="28" /> | <img src="badges/letters/tools/jira.svg" alt="Jira" height="28" /> |
+| Trello | <img src="badges/with-icon/tools/trello.svg" alt="Trello" height="28" /> | <img src="badges/letters/tools/trello.svg" alt="Trello" height="28" /> |
+| Obsidian | <img src="badges/with-icon/tools/obsidian.svg" alt="Obsidian" height="28" /> | <img src="badges/letters/tools/obsidian.svg" alt="Obsidian" height="28" /> |
+| Jupyter | <img src="badges/with-icon/tools/jupyter.svg" alt="Jupyter" height="28" /> | <img src="badges/letters/tools/jupyter.svg" alt="Jupyter" height="28" /> |
+| Supabase | <img src="badges/with-icon/tools/supabase.svg" alt="Supabase" height="28" /> | <img src="badges/letters/tools/supabase.svg" alt="Supabase" height="28" /> |
+| FFmpeg | <img src="badges/with-icon/tools/ffmpeg.svg" alt="FFmpeg" height="28" /> | <img src="badges/letters/tools/ffmpeg.svg" alt="FFmpeg" height="28" /> |
+| cURL | <img src="badges/with-icon/tools/curl.svg" alt="cURL" height="28" /> | <img src="badges/letters/tools/curl.svg" alt="cURL" height="28" /> |
+| Wireshark | <img src="badges/with-icon/tools/wireshark.svg" alt="Wireshark" height="28" /> | <img src="badges/letters/tools/wireshark.svg" alt="Wireshark" height="28" /> |
+| Insomnia | <img src="badges/with-icon/tools/insomnia.svg" alt="Insomnia" height="28" /> | <img src="badges/letters/tools/insomnia.svg" alt="Insomnia" height="28" /> |
+| Swagger | <img src="badges/with-icon/tools/swagger.svg" alt="Swagger" height="28" /> | <img src="badges/letters/tools/swagger.svg" alt="Swagger" height="28" /> |
+| Sentry | <img src="badges/with-icon/tools/sentry.svg" alt="Sentry" height="28" /> | <img src="badges/letters/tools/sentry.svg" alt="Sentry" height="28" /> |
+| Grafana | <img src="badges/with-icon/tools/grafana.svg" alt="Grafana" height="28" /> | <img src="badges/letters/tools/grafana.svg" alt="Grafana" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Git](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/git.svg)
+![GitHub](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/github.svg)
+![GitLab](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/gitlab.svg)
+![Docker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/docker.svg)
+![Notion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/notion.svg)
+![Figma](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/figma.svg)
+![Linux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/linux.svg)
+![Cloudflare](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/cloudflare.svg)
+![Vercel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/vercel.svg)
+![Postman](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/postman.svg)
+![Jira](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/jira.svg)
+![Trello](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/trello.svg)
+![Obsidian](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/obsidian.svg)
+![Jupyter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/jupyter.svg)
+![Supabase](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/supabase.svg)
+![FFmpeg](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/ffmpeg.svg)
+![cURL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/curl.svg)
+![Wireshark](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/wireshark.svg)
+![Insomnia](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/insomnia.svg)
+![Swagger](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/swagger.svg)
+![Sentry](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/sentry.svg)
+![Grafana](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/tools/grafana.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -499,17 +528,31 @@
 | Название | С иконкой | С буквами |
 |---|---|---|
 | IntelliJ IDEA | — | <img src="badges/letters/editors/intellij.svg" alt="IntelliJ IDEA" height="28" /> |
-| PyCharm | — | <img src="badges/letters/editors/pycharm.svg" alt="PyCharm" height="28" /> |
-| Visual Studio | — | <img src="badges/letters/editors/visual-studio.svg" alt="Visual Studio" height="28" /> |
-| Vim | — | <img src="badges/letters/editors/vim.svg" alt="Vim" height="28" /> |
-| Neovim | — | <img src="badges/letters/editors/neovim.svg" alt="Neovim" height="28" /> |
+| PyCharm | <img src="badges/with-icon/editors/pycharm.svg" alt="PyCharm" height="28" /> | <img src="badges/letters/editors/pycharm.svg" alt="PyCharm" height="28" /> |
+| Visual Studio | <img src="badges/with-icon/editors/visual-studio.svg" alt="Visual Studio" height="28" /> | <img src="badges/letters/editors/visual-studio.svg" alt="Visual Studio" height="28" /> |
+| Vim | <img src="badges/with-icon/editors/vim.svg" alt="Vim" height="28" /> | <img src="badges/letters/editors/vim.svg" alt="Vim" height="28" /> |
+| Neovim | <img src="badges/with-icon/editors/neovim.svg" alt="Neovim" height="28" /> | <img src="badges/letters/editors/neovim.svg" alt="Neovim" height="28" /> |
 | Sublime Text | — | <img src="badges/letters/editors/sublime.svg" alt="Sublime Text" height="28" /> |
 | Eclipse | — | <img src="badges/letters/editors/eclipse.svg" alt="Eclipse" height="28" /> |
-| Rider | — | <img src="badges/letters/editors/rider.svg" alt="Rider" height="28" /> |
-| WebStorm | — | <img src="badges/letters/editors/webstorm.svg" alt="WebStorm" height="28" /> |
-| CLion | — | <img src="badges/letters/editors/clion.svg" alt="CLion" height="28" /> |
+| Rider | <img src="badges/with-icon/editors/rider.svg" alt="Rider" height="28" /> | <img src="badges/letters/editors/rider.svg" alt="Rider" height="28" /> |
+| WebStorm | <img src="badges/with-icon/editors/webstorm.svg" alt="WebStorm" height="28" /> | <img src="badges/letters/editors/webstorm.svg" alt="WebStorm" height="28" /> |
+| CLion | <img src="badges/with-icon/editors/clion.svg" alt="CLion" height="28" /> | <img src="badges/letters/editors/clion.svg" alt="CLion" height="28" /> |
 | Notepad++ | — | <img src="badges/letters/editors/notepadpp.svg" alt="Notepad++" height="28" /> |
 | Zed | — | <img src="badges/letters/editors/zed.svg" alt="Zed" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![PyCharm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/pycharm.svg)
+![Visual Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/visual-studio.svg)
+![Vim](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/vim.svg)
+![Neovim](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/neovim.svg)
+![Rider](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/rider.svg)
+![WebStorm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/webstorm.svg)
+![CLion](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/editors/clion.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -622,18 +665,36 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| PostgreSQL | — | <img src="badges/letters/databases/postgresql.svg" alt="PostgreSQL" height="28" /> |
-| MySQL | — | <img src="badges/letters/databases/mysql.svg" alt="MySQL" height="28" /> |
-| SQLite | — | <img src="badges/letters/databases/sqlite.svg" alt="SQLite" height="28" /> |
-| MongoDB | — | <img src="badges/letters/databases/mongodb.svg" alt="MongoDB" height="28" /> |
-| Redis | — | <img src="badges/letters/databases/redis.svg" alt="Redis" height="28" /> |
-| Firebase | — | <img src="badges/letters/databases/firebase.svg" alt="Firebase" height="28" /> |
-| MariaDB | — | <img src="badges/letters/databases/mariadb.svg" alt="MariaDB" height="28" /> |
-| Elasticsearch | — | <img src="badges/letters/databases/elasticsearch.svg" alt="Elasticsearch" height="28" /> |
-| Neo4j | — | <img src="badges/letters/databases/neo4j.svg" alt="Neo4j" height="28" /> |
-| Cassandra | — | <img src="badges/letters/databases/cassandra.svg" alt="Cassandra" height="28" /> |
+| PostgreSQL | <img src="badges/with-icon/databases/postgresql.svg" alt="PostgreSQL" height="28" /> | <img src="badges/letters/databases/postgresql.svg" alt="PostgreSQL" height="28" /> |
+| MySQL | <img src="badges/with-icon/databases/mysql.svg" alt="MySQL" height="28" /> | <img src="badges/letters/databases/mysql.svg" alt="MySQL" height="28" /> |
+| SQLite | <img src="badges/with-icon/databases/sqlite.svg" alt="SQLite" height="28" /> | <img src="badges/letters/databases/sqlite.svg" alt="SQLite" height="28" /> |
+| MongoDB | <img src="badges/with-icon/databases/mongodb.svg" alt="MongoDB" height="28" /> | <img src="badges/letters/databases/mongodb.svg" alt="MongoDB" height="28" /> |
+| Redis | <img src="badges/with-icon/databases/redis.svg" alt="Redis" height="28" /> | <img src="badges/letters/databases/redis.svg" alt="Redis" height="28" /> |
+| Firebase | <img src="badges/with-icon/databases/firebase.svg" alt="Firebase" height="28" /> | <img src="badges/letters/databases/firebase.svg" alt="Firebase" height="28" /> |
+| MariaDB | <img src="badges/with-icon/databases/mariadb.svg" alt="MariaDB" height="28" /> | <img src="badges/letters/databases/mariadb.svg" alt="MariaDB" height="28" /> |
+| Elasticsearch | <img src="badges/with-icon/databases/elasticsearch.svg" alt="Elasticsearch" height="28" /> | <img src="badges/letters/databases/elasticsearch.svg" alt="Elasticsearch" height="28" /> |
+| Neo4j | <img src="badges/with-icon/databases/neo4j.svg" alt="Neo4j" height="28" /> | <img src="badges/letters/databases/neo4j.svg" alt="Neo4j" height="28" /> |
+| Cassandra | <img src="badges/with-icon/databases/cassandra.svg" alt="Cassandra" height="28" /> | <img src="badges/letters/databases/cassandra.svg" alt="Cassandra" height="28" /> |
 | DynamoDB | — | <img src="badges/letters/databases/dynamodb.svg" alt="DynamoDB" height="28" /> |
-| ClickHouse | — | <img src="badges/letters/databases/clickhouse.svg" alt="ClickHouse" height="28" /> |
+| ClickHouse | <img src="badges/with-icon/databases/clickhouse.svg" alt="ClickHouse" height="28" /> | <img src="badges/letters/databases/clickhouse.svg" alt="ClickHouse" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![PostgreSQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/postgresql.svg)
+![MySQL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/mysql.svg)
+![SQLite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/sqlite.svg)
+![MongoDB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/mongodb.svg)
+![Redis](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/redis.svg)
+![Firebase](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/firebase.svg)
+![MariaDB](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/mariadb.svg)
+![Elasticsearch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/elasticsearch.svg)
+![Neo4j](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/neo4j.svg)
+![Cassandra](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/cassandra.svg)
+![ClickHouse](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/databases/clickhouse.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -661,20 +722,41 @@
 | AWS | — | <img src="badges/letters/devops/aws.svg" alt="AWS" height="28" /> |
 | Azure | — | <img src="badges/letters/devops/azure.svg" alt="Azure" height="28" /> |
 | Google Cloud | — | <img src="badges/letters/devops/gcp.svg" alt="Google Cloud" height="28" /> |
-| DigitalOcean | — | <img src="badges/letters/devops/digitalocean.svg" alt="DigitalOcean" height="28" /> |
-| Heroku | — | <img src="badges/letters/devops/heroku.svg" alt="Heroku" height="28" /> |
-| Netlify | — | <img src="badges/letters/devops/netlify.svg" alt="Netlify" height="28" /> |
-| Kubernetes | — | <img src="badges/letters/devops/kubernetes.svg" alt="Kubernetes" height="28" /> |
-| Terraform | — | <img src="badges/letters/devops/terraform.svg" alt="Terraform" height="28" /> |
-| Nginx | — | <img src="badges/letters/devops/nginx.svg" alt="Nginx" height="28" /> |
-| Apache | — | <img src="badges/letters/devops/apache.svg" alt="Apache" height="28" /> |
-| Jenkins | — | <img src="badges/letters/devops/jenkins.svg" alt="Jenkins" height="28" /> |
-| GitHub Actions | — | <img src="badges/letters/devops/github-actions.svg" alt="GitHub Actions" height="28" /> |
-| GitHub Pages | — | <img src="badges/letters/devops/github-pages.svg" alt="GitHub Pages" height="28" /> |
-| Render | — | <img src="badges/letters/devops/render.svg" alt="Render" height="28" /> |
-| Railway | — | <img src="badges/letters/devops/railway.svg" alt="Railway" height="28" /> |
-| Hetzner | — | <img src="badges/letters/devops/hetzner.svg" alt="Hetzner" height="28" /> |
-| Ansible | — | <img src="badges/letters/devops/ansible.svg" alt="Ansible" height="28" /> |
+| DigitalOcean | <img src="badges/with-icon/devops/digitalocean.svg" alt="DigitalOcean" height="28" /> | <img src="badges/letters/devops/digitalocean.svg" alt="DigitalOcean" height="28" /> |
+| Heroku | <img src="badges/with-icon/devops/heroku.svg" alt="Heroku" height="28" /> | <img src="badges/letters/devops/heroku.svg" alt="Heroku" height="28" /> |
+| Netlify | <img src="badges/with-icon/devops/netlify.svg" alt="Netlify" height="28" /> | <img src="badges/letters/devops/netlify.svg" alt="Netlify" height="28" /> |
+| Kubernetes | <img src="badges/with-icon/devops/kubernetes.svg" alt="Kubernetes" height="28" /> | <img src="badges/letters/devops/kubernetes.svg" alt="Kubernetes" height="28" /> |
+| Terraform | <img src="badges/with-icon/devops/terraform.svg" alt="Terraform" height="28" /> | <img src="badges/letters/devops/terraform.svg" alt="Terraform" height="28" /> |
+| Nginx | <img src="badges/with-icon/devops/nginx.svg" alt="Nginx" height="28" /> | <img src="badges/letters/devops/nginx.svg" alt="Nginx" height="28" /> |
+| Apache | <img src="badges/with-icon/devops/apache.svg" alt="Apache" height="28" /> | <img src="badges/letters/devops/apache.svg" alt="Apache" height="28" /> |
+| Jenkins | <img src="badges/with-icon/devops/jenkins.svg" alt="Jenkins" height="28" /> | <img src="badges/letters/devops/jenkins.svg" alt="Jenkins" height="28" /> |
+| GitHub Actions | <img src="badges/with-icon/devops/github-actions.svg" alt="GitHub Actions" height="28" /> | <img src="badges/letters/devops/github-actions.svg" alt="GitHub Actions" height="28" /> |
+| GitHub Pages | <img src="badges/with-icon/devops/github-pages.svg" alt="GitHub Pages" height="28" /> | <img src="badges/letters/devops/github-pages.svg" alt="GitHub Pages" height="28" /> |
+| Render | <img src="badges/with-icon/devops/render.svg" alt="Render" height="28" /> | <img src="badges/letters/devops/render.svg" alt="Render" height="28" /> |
+| Railway | <img src="badges/with-icon/devops/railway.svg" alt="Railway" height="28" /> | <img src="badges/letters/devops/railway.svg" alt="Railway" height="28" /> |
+| Hetzner | <img src="badges/with-icon/devops/hetzner.svg" alt="Hetzner" height="28" /> | <img src="badges/letters/devops/hetzner.svg" alt="Hetzner" height="28" /> |
+| Ansible | <img src="badges/with-icon/devops/ansible.svg" alt="Ansible" height="28" /> | <img src="badges/letters/devops/ansible.svg" alt="Ansible" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![DigitalOcean](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/digitalocean.svg)
+![Heroku](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/heroku.svg)
+![Netlify](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/netlify.svg)
+![Kubernetes](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/kubernetes.svg)
+![Terraform](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/terraform.svg)
+![Nginx](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/nginx.svg)
+![Apache](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/apache.svg)
+![Jenkins](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/jenkins.svg)
+![GitHub Actions](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/github-actions.svg)
+![GitHub Pages](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/github-pages.svg)
+![Render](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/render.svg)
+![Railway](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/railway.svg)
+![Hetzner](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/hetzner.svg)
+![Ansible](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/devops/ansible.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -820,25 +902,50 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| YouTube | — | <img src="badges/letters/platforms/youtube.svg" alt="YouTube" height="28" /> |
-| Twitch | — | <img src="badges/letters/platforms/twitch.svg" alt="Twitch" height="28" /> |
-| X | — | <img src="badges/letters/platforms/x.svg" alt="X" height="28" /> |
-| Reddit | — | <img src="badges/letters/platforms/reddit.svg" alt="Reddit" height="28" /> |
-| VK | — | <img src="badges/letters/platforms/vk.svg" alt="VK" height="28" /> |
-| Boosty | — | <img src="badges/letters/platforms/boosty.svg" alt="Boosty" height="28" /> |
-| Patreon | — | <img src="badges/letters/platforms/patreon.svg" alt="Patreon" height="28" /> |
-| Ko-fi | — | <img src="badges/letters/platforms/kofi.svg" alt="Ko-fi" height="28" /> |
-| LinkedIn | — | <img src="badges/letters/platforms/linkedin.svg" alt="LinkedIn" height="28" /> |
-| TikTok | — | <img src="badges/letters/platforms/tiktok.svg" alt="TikTok" height="28" /> |
-| Instagram | — | <img src="badges/letters/platforms/instagram.svg" alt="Instagram" height="28" /> |
-| Gmail | — | <img src="badges/letters/platforms/gmail.svg" alt="Gmail" height="28" /> |
-| Gumroad | — | <img src="badges/letters/platforms/gumroad.svg" alt="Gumroad" height="28" /> |
+| YouTube | <img src="badges/with-icon/platforms/youtube.svg" alt="YouTube" height="28" /> | <img src="badges/letters/platforms/youtube.svg" alt="YouTube" height="28" /> |
+| Twitch | <img src="badges/with-icon/platforms/twitch.svg" alt="Twitch" height="28" /> | <img src="badges/letters/platforms/twitch.svg" alt="Twitch" height="28" /> |
+| X | <img src="badges/with-icon/platforms/x.svg" alt="X" height="28" /> | <img src="badges/letters/platforms/x.svg" alt="X" height="28" /> |
+| Reddit | <img src="badges/with-icon/platforms/reddit.svg" alt="Reddit" height="28" /> | <img src="badges/letters/platforms/reddit.svg" alt="Reddit" height="28" /> |
+| VK | <img src="badges/with-icon/platforms/vk.svg" alt="VK" height="28" /> | <img src="badges/letters/platforms/vk.svg" alt="VK" height="28" /> |
+| Boosty | <img src="badges/with-icon/platforms/boosty.svg" alt="Boosty" height="28" /> | <img src="badges/letters/platforms/boosty.svg" alt="Boosty" height="28" /> |
+| Patreon | <img src="badges/with-icon/platforms/patreon.svg" alt="Patreon" height="28" /> | <img src="badges/letters/platforms/patreon.svg" alt="Patreon" height="28" /> |
+| Ko-fi | <img src="badges/with-icon/platforms/kofi.svg" alt="Ko-fi" height="28" /> | <img src="badges/letters/platforms/kofi.svg" alt="Ko-fi" height="28" /> |
+| LinkedIn | <img src="badges/with-icon/platforms/linkedin.svg" alt="LinkedIn" height="28" /> | <img src="badges/letters/platforms/linkedin.svg" alt="LinkedIn" height="28" /> |
+| TikTok | <img src="badges/with-icon/platforms/tiktok.svg" alt="TikTok" height="28" /> | <img src="badges/letters/platforms/tiktok.svg" alt="TikTok" height="28" /> |
+| Instagram | <img src="badges/with-icon/platforms/instagram.svg" alt="Instagram" height="28" /> | <img src="badges/letters/platforms/instagram.svg" alt="Instagram" height="28" /> |
+| Gmail | <img src="badges/with-icon/platforms/gmail.svg" alt="Gmail" height="28" /> | <img src="badges/letters/platforms/gmail.svg" alt="Gmail" height="28" /> |
+| Gumroad | <img src="badges/with-icon/platforms/gumroad.svg" alt="Gumroad" height="28" /> | <img src="badges/letters/platforms/gumroad.svg" alt="Gumroad" height="28" /> |
 | Steam Workshop | — | <img src="badges/letters/platforms/steam-workshop.svg" alt="Steam Workshop" height="28" /> |
-| Stack Overflow | — | <img src="badges/letters/platforms/stackoverflow.svg" alt="Stack Overflow" height="28" /> |
-| DEV | — | <img src="badges/letters/platforms/devto.svg" alt="DEV" height="28" /> |
-| Habr | — | <img src="badges/letters/platforms/habr.svg" alt="Habr" height="28" /> |
-| CurseForge | — | <img src="badges/letters/platforms/curseforge.svg" alt="CurseForge" height="28" /> |
-| Modrinth | — | <img src="badges/letters/platforms/modrinth.svg" alt="Modrinth" height="28" /> |
+| Stack Overflow | <img src="badges/with-icon/platforms/stackoverflow.svg" alt="Stack Overflow" height="28" /> | <img src="badges/letters/platforms/stackoverflow.svg" alt="Stack Overflow" height="28" /> |
+| DEV | <img src="badges/with-icon/platforms/devto.svg" alt="DEV" height="28" /> | <img src="badges/letters/platforms/devto.svg" alt="DEV" height="28" /> |
+| Habr | <img src="badges/with-icon/platforms/habr.svg" alt="Habr" height="28" /> | <img src="badges/letters/platforms/habr.svg" alt="Habr" height="28" /> |
+| CurseForge | <img src="badges/with-icon/platforms/curseforge.svg" alt="CurseForge" height="28" /> | <img src="badges/letters/platforms/curseforge.svg" alt="CurseForge" height="28" /> |
+| Modrinth | <img src="badges/with-icon/platforms/modrinth.svg" alt="Modrinth" height="28" /> | <img src="badges/letters/platforms/modrinth.svg" alt="Modrinth" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![YouTube](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/youtube.svg)
+![Twitch](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/twitch.svg)
+![X](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/x.svg)
+![Reddit](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/reddit.svg)
+![VK](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/vk.svg)
+![Boosty](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/boosty.svg)
+![Patreon](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/patreon.svg)
+![Ko-fi](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/kofi.svg)
+![LinkedIn](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/linkedin.svg)
+![TikTok](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/tiktok.svg)
+![Instagram](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/instagram.svg)
+![Gmail](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/gmail.svg)
+![Gumroad](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/gumroad.svg)
+![Stack Overflow](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/stackoverflow.svg)
+![DEV](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/devto.svg)
+![Habr](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/habr.svg)
+![CurseForge](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/curseforge.svg)
+![Modrinth](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/platforms/modrinth.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -876,9 +983,14 @@ badges/
     engines/              # Движки (19)
     web/                  # Веб (27)
     mobile/               # Мобильное и мессенджеры (12)
+    tools/                # Инструменты и хостинг (22)
+    editors/              # Редакторы и IDE (7)
     ai/                   # ИИ (23)
+    databases/            # Базы данных (11)
+    devops/               # Облака и DevOps (14)
     os-hardware/          # ОС и железо (12)
     design-media/         # Дизайн и медиа (14)
+    platforms/            # Платформы и соцсети (18)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
     games/                # Игры (14)
@@ -917,3 +1029,5 @@ python build.py add "Bun" E8B84A Bn "Веб"
 В `badges.json` в начале файла указаны `owner`, `repo` и `branch`. Если вы назвали репозиторий иначе или у вас другое имя пользователя, поменяйте их и запустите `python build.py`: все ссылки в README и на странице обновятся.
 
 Страница-галерея работает через GitHub Pages: *Settings → Pages → Deploy from a branch → `main` / `(root)`*.
+
+Каждый бейдж собран во всех готовых цветах: `badges/colors/ЦВЕТ/ВИД/категория/имя.svg`. На странице-галерее нажмите «Свой» и кружок с цветом, и код возьмёт ссылку на нужный файл. Любой другой цвет можно выбрать палитрой: страница нарисует бейдж, его нужно скачать кнопкой «↓ SVG» и положить в `badges/custom/` (`build.py` эту папку не трогает).

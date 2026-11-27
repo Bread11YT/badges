@@ -14,6 +14,10 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 CFG = ROOT / "badges.json"
 OUT = ROOT / "badges"
+# Готовые цвета: каждый бейдж собирается в каждом из них (badges/colors/ЦВЕТ/...).
+# Свой список можно задать в badges.json ключом "colors".
+DEFAULT_COLORS = ["3A9B68", "2563EB", "7C3AED", "DB2777", "DC2626", "EA580C",
+                  "CA8A04", "16A34A", "0891B2", "374151", "111827", "F3F4F6"]
 CHAR_W = 7.7  # ширина символа при font-size 10, letter-spacing
 
 
@@ -158,6 +162,7 @@ def build_readme(cfg):
              'иначе или у вас другое имя пользователя, поменяйте их и запустите `python build.py`: '
              'все ссылки в README и на странице обновятся.\n')
     L.append(f'Страница-галерея работает через GitHub Pages: *Settings → Pages → Deploy from a branch → `{cfg["branch"]}` / `(root)`*.\n')
+    L.append('Каждый бейдж собран во всех готовых цветах: `badges/colors/ЦВЕТ/ВИД/категория/имя.svg`. На странице-галерее нажмите «Свой» и кружок с цветом, и код возьмёт ссылку на нужный файл. Любой другой цвет можно выбрать палитрой: страница нарисует бейдж, его нужно скачать кнопкой «↓ SVG» и положить в `badges/custom/` (`build.py` эту папку не трогает).\n')
     return "\n".join(L)
 
 
@@ -194,6 +199,20 @@ h2{font-size:17px;margin:26px 0 10px;color:var(--mute);font-weight:600}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--acc);color:#fff;padding:10px 18px;border-radius:8px;opacity:0;pointer-events:none;transition:.2s}
 #toast.show{opacity:1;transform:translateX(-50%)}
 .empty{color:var(--mute);padding:30px 0}
+.colorbar{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.colorbar .lbl{color:var(--mute);font-size:13px}
+#cpick{width:38px;height:34px;padding:0;border:1px solid var(--line);border-radius:6px;background:none;cursor:pointer}
+#chex{width:92px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:13px ui-monospace,Consolas,monospace;text-transform:uppercase}
+.sw{display:flex;flex-wrap:wrap;gap:6px}
+.sw button{width:22px;height:22px;border-radius:50%;border:2px solid var(--line);padding:0;cursor:pointer}
+.sw button[aria-pressed=true]{border-color:var(--fg)}
+.note{margin:-4px 0 14px;font-size:13px;color:var(--mute)}
+.note code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.wrap{position:relative;display:flex}
+.wrap .card{width:100%}
+.dl{position:absolute;right:8px;top:8px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font:12px system-ui;cursor:pointer}
+.dl:hover{border-color:var(--acc)}
+#dlAll{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font:inherit;cursor:pointer}
 </style>
 </head>
 <body>
@@ -213,6 +232,18 @@ h2{font-size:17px;margin:26px 0 10px;color:var(--mute);font-weight:600}
     </div>
     <div class="all"><button id="copyAll">Скопировать показанные</button></div>
   </div>
+  <div class="bar colorbar" id="colorbar">
+    <span class="lbl">Цвет плашки</span>
+    <div class="seg" id="cmode">
+      <button data-c="orig" aria-pressed="true">Как в оригинале</button>
+      <button data-c="custom" aria-pressed="false">Свой</button>
+    </div>
+    <input type="color" id="cpick" value="#3a9b68" aria-label="Выбрать цвет">
+    <input type="text" id="chex" maxlength="7" value="#3A9B68" spellcheck="false" aria-label="Цвет в формате HEX">
+    <div class="sw" id="sw"></div>
+    <button id="dlAll" type="button" hidden>Скачать показанные (SVG)</button>
+  </div>
+  <p class="note" id="cnote" hidden>Этого цвета нет в готовых (кружки выше), он рисуется прямо здесь. Нажмите на бейдж, чтобы скопировать код со ссылкой, и скачайте файл кнопкой «↓ SVG»: положите его в папку <code>badges/custom/</code> репозитория, иначе ссылка не заработает.</p>
   <div class="chips" id="chips"></div>
   <div id="list"></div>
 </main>
@@ -221,9 +252,42 @@ h2{font-size:17px;margin:26px 0 10px;color:var(--mute);font-weight:600}
 const DATA = __DATA__;
 let fmt = 'md', vari = 'with-icon', cat = '', q = '';
 const $ = s => document.querySelector(s);
-function vkind(it){return (vari==='with-icon' && it.has_icon) ? 'with-icon' : 'letters'}
+let cmode = 'orig', ccolor = '#3A9B68';
+try{const st=JSON.parse(localStorage.getItem('badge-color')||'null');if(st&&/^#[0-9a-f]{6}$/i.test(st.c)){ccolor=st.c.toUpperCase();cmode=st.m==='custom'?'custom':'orig'}}catch(e){}
+function saveColor(){try{localStorage.setItem('badge-color',JSON.stringify({m:cmode,c:ccolor}))}catch(e){}}
+const FONT="Verdana,'DejaVu Sans',Geneva,sans-serif";
+const esc=t=>String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#x27;');
+function lum(hex){const c=[0,2,4].map(i=>parseInt(hex.slice(i,i+2),16)/255).map(v=>v<=0.03928?v/12.92:Math.pow((v+0.055)/1.055,2.4));return 0.2126*c[0]+0.7152*c[1]+0.0722*c[2]}
+function pyround(x){const r=Math.round(x);return(Math.abs(x%1)===0.5&&r%2!==0)?r-1:r}
+function mkSvg(it,color,withIcon){
+  const hex=color.replace('#','').toUpperCase(), label=it.label.toUpperCase();
+  const fg=lum(hex)>0.45?'#1F1F1F':'#FFFFFF';
+  const tl=Math.round(label.length*7.7*10)/10, w=pyround(32+tl+12), h=DATA.height;
+  let icon;
+  if(withIcon&&it.ibody){
+    const vb=it.ivb, sc=14/Math.max(vb[2],vb[3]);
+    const tx=9+(14-vb[2]*sc)/2-vb[0]*sc, ty=7+(14-vb[3]*sc)/2-vb[1]*sc;
+    icon=`<g transform="translate(${tx.toFixed(2)} ${ty.toFixed(2)}) scale(${sc.toFixed(4)})" fill="${fg}" color="${fg}">${it.ibody}</g>`;
+  }else{
+    icon=`<rect x="8" y="6" width="16" height="16" rx="3" fill="${fg}" fill-opacity="0.2"/><text x="16" y="17.3" fill="${fg}" font-family="${FONT}" font-size="8" font-weight="bold" text-anchor="middle">${esc(it.icon)}</text>`;
+  }
+  const name=esc(it.label);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${name}">\n  <title>${name}</title>\n  <rect width="${w}" height="${h}" rx="2" fill="#${hex}"/>\n  ${icon}\n  <text x="32" y="18" fill="${fg}" font-family="${FONT}" font-size="10" font-weight="bold" textLength="${tl.toFixed(1)}" lengthAdjust="spacing">${esc(label)}</text>\n</svg>\n`;
+}
+const dataUri=svg=>'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+function useIcon(it){return vari==='with-icon'&&it.has_icon}
+function vkind(it){return useIcon(it)?'with-icon':'letters'}
+function fileName(it){return `${it.id}-${ccolor.slice(1)}${useIcon(it)?'':'-letters'}.svg`}
+function download(it){
+  const blob=new Blob([mkSvg(it,ccolor,useIcon(it))],{type:'image/svg+xml'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=fileName(it);
+  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+function inPalette(){return DATA.colors.includes(ccolor.slice(1))}
 function snip(it){
-  const u = `https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/${vkind(it)}/${it.dir}/${it.id}.svg`;
+  const base=`https://raw.githubusercontent.com/${DATA.owner}/${DATA.repo}/${DATA.branch}/badges/`;
+  let u=`${base}${vkind(it)}/${it.dir}/${it.id}.svg`;
+  if(cmode==='custom') u=inPalette()?`${base}colors/${ccolor.slice(1)}/${vkind(it)}/${it.dir}/${it.id}.svg`:`${base}custom/${fileName(it)}`;
   if(fmt==='md') return `![${it.label}](${u})`;
   if(fmt==='html') return `<img src="${u}" alt="${it.label}" height="${DATA.height}" />`;
   return u;
@@ -239,16 +303,22 @@ function visible(){
   return DATA.categories.map(c=>({name:c.name,items:c.items.filter(i=>(!cat||c.name===cat)&&(!s||i.label.toLowerCase().includes(s)||i.id.includes(s)))})).filter(c=>c.items.length);
 }
 function render(){
-  const vis=visible(), box=$('#list'); box.innerHTML='';
+  const vis=visible(), box=$('#list'), custom=cmode==='custom'; box.innerHTML='';
   if(!vis.length){box.innerHTML='<p class="empty">Ничего не найдено.</p>';return}
   for(const c of vis){
     const h=document.createElement('h2');h.textContent=c.name;box.appendChild(h);
     const g=document.createElement('div');g.className='grid';
     for(const it of c.items){
+      const w=document.createElement('div');w.className='wrap';
       const b=document.createElement('button');b.className='card';b.type='button';
-      b.innerHTML=`<img src="badges/${vkind(it)}/${it.dir}/${it.id}.svg" alt="${it.label}"><span>${(vari==='with-icon' && !it.has_icon) ? 'Только с буквами' : 'Нажмите, чтобы скопировать'}</span>`;
-      b.onclick=()=>copy(snip(it),`Скопировано: ${it.label}`);
-      g.appendChild(b);
+      const src=custom?dataUri(mkSvg(it,ccolor,useIcon(it))):`badges/${vkind(it)}/${it.dir}/${it.id}.svg`;
+      const hint=(vari==='with-icon'&&!it.has_icon)?'Только с буквами':'Нажмите, чтобы скопировать';
+      b.innerHTML=`<img src="${src}" alt="${esc(it.label)}"><span>${hint}</span>`;
+      const own=custom&&!inPalette();
+      b.onclick=()=>copy(snip(it),own?'Скопировано. Файл скачайте кнопкой ↓ SVG':`Скопировано: ${it.label}`);
+      w.appendChild(b);
+      if(own){const d=document.createElement('button');d.className='dl';d.type='button';d.textContent='↓ SVG';d.title='Скачать '+fileName(it);d.onclick=()=>download(it);w.appendChild(d)}
+      g.appendChild(w);
     }
     box.appendChild(g);
   }
@@ -262,6 +332,24 @@ $('#q').oninput=e=>{q=e.target.value;render()};
 $('#vari').onclick=e=>{const v=e.target.dataset.v;if(!v)return;vari=v;[...$('#vari').children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));render()};
 $('#fmt').onclick=e=>{const f=e.target.dataset.f;if(!f)return;fmt=f;[...$('#fmt').children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===f))};
 $('#copyAll').onclick=()=>{const all=visible().flatMap(c=>c.items);copy(all.map(snip).join('\n'),`Скопировано бейджей: ${all.length}`)};
+let rq=0;
+function later(){cancelAnimationFrame(rq);rq=requestAnimationFrame(render)}
+function syncColorUI(){
+  [...$('#cmode').children].forEach(b=>b.setAttribute('aria-pressed',b.dataset.c===cmode));
+  $('#cpick').value=ccolor.toLowerCase();$('#chex').value=ccolor;
+  const cu=cmode==='custom',own=cu&&!inPalette();$('#cnote').hidden=!own;$('#dlAll').hidden=!own;
+  [...$('#sw').children].forEach(b=>b.setAttribute('aria-pressed',cu&&b.dataset.c===ccolor));
+}
+function setColor(c,mode){if(c)ccolor=c.toUpperCase();if(mode)cmode=mode;saveColor();syncColorUI();later()}
+DATA.colors.map(c=>'#'+c).forEach(c=>{
+  const b=document.createElement('button');b.type='button';b.style.background=c;b.dataset.c=c;b.title=c;b.setAttribute('aria-label',c);
+  b.onclick=()=>setColor(c,'custom');$('#sw').appendChild(b);
+});
+$('#cmode').onclick=e=>{const c=e.target.dataset.c;if(c)setColor(null,c)};
+$('#cpick').oninput=e=>setColor(e.target.value,'custom');
+$('#chex').oninput=e=>{let v=e.target.value.trim();if(v[0]!=='#')v='#'+v;if(/^#[0-9a-f]{6}$/i.test(v))setColor(v,'custom')};
+$('#dlAll').onclick=()=>{const all=visible().flatMap(c=>c.items);all.forEach((it,i)=>setTimeout(()=>download(it),i*200));toast(`Скачивается файлов: ${all.length}`)};
+syncColorUI();
 chips();render();
 </script>
 </body>
@@ -274,6 +362,9 @@ def prepare(cfg):
         for it in cat["items"]:
             it["dir"] = cat["slug"]
             it["has_icon"] = bool(it.get("svg")) or (ROOT / "icons" / f'{it["id"]}.svg').exists()
+            inner = (it["svg"], [0, 0, 24, 24]) if it.get("svg") else load_icon(it["id"])
+            if inner:   # нужна странице, чтобы рисовать бейдж в выбранном цвете
+                it["ibody"], it["ivb"] = inner
     return cfg
 
 
@@ -282,30 +373,43 @@ def build_all():
     OUT.mkdir(exist_ok=True)
     keep = set()
 
-    def write(variant, cat, it, use_icon):
-        d = OUT / variant / cat["slug"]
+    main = set()
+
+    def write(variant, cat, it, use_icon, color=None):
+        d = (OUT / "colors" / color if color else OUT) / variant / cat["slug"]
         d.mkdir(parents=True, exist_ok=True)
         f = d / f'{it["id"]}.svg'
-        f.write_text(make_svg(it, cfg["height"], use_icon), encoding="utf-8")
+        item = dict(it, color=color) if color else it
+        f.write_text(make_svg(item, cfg["height"], use_icon), encoding="utf-8")
         keep.add(f)
+        if not color:
+            main.add(f)
+
+    colors = [c.lstrip("#").upper() for c in cfg.get("colors", DEFAULT_COLORS)]
 
     for cat in cfg["categories"]:
         for it in cat["items"]:
             write("letters", cat, it, False)
             if it["has_icon"]:
                 write("with-icon", cat, it, True)
+            for col in colors:
+                write("letters", cat, it, False, col)
+                if it["has_icon"]:
+                    write("with-icon", cat, it, True, col)
     for f in OUT.rglob("*.svg"):   # удаляем устаревшие (в т.ч. из старых структур)
-        if f not in keep:
+        if f not in keep and f.relative_to(OUT).parts[0] != "custom":   # custom: ваши файлы со своим цветом
             f.unlink()
     for d in sorted((x for x in OUT.rglob("*") if x.is_dir()), key=lambda x: len(x.parts), reverse=True):
         if not any(d.iterdir()):
             d.rmdir()
     (ROOT / "README.md").write_text(build_readme(cfg), encoding="utf-8")
     data = {k: cfg[k] for k in ("owner", "repo", "branch", "height", "categories")}
-    (ROOT / "index.html").write_text(HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
+    data["colors"] = colors
+    (ROOT / "index.html").write_text(HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")), encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    n_icon = sum(1 for k in keep if k.parts[-3] == "with-icon")
-    print(f"Готово: {len(keep)} SVG ({n_icon} с иконкой, {len(keep) - n_icon} с буквами), README.md и index.html обновлены.")
+    n_icon = sum(1 for k in main if k.parts[-3] == "with-icon")
+    print(f"Готово: {len(main)} SVG ({n_icon} с иконкой, {len(main) - n_icon} с буквами) "
+          f"+ {len(keep) - len(main)} в {len(colors)} готовых цветах, README.md и index.html обновлены.")
 
 
 def add(argv):

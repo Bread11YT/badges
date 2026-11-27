@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="28" viewBox="0 0 90 28" role="img" aria-label="Ollama">
+  <title>Ollama</title>
+  <rect width="90" height="28" rx="2" fill="#1F1F1F"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path fill-rule="evenodd" d="M7 2.5c1.2 0 2 1.3 2 3.6C10 5.9 11 5.8 12 5.8s2 .1 3 .3c0-2.3.8-3.6 2-3.6 1.3 0 2 1.9 2 5.2 0 1-.1 1.8-.4 2.6.9 1.1 1.4 2.6 1.4 4.2 0 3.6-3.3 6-8 6s-8-2.4-8-6c0-1.6.5-3.100 1.400-4.200C5.100 9.500 5 8.700 5 7.700 5 4.400 5.700 2.500 7 2.500zM9 12.200a1.100 1.100 0 1 0 0 2.200 1.100 1.100 0 0 0 0-2.200zm6 0a1.100 1.100 0 1 0 0 2.200 1.100 1.100 0 0 0 0-2.200zM12 15c-1.100 0-2 .6-2 1.300S10.900 18 12 18s2-.0 2-.7-.9-1.300-2-1.300z"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="46.2" lengthAdjust="spacing">OLLAMA</text>
+</svg>

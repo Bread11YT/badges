@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="28" viewBox="0 0 98 28" role="img" aria-label="Copilot">
+  <title>Copilot</title>
+  <rect width="98" height="28" rx="2" fill="#3A3A5A"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path d="M9.500 3c.5 3.500 2.500 5.500 6 6-3.500.5-5.500 2.500-6 6-.5-3.500-2.500-5.500-6-6 3.500-.5 5.500-2.500 6-6zM18 14c.3 2 1.400 3.100 3.500 3.500-2.100.4-3.200 1.500-3.500 3.500-.3-2-1.400-3.100-3.500-3.500 2.100-.4 3.200-1.500 3.500-3.500z"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="53.9" lengthAdjust="spacing">COPILOT</text>
+</svg>

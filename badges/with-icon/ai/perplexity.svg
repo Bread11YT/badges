@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="28" viewBox="0 0 121 28" role="img" aria-label="Perplexity">
+  <title>Perplexity</title>
+  <rect width="121" height="28" rx="2" fill="#2A7A8A"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 2.500v19M5.500 5.500l13 13M18.500 5.500l-13 13M3 12h18"/><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 3.500L12 8l4-4.500"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="77.0" lengthAdjust="spacing">PERPLEXITY</text>
+</svg>

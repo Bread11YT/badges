@@ -1,9 +1,9 @@
 # Бейджи для README
 
-**237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
+**262 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 225 бейджей).
-- **С буквами**: значок из двух букв (есть у всех 237).
+- **С иконкой**: настоящий логотип технологии (сейчас у 250 бейджей).
+- **С буквами**: значок из двух букв (есть у всех 262).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
 
@@ -201,6 +201,100 @@
 ![Maven](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/maven.svg)
 ![Epic Games](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/epic-games.svg)
 ![Game Jolt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gamejolt.svg)
+```
+
+</details>
+
+### Жанры
+
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Tower Defense | <img src="badges/with-icon/genres/tower-defense.svg" alt="Tower Defense" height="28" /> | <img src="badges/letters/genres/tower-defense.svg" alt="Tower Defense" height="28" /> |
+| RPG | <img src="badges/with-icon/genres/rpg.svg" alt="RPG" height="28" /> | <img src="badges/letters/genres/rpg.svg" alt="RPG" height="28" /> |
+| Roguelike | <img src="badges/with-icon/genres/roguelike.svg" alt="Roguelike" height="28" /> | <img src="badges/letters/genres/roguelike.svg" alt="Roguelike" height="28" /> |
+| Platformer | <img src="badges/with-icon/genres/platformer.svg" alt="Platformer" height="28" /> | <img src="badges/letters/genres/platformer.svg" alt="Platformer" height="28" /> |
+| Shooter | <img src="badges/with-icon/genres/shooter.svg" alt="Shooter" height="28" /> | <img src="badges/letters/genres/shooter.svg" alt="Shooter" height="28" /> |
+| Strategy | <img src="badges/with-icon/genres/strategy.svg" alt="Strategy" height="28" /> | <img src="badges/letters/genres/strategy.svg" alt="Strategy" height="28" /> |
+| Survival | <img src="badges/with-icon/genres/survival.svg" alt="Survival" height="28" /> | <img src="badges/letters/genres/survival.svg" alt="Survival" height="28" /> |
+| Sandbox | <img src="badges/with-icon/genres/sandbox.svg" alt="Sandbox" height="28" /> | <img src="badges/letters/genres/sandbox.svg" alt="Sandbox" height="28" /> |
+| Puzzle | <img src="badges/with-icon/genres/puzzle.svg" alt="Puzzle" height="28" /> | <img src="badges/letters/genres/puzzle.svg" alt="Puzzle" height="28" /> |
+| Horror | <img src="badges/with-icon/genres/horror.svg" alt="Horror" height="28" /> | <img src="badges/letters/genres/horror.svg" alt="Horror" height="28" /> |
+| Racing | <img src="badges/with-icon/genres/racing.svg" alt="Racing" height="28" /> | <img src="badges/letters/genres/racing.svg" alt="Racing" height="28" /> |
+| Simulation | <img src="badges/with-icon/genres/simulation.svg" alt="Simulation" height="28" /> | <img src="badges/letters/genres/simulation.svg" alt="Simulation" height="28" /> |
+| Idle Clicker | <img src="badges/with-icon/genres/idle-clicker.svg" alt="Idle Clicker" height="28" /> | <img src="badges/letters/genres/idle-clicker.svg" alt="Idle Clicker" height="28" /> |
+| Card Game | <img src="badges/with-icon/genres/card-game.svg" alt="Card Game" height="28" /> | <img src="badges/letters/genres/card-game.svg" alt="Card Game" height="28" /> |
+| Fighting | <img src="badges/with-icon/genres/fighting.svg" alt="Fighting" height="28" /> | <img src="badges/letters/genres/fighting.svg" alt="Fighting" height="28" /> |
+| Adventure | <img src="badges/with-icon/genres/adventure.svg" alt="Adventure" height="28" /> | <img src="badges/letters/genres/adventure.svg" alt="Adventure" height="28" /> |
+| Open World | <img src="badges/with-icon/genres/open-world.svg" alt="Open World" height="28" /> | <img src="badges/letters/genres/open-world.svg" alt="Open World" height="28" /> |
+| MMO | <img src="badges/with-icon/genres/mmo.svg" alt="MMO" height="28" /> | <img src="badges/letters/genres/mmo.svg" alt="MMO" height="28" /> |
+| Battle Royale | <img src="badges/with-icon/genres/battle-royale.svg" alt="Battle Royale" height="28" /> | <img src="badges/letters/genres/battle-royale.svg" alt="Battle Royale" height="28" /> |
+| MOBA | <img src="badges/with-icon/genres/moba.svg" alt="MOBA" height="28" /> | <img src="badges/letters/genres/moba.svg" alt="MOBA" height="28" /> |
+| Stealth | <img src="badges/with-icon/genres/stealth.svg" alt="Stealth" height="28" /> | <img src="badges/letters/genres/stealth.svg" alt="Stealth" height="28" /> |
+| Rhythm | <img src="badges/with-icon/genres/rhythm.svg" alt="Rhythm" height="28" /> | <img src="badges/letters/genres/rhythm.svg" alt="Rhythm" height="28" /> |
+| Visual Novel | <img src="badges/with-icon/genres/visual-novel.svg" alt="Visual Novel" height="28" /> | <img src="badges/letters/genres/visual-novel.svg" alt="Visual Novel" height="28" /> |
+| Metroidvania | <img src="badges/with-icon/genres/metroidvania.svg" alt="Metroidvania" height="28" /> | <img src="badges/letters/genres/metroidvania.svg" alt="Metroidvania" height="28" /> |
+| Sports | <img src="badges/with-icon/genres/sports.svg" alt="Sports" height="28" /> | <img src="badges/letters/genres/sports.svg" alt="Sports" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Tower Defense](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/tower-defense.svg)
+![RPG](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/rpg.svg)
+![Roguelike](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/roguelike.svg)
+![Platformer](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/platformer.svg)
+![Shooter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/shooter.svg)
+![Strategy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/strategy.svg)
+![Survival](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/survival.svg)
+![Sandbox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/sandbox.svg)
+![Puzzle](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/puzzle.svg)
+![Horror](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/horror.svg)
+![Racing](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/racing.svg)
+![Simulation](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/simulation.svg)
+![Idle Clicker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/idle-clicker.svg)
+![Card Game](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/card-game.svg)
+![Fighting](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/fighting.svg)
+![Adventure](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/adventure.svg)
+![Open World](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/open-world.svg)
+![MMO](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/mmo.svg)
+![Battle Royale](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/battle-royale.svg)
+![MOBA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/moba.svg)
+![Stealth](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/stealth.svg)
+![Rhythm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/rhythm.svg)
+![Visual Novel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/visual-novel.svg)
+![Metroidvania](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/metroidvania.svg)
+![Sports](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/genres/sports.svg)
+```
+
+</details>
+
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Tower Defense](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/tower-defense.svg)
+![RPG](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/rpg.svg)
+![Roguelike](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/roguelike.svg)
+![Platformer](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/platformer.svg)
+![Shooter](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/shooter.svg)
+![Strategy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/strategy.svg)
+![Survival](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/survival.svg)
+![Sandbox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/sandbox.svg)
+![Puzzle](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/puzzle.svg)
+![Horror](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/horror.svg)
+![Racing](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/racing.svg)
+![Simulation](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/simulation.svg)
+![Idle Clicker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/idle-clicker.svg)
+![Card Game](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/card-game.svg)
+![Fighting](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/fighting.svg)
+![Adventure](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/adventure.svg)
+![Open World](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/open-world.svg)
+![MMO](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/mmo.svg)
+![Battle Royale](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/battle-royale.svg)
+![MOBA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/moba.svg)
+![Stealth](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/stealth.svg)
+![Rhythm](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/rhythm.svg)
+![Visual Novel](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/visual-novel.svg)
+![Metroidvania](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/metroidvania.svg)
+![Sports](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/genres/sports.svg)
 ```
 
 </details>
@@ -980,6 +1074,7 @@ badges/
   with-icon/         # версия с настоящим логотипом
     languages/            # Языки (32)
     games/                # Игры (14)
+    genres/               # Жанры (25)
     engines/              # Движки (19)
     web/                  # Веб (27)
     mobile/               # Мобильное и мессенджеры (12)
@@ -994,6 +1089,7 @@ badges/
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
     games/                # Игры (14)
+    genres/               # Жанры (25)
     engines/              # Движки (19)
     web/                  # Веб (27)
     mobile/               # Мобильное и мессенджеры (12)

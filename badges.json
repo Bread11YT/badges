@@ -213,24 +213,6 @@
       "slug": "games",
       "items": [
         {
-          "id": "unity",
-          "label": "Unity",
-          "color": "1F1F1F",
-          "icon": "Un"
-        },
-        {
-          "id": "godot",
-          "label": "Godot",
-          "color": "CFD8E0",
-          "icon": "Gd"
-        },
-        {
-          "id": "unreal",
-          "label": "Unreal Engine",
-          "color": "2A2A2A",
-          "icon": "Ue"
-        },
-        {
           "id": "blender",
           "label": "Blender",
           "color": "B8742A",
@@ -253,30 +235,6 @@
           "label": "Minecraft",
           "color": "5A7A3A",
           "icon": "Mc"
-        },
-        {
-          "id": "gamemaker",
-          "label": "GameMaker",
-          "color": "3A3A3A",
-          "icon": "GM"
-        },
-        {
-          "id": "pygame",
-          "label": "Pygame",
-          "color": "3A7A4A",
-          "icon": "Pg"
-        },
-        {
-          "id": "phaser",
-          "label": "Phaser",
-          "color": "7A3AA0",
-          "icon": "Ph"
-        },
-        {
-          "id": "threejs",
-          "label": "Three.js",
-          "color": "2A2A2A",
-          "icon": "3J"
         },
         {
           "id": "roblox",
@@ -337,6 +295,126 @@
           "label": "Game Jolt",
           "color": "3A7A3A",
           "icon": "GJ"
+        }
+      ]
+    },
+    {
+      "name": "Движки",
+      "slug": "engines",
+      "items": [
+        {
+          "id": "unity",
+          "label": "Unity",
+          "color": "1F1F1F",
+          "icon": "Un"
+        },
+        {
+          "id": "unreal",
+          "label": "Unreal Engine",
+          "color": "2A2A2A",
+          "icon": "Ue"
+        },
+        {
+          "id": "godot",
+          "label": "Godot",
+          "color": "CFD8E0",
+          "icon": "Gd"
+        },
+        {
+          "id": "gamemaker",
+          "label": "GameMaker",
+          "color": "3A3A3A",
+          "icon": "GM"
+        },
+        {
+          "id": "phaser",
+          "label": "Phaser",
+          "color": "7A3AA0",
+          "icon": "Ph"
+        },
+        {
+          "id": "threejs",
+          "label": "Three.js",
+          "color": "2A2A2A",
+          "icon": "3J"
+        },
+        {
+          "id": "pygame",
+          "label": "Pygame",
+          "color": "3A7A4A",
+          "icon": "Pg"
+        },
+        {
+          "id": "cocos",
+          "label": "Cocos",
+          "color": "3A8AB0",
+          "icon": "Co"
+        },
+        {
+          "id": "defold",
+          "label": "Defold",
+          "color": "C4572F",
+          "icon": "Df"
+        },
+        {
+          "id": "rpgmaker",
+          "label": "RPG Maker",
+          "color": "3A5AA8",
+          "icon": "RM"
+        },
+        {
+          "id": "construct",
+          "label": "Construct",
+          "color": "2A8A7A",
+          "icon": "Cn"
+        },
+        {
+          "id": "bevy",
+          "label": "Bevy",
+          "color": "2A2A2A",
+          "icon": "Bv"
+        },
+        {
+          "id": "libgdx",
+          "label": "libGDX",
+          "color": "B03A3A",
+          "icon": "LG"
+        },
+        {
+          "id": "monogame",
+          "label": "MonoGame",
+          "color": "C4702A",
+          "icon": "Mg"
+        },
+        {
+          "id": "love",
+          "label": "LÖVE",
+          "color": "C4507A",
+          "icon": "LV"
+        },
+        {
+          "id": "renpy",
+          "label": "Ren'Py",
+          "color": "8A4AB0",
+          "icon": "Rp"
+        },
+        {
+          "id": "cryengine",
+          "label": "CryEngine",
+          "color": "2A2A2A",
+          "icon": "Cr"
+        },
+        {
+          "id": "babylonjs",
+          "label": "Babylon.js",
+          "color": "B03A3A",
+          "icon": "Bb"
+        },
+        {
+          "id": "playcanvas",
+          "label": "PlayCanvas",
+          "color": "C4702A",
+          "icon": "PC"
         }
       ]
     },

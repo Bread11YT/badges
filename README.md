@@ -1,9 +1,9 @@
 # Бейджи для README
 
-**225 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
+**237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 76 бейджей).
-- **С буквами**: значок из двух букв (есть у всех 225).
+- **С иконкой**: настоящий логотип технологии (сейчас у 88 бейджей).
+- **С буквами**: значок из двух букв (есть у всех 237).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
 
@@ -148,17 +148,10 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Unity | <img src="badges/with-icon/games/unity.svg" alt="Unity" height="28" /> | <img src="badges/letters/games/unity.svg" alt="Unity" height="28" /> |
-| Godot | <img src="badges/with-icon/games/godot.svg" alt="Godot" height="28" /> | <img src="badges/letters/games/godot.svg" alt="Godot" height="28" /> |
-| Unreal Engine | <img src="badges/with-icon/games/unreal.svg" alt="Unreal Engine" height="28" /> | <img src="badges/letters/games/unreal.svg" alt="Unreal Engine" height="28" /> |
 | Blender | <img src="badges/with-icon/games/blender.svg" alt="Blender" height="28" /> | <img src="badges/letters/games/blender.svg" alt="Blender" height="28" /> |
 | itch.io | <img src="badges/with-icon/games/itch.svg" alt="itch.io" height="28" /> | <img src="badges/letters/games/itch.svg" alt="itch.io" height="28" /> |
 | Steam | <img src="badges/with-icon/games/steam.svg" alt="Steam" height="28" /> | <img src="badges/letters/games/steam.svg" alt="Steam" height="28" /> |
 | Minecraft | <img src="badges/with-icon/games/minecraft.svg" alt="Minecraft" height="28" /> | <img src="badges/letters/games/minecraft.svg" alt="Minecraft" height="28" /> |
-| GameMaker | <img src="badges/with-icon/games/gamemaker.svg" alt="GameMaker" height="28" /> | <img src="badges/letters/games/gamemaker.svg" alt="GameMaker" height="28" /> |
-| Pygame | <img src="badges/with-icon/games/pygame.svg" alt="Pygame" height="28" /> | <img src="badges/letters/games/pygame.svg" alt="Pygame" height="28" /> |
-| Phaser | <img src="badges/with-icon/games/phaser.svg" alt="Phaser" height="28" /> | <img src="badges/letters/games/phaser.svg" alt="Phaser" height="28" /> |
-| Three.js | <img src="badges/with-icon/games/threejs.svg" alt="Three.js" height="28" /> | <img src="badges/letters/games/threejs.svg" alt="Three.js" height="28" /> |
 | Roblox | <img src="badges/with-icon/games/roblox.svg" alt="Roblox" height="28" /> | <img src="badges/letters/games/roblox.svg" alt="Roblox" height="28" /> |
 | Aseprite | <img src="badges/with-icon/games/aseprite.svg" alt="Aseprite" height="28" /> | <img src="badges/letters/games/aseprite.svg" alt="Aseprite" height="28" /> |
 | Tiled | <img src="badges/with-icon/games/tiled.svg" alt="Tiled" height="28" /> | <img src="badges/letters/games/tiled.svg" alt="Tiled" height="28" /> |
@@ -173,17 +166,10 @@
 <details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
 
 ```markdown
-![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/unity.svg)
-![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/godot.svg)
-![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/unreal.svg)
 ![Blender](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/blender.svg)
 ![itch.io](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/itch.svg)
 ![Steam](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/steam.svg)
 ![Minecraft](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/minecraft.svg)
-![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/gamemaker.svg)
-![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/pygame.svg)
-![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/phaser.svg)
-![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/threejs.svg)
 ![Roblox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/roblox.svg)
 ![Aseprite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/aseprite.svg)
 ![Tiled](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/games/tiled.svg)
@@ -201,17 +187,10 @@
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
 ```markdown
-![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/unity.svg)
-![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/godot.svg)
-![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/unreal.svg)
 ![Blender](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/blender.svg)
 ![itch.io](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/itch.svg)
 ![Steam](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/steam.svg)
 ![Minecraft](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/minecraft.svg)
-![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gamemaker.svg)
-![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/pygame.svg)
-![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/phaser.svg)
-![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/threejs.svg)
 ![Roblox](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/roblox.svg)
 ![Aseprite](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/aseprite.svg)
 ![Tiled](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/tiled.svg)
@@ -222,6 +201,82 @@
 ![Maven](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/maven.svg)
 ![Epic Games](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/epic-games.svg)
 ![Game Jolt](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/games/gamejolt.svg)
+```
+
+</details>
+
+### Движки
+
+| Название | С иконкой | С буквами |
+|---|---|---|
+| Unity | <img src="badges/with-icon/engines/unity.svg" alt="Unity" height="28" /> | <img src="badges/letters/engines/unity.svg" alt="Unity" height="28" /> |
+| Unreal Engine | <img src="badges/with-icon/engines/unreal.svg" alt="Unreal Engine" height="28" /> | <img src="badges/letters/engines/unreal.svg" alt="Unreal Engine" height="28" /> |
+| Godot | <img src="badges/with-icon/engines/godot.svg" alt="Godot" height="28" /> | <img src="badges/letters/engines/godot.svg" alt="Godot" height="28" /> |
+| GameMaker | <img src="badges/with-icon/engines/gamemaker.svg" alt="GameMaker" height="28" /> | <img src="badges/letters/engines/gamemaker.svg" alt="GameMaker" height="28" /> |
+| Phaser | <img src="badges/with-icon/engines/phaser.svg" alt="Phaser" height="28" /> | <img src="badges/letters/engines/phaser.svg" alt="Phaser" height="28" /> |
+| Three.js | <img src="badges/with-icon/engines/threejs.svg" alt="Three.js" height="28" /> | <img src="badges/letters/engines/threejs.svg" alt="Three.js" height="28" /> |
+| Pygame | <img src="badges/with-icon/engines/pygame.svg" alt="Pygame" height="28" /> | <img src="badges/letters/engines/pygame.svg" alt="Pygame" height="28" /> |
+| Cocos | <img src="badges/with-icon/engines/cocos.svg" alt="Cocos" height="28" /> | <img src="badges/letters/engines/cocos.svg" alt="Cocos" height="28" /> |
+| Defold | <img src="badges/with-icon/engines/defold.svg" alt="Defold" height="28" /> | <img src="badges/letters/engines/defold.svg" alt="Defold" height="28" /> |
+| RPG Maker | <img src="badges/with-icon/engines/rpgmaker.svg" alt="RPG Maker" height="28" /> | <img src="badges/letters/engines/rpgmaker.svg" alt="RPG Maker" height="28" /> |
+| Construct | <img src="badges/with-icon/engines/construct.svg" alt="Construct" height="28" /> | <img src="badges/letters/engines/construct.svg" alt="Construct" height="28" /> |
+| Bevy | <img src="badges/with-icon/engines/bevy.svg" alt="Bevy" height="28" /> | <img src="badges/letters/engines/bevy.svg" alt="Bevy" height="28" /> |
+| libGDX | <img src="badges/with-icon/engines/libgdx.svg" alt="libGDX" height="28" /> | <img src="badges/letters/engines/libgdx.svg" alt="libGDX" height="28" /> |
+| MonoGame | <img src="badges/with-icon/engines/monogame.svg" alt="MonoGame" height="28" /> | <img src="badges/letters/engines/monogame.svg" alt="MonoGame" height="28" /> |
+| LÖVE | <img src="badges/with-icon/engines/love.svg" alt="LÖVE" height="28" /> | <img src="badges/letters/engines/love.svg" alt="LÖVE" height="28" /> |
+| Ren&#x27;Py | <img src="badges/with-icon/engines/renpy.svg" alt="Ren&#x27;Py" height="28" /> | <img src="badges/letters/engines/renpy.svg" alt="Ren&#x27;Py" height="28" /> |
+| CryEngine | <img src="badges/with-icon/engines/cryengine.svg" alt="CryEngine" height="28" /> | <img src="badges/letters/engines/cryengine.svg" alt="CryEngine" height="28" /> |
+| Babylon.js | <img src="badges/with-icon/engines/babylonjs.svg" alt="Babylon.js" height="28" /> | <img src="badges/letters/engines/babylonjs.svg" alt="Babylon.js" height="28" /> |
+| PlayCanvas | <img src="badges/with-icon/engines/playcanvas.svg" alt="PlayCanvas" height="28" /> | <img src="badges/letters/engines/playcanvas.svg" alt="PlayCanvas" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/unity.svg)
+![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/unreal.svg)
+![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/godot.svg)
+![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/gamemaker.svg)
+![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/phaser.svg)
+![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/threejs.svg)
+![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/pygame.svg)
+![Cocos](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/cocos.svg)
+![Defold](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/defold.svg)
+![RPG Maker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/rpgmaker.svg)
+![Construct](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/construct.svg)
+![Bevy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/bevy.svg)
+![libGDX](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/libgdx.svg)
+![MonoGame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/monogame.svg)
+![LÖVE](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/love.svg)
+![Ren'Py](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/renpy.svg)
+![CryEngine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/cryengine.svg)
+![Babylon.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/babylonjs.svg)
+![PlayCanvas](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/engines/playcanvas.svg)
+```
+
+</details>
+
+<details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Unity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/unity.svg)
+![Unreal Engine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/unreal.svg)
+![Godot](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/godot.svg)
+![GameMaker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/gamemaker.svg)
+![Phaser](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/phaser.svg)
+![Three.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/threejs.svg)
+![Pygame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/pygame.svg)
+![Cocos](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/cocos.svg)
+![Defold](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/defold.svg)
+![RPG Maker](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/rpgmaker.svg)
+![Construct](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/construct.svg)
+![Bevy](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/bevy.svg)
+![libGDX](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/libgdx.svg)
+![MonoGame](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/monogame.svg)
+![LÖVE](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/love.svg)
+![Ren'Py](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/renpy.svg)
+![CryEngine](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/cryengine.svg)
+![Babylon.js](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/babylonjs.svg)
+![PlayCanvas](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/letters/engines/playcanvas.svg)
 ```
 
 </details>
@@ -724,11 +779,13 @@
 badges/
   with-icon/         # версия с настоящим логотипом
     languages/            # Языки (32)
-    games/                # Игры (21)
+    games/                # Игры (14)
+    engines/              # Движки (19)
     ai/                   # ИИ (23)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
-    games/                # Игры (21)
+    games/                # Игры (14)
+    engines/              # Движки (19)
     web/                  # Веб (27)
     mobile/               # Мобильное и мессенджеры (12)
     tools/                # Инструменты и хостинг (23)

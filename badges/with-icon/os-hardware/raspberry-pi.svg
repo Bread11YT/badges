@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="28" viewBox="0 0 136 28" role="img" aria-label="Raspberry Pi">
+  <title>Raspberry Pi</title>
+  <rect width="136" height="28" rx="2" fill="#A83A4A"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><circle stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="14.500" r="6"/><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8.500C9.500 8 8 6 8 3.500M12 8.500C14.500 8 16 6 16 3.500"/><g fill="currentColor"><circle cx="10" cy="13" r=".9"/><circle cx="14" cy="13" r=".9"/><circle cx="12" cy="16" r=".9"/></g></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="92.4" lengthAdjust="spacing">RASPBERRY PI</text>
+</svg>

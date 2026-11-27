@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="28" viewBox="0 0 113 28" role="img" aria-label="Photoshop">
+  <title>Photoshop</title>
+  <rect width="113" height="28" rx="2" fill="#2A5AA8"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19 3.500l1.500 1.500-9 9-2-2z"/><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.500 13.500c-2.500 0-3.500 2-3.500 3.500 0 1.500-1.500 2.500-3 3 4 1 8.500.500 8.500-4z"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="69.3" lengthAdjust="spacing">PHOTOSHOP</text>
+</svg>

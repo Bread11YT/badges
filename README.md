@@ -2,7 +2,7 @@
 
 **237 готовых бейджей** в одном стиле, у каждого есть выбор из двух видов:
 
-- **С иконкой**: настоящий логотип технологии (сейчас у 127 бейджей).
+- **С иконкой**: настоящий логотип технологии (сейчас у 153 бейджей).
 - **С буквами**: значок из двух букв (есть у всех 237).
 
 Это обычные SVG-файлы: они лежат в репозитории, не зависят от shields.io и не ломаются из-за «неизвестных иконок».
@@ -704,18 +704,37 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Windows | — | <img src="badges/letters/os-hardware/windows.svg" alt="Windows" height="28" /> |
-| macOS | — | <img src="badges/letters/os-hardware/macos.svg" alt="macOS" height="28" /> |
-| Ubuntu | — | <img src="badges/letters/os-hardware/ubuntu.svg" alt="Ubuntu" height="28" /> |
-| Arch Linux | — | <img src="badges/letters/os-hardware/arch.svg" alt="Arch Linux" height="28" /> |
-| Debian | — | <img src="badges/letters/os-hardware/debian.svg" alt="Debian" height="28" /> |
-| Fedora | — | <img src="badges/letters/os-hardware/fedora.svg" alt="Fedora" height="28" /> |
-| Raspberry Pi | — | <img src="badges/letters/os-hardware/raspberry-pi.svg" alt="Raspberry Pi" height="28" /> |
-| Arduino | — | <img src="badges/letters/os-hardware/arduino.svg" alt="Arduino" height="28" /> |
-| ESP32 | — | <img src="badges/letters/os-hardware/esp32.svg" alt="ESP32" height="28" /> |
-| NVIDIA | — | <img src="badges/letters/os-hardware/nvidia.svg" alt="NVIDIA" height="28" /> |
-| WSL | — | <img src="badges/letters/os-hardware/wsl.svg" alt="WSL" height="28" /> |
-| Termux | — | <img src="badges/letters/os-hardware/termux.svg" alt="Termux" height="28" /> |
+| Windows | <img src="badges/with-icon/os-hardware/windows.svg" alt="Windows" height="28" /> | <img src="badges/letters/os-hardware/windows.svg" alt="Windows" height="28" /> |
+| macOS | <img src="badges/with-icon/os-hardware/macos.svg" alt="macOS" height="28" /> | <img src="badges/letters/os-hardware/macos.svg" alt="macOS" height="28" /> |
+| Ubuntu | <img src="badges/with-icon/os-hardware/ubuntu.svg" alt="Ubuntu" height="28" /> | <img src="badges/letters/os-hardware/ubuntu.svg" alt="Ubuntu" height="28" /> |
+| Arch Linux | <img src="badges/with-icon/os-hardware/arch.svg" alt="Arch Linux" height="28" /> | <img src="badges/letters/os-hardware/arch.svg" alt="Arch Linux" height="28" /> |
+| Debian | <img src="badges/with-icon/os-hardware/debian.svg" alt="Debian" height="28" /> | <img src="badges/letters/os-hardware/debian.svg" alt="Debian" height="28" /> |
+| Fedora | <img src="badges/with-icon/os-hardware/fedora.svg" alt="Fedora" height="28" /> | <img src="badges/letters/os-hardware/fedora.svg" alt="Fedora" height="28" /> |
+| Raspberry Pi | <img src="badges/with-icon/os-hardware/raspberry-pi.svg" alt="Raspberry Pi" height="28" /> | <img src="badges/letters/os-hardware/raspberry-pi.svg" alt="Raspberry Pi" height="28" /> |
+| Arduino | <img src="badges/with-icon/os-hardware/arduino.svg" alt="Arduino" height="28" /> | <img src="badges/letters/os-hardware/arduino.svg" alt="Arduino" height="28" /> |
+| ESP32 | <img src="badges/with-icon/os-hardware/esp32.svg" alt="ESP32" height="28" /> | <img src="badges/letters/os-hardware/esp32.svg" alt="ESP32" height="28" /> |
+| NVIDIA | <img src="badges/with-icon/os-hardware/nvidia.svg" alt="NVIDIA" height="28" /> | <img src="badges/letters/os-hardware/nvidia.svg" alt="NVIDIA" height="28" /> |
+| WSL | <img src="badges/with-icon/os-hardware/wsl.svg" alt="WSL" height="28" /> | <img src="badges/letters/os-hardware/wsl.svg" alt="WSL" height="28" /> |
+| Termux | <img src="badges/with-icon/os-hardware/termux.svg" alt="Termux" height="28" /> | <img src="badges/letters/os-hardware/termux.svg" alt="Termux" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Windows](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/windows.svg)
+![macOS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/macos.svg)
+![Ubuntu](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/ubuntu.svg)
+![Arch Linux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/arch.svg)
+![Debian](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/debian.svg)
+![Fedora](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/fedora.svg)
+![Raspberry Pi](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/raspberry-pi.svg)
+![Arduino](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/arduino.svg)
+![ESP32](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/esp32.svg)
+![NVIDIA](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/nvidia.svg)
+![WSL](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/wsl.svg)
+![Termux](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/os-hardware/termux.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -740,20 +759,41 @@
 
 | Название | С иконкой | С буквами |
 |---|---|---|
-| Photoshop | — | <img src="badges/letters/design-media/photoshop.svg" alt="Photoshop" height="28" /> |
-| Illustrator | — | <img src="badges/letters/design-media/illustrator.svg" alt="Illustrator" height="28" /> |
-| After Effects | — | <img src="badges/letters/design-media/aftereffects.svg" alt="After Effects" height="28" /> |
-| Premiere Pro | — | <img src="badges/letters/design-media/premiere.svg" alt="Premiere Pro" height="28" /> |
-| DaVinci Resolve | — | <img src="badges/letters/design-media/davinci.svg" alt="DaVinci Resolve" height="28" /> |
-| Krita | — | <img src="badges/letters/design-media/krita.svg" alt="Krita" height="28" /> |
-| GIMP | — | <img src="badges/letters/design-media/gimp.svg" alt="GIMP" height="28" /> |
-| Inkscape | — | <img src="badges/letters/design-media/inkscape.svg" alt="Inkscape" height="28" /> |
-| Canva | — | <img src="badges/letters/design-media/canva.svg" alt="Canva" height="28" /> |
-| OBS Studio | — | <img src="badges/letters/design-media/obs.svg" alt="OBS Studio" height="28" /> |
-| Audacity | — | <img src="badges/letters/design-media/audacity.svg" alt="Audacity" height="28" /> |
-| FL Studio | — | <img src="badges/letters/design-media/fl-studio.svg" alt="FL Studio" height="28" /> |
-| LMMS | — | <img src="badges/letters/design-media/lmms.svg" alt="LMMS" height="28" /> |
-| CapCut | — | <img src="badges/letters/design-media/capcut.svg" alt="CapCut" height="28" /> |
+| Photoshop | <img src="badges/with-icon/design-media/photoshop.svg" alt="Photoshop" height="28" /> | <img src="badges/letters/design-media/photoshop.svg" alt="Photoshop" height="28" /> |
+| Illustrator | <img src="badges/with-icon/design-media/illustrator.svg" alt="Illustrator" height="28" /> | <img src="badges/letters/design-media/illustrator.svg" alt="Illustrator" height="28" /> |
+| After Effects | <img src="badges/with-icon/design-media/aftereffects.svg" alt="After Effects" height="28" /> | <img src="badges/letters/design-media/aftereffects.svg" alt="After Effects" height="28" /> |
+| Premiere Pro | <img src="badges/with-icon/design-media/premiere.svg" alt="Premiere Pro" height="28" /> | <img src="badges/letters/design-media/premiere.svg" alt="Premiere Pro" height="28" /> |
+| DaVinci Resolve | <img src="badges/with-icon/design-media/davinci.svg" alt="DaVinci Resolve" height="28" /> | <img src="badges/letters/design-media/davinci.svg" alt="DaVinci Resolve" height="28" /> |
+| Krita | <img src="badges/with-icon/design-media/krita.svg" alt="Krita" height="28" /> | <img src="badges/letters/design-media/krita.svg" alt="Krita" height="28" /> |
+| GIMP | <img src="badges/with-icon/design-media/gimp.svg" alt="GIMP" height="28" /> | <img src="badges/letters/design-media/gimp.svg" alt="GIMP" height="28" /> |
+| Inkscape | <img src="badges/with-icon/design-media/inkscape.svg" alt="Inkscape" height="28" /> | <img src="badges/letters/design-media/inkscape.svg" alt="Inkscape" height="28" /> |
+| Canva | <img src="badges/with-icon/design-media/canva.svg" alt="Canva" height="28" /> | <img src="badges/letters/design-media/canva.svg" alt="Canva" height="28" /> |
+| OBS Studio | <img src="badges/with-icon/design-media/obs.svg" alt="OBS Studio" height="28" /> | <img src="badges/letters/design-media/obs.svg" alt="OBS Studio" height="28" /> |
+| Audacity | <img src="badges/with-icon/design-media/audacity.svg" alt="Audacity" height="28" /> | <img src="badges/letters/design-media/audacity.svg" alt="Audacity" height="28" /> |
+| FL Studio | <img src="badges/with-icon/design-media/fl-studio.svg" alt="FL Studio" height="28" /> | <img src="badges/letters/design-media/fl-studio.svg" alt="FL Studio" height="28" /> |
+| LMMS | <img src="badges/with-icon/design-media/lmms.svg" alt="LMMS" height="28" /> | <img src="badges/letters/design-media/lmms.svg" alt="LMMS" height="28" /> |
+| CapCut | <img src="badges/with-icon/design-media/capcut.svg" alt="CapCut" height="28" /> | <img src="badges/letters/design-media/capcut.svg" alt="CapCut" height="28" /> |
+
+<details><summary><b>Код: с иконками</b> (по одному бейджу на строку)</summary>
+
+```markdown
+![Photoshop](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/photoshop.svg)
+![Illustrator](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/illustrator.svg)
+![After Effects](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/aftereffects.svg)
+![Premiere Pro](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/premiere.svg)
+![DaVinci Resolve](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/davinci.svg)
+![Krita](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/krita.svg)
+![GIMP](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/gimp.svg)
+![Inkscape](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/inkscape.svg)
+![Canva](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/canva.svg)
+![OBS Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/obs.svg)
+![Audacity](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/audacity.svg)
+![FL Studio](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/fl-studio.svg)
+![LMMS](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/lmms.svg)
+![CapCut](https://raw.githubusercontent.com/Bread11YT/badges/main/badges/with-icon/design-media/capcut.svg)
+```
+
+</details>
 
 <details><summary><b>Код: с буквами</b> (по одному бейджу на строку)</summary>
 
@@ -837,6 +877,8 @@ badges/
     web/                  # Веб (27)
     mobile/               # Мобильное и мессенджеры (12)
     ai/                   # ИИ (23)
+    os-hardware/          # ОС и железо (12)
+    design-media/         # Дизайн и медиа (14)
   letters/           # версия с буквами (есть у всех)
     languages/            # Языки (33)
     games/                # Игры (14)

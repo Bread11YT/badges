@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="28" viewBox="0 0 121 28" role="img" aria-label="Arch Linux">
+  <title>Arch Linux</title>
+  <rect width="121" height="28" rx="2" fill="#2A7AA8"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path fill-rule="evenodd" d="M12 2.500L3.500 21.500c2.500-1.800 5-2.800 8.500-2.800s6 1 8.500 2.800zM12 9.500l-3 7c1-.4 2-.6 3-.6s2 .2 3 .6z"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="77.0" lengthAdjust="spacing">ARCH LINUX</text>
+</svg>

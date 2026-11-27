@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="28" viewBox="0 0 113 28" role="img" aria-label="WordPress">
+  <title>WordPress</title>
+  <rect width="113" height="28" rx="2" fill="#2A5A7A"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><circle stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="12" r="9.500"/><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6.500 9l3 8.500 2.500-6.500 2.500 6.500 3-8.500"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="69.3" lengthAdjust="spacing">WORDPRESS</text>
+</svg>

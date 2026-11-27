@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="28" viewBox="0 0 75 28" role="img" aria-label="Nuxt">
+  <title>Nuxt</title>
+  <rect width="75" height="28" rx="2" fill="#2A9A6A"/>
+  <g transform="translate(9.00 7.00) scale(0.5833)" fill="#FFFFFF" color="#FFFFFF"><path stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2.500 19L8 9.500l3.500 6M9.500 19l7-12 5 12z"/></g>
+  <text x="32" y="18" fill="#FFFFFF" font-family="Verdana,'DejaVu Sans',Geneva,sans-serif" font-size="10" font-weight="bold" textLength="30.8" lengthAdjust="spacing">NUXT</text>
+</svg>
